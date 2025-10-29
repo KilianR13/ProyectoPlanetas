@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 
 public class GameController : MonoBehaviour
@@ -59,11 +60,10 @@ public class GameController : MonoBehaviour
                 if (attemptsLeft <= 0)
                 {
                     // El jugador pierde.
-                    GameOver();
-                    return;
+                    StartCoroutine(returnToMenu());
                 }
             }
-            updateUI();    
+            updateUI();
         }
     }
 
@@ -90,8 +90,14 @@ public class GameController : MonoBehaviour
         else
         {
             wrongIMG.gameObject.SetActive(true);
-            yield return new WaitForSecondsRealtime(2.0f);   
+            yield return new WaitForSecondsRealtime(2.0f);
             wrongIMG.gameObject.SetActive(false);
         }
+    }
+    private IEnumerator returnToMenu()
+    {
+        GameOver();
+        yield return new WaitForSecondsRealtime(4.0f);
+        SceneManager.LoadScene("mainMenu");
     }
 }

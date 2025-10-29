@@ -13,7 +13,14 @@ extern void GameController_OnTargetFound_m636386392897DC7EBFACF3676486DBBE621DD8
 extern void GameController_generateNextTarget_mB9974FDE85033176A11939F755A88029EC64E02B (void);
 extern void GameController_GameOver_m79F2AC84C02E922C0A041133D6CF029886353C66 (void);
 extern void GameController_showImage_m509C39AAE9A20CFC9F2199E6DED5875378319D0C (void);
+extern void GameController_returnToMenu_mBB683EA09FB73C1116370F52708ED9F2C3EDF6B4 (void);
 extern void GameController__ctor_mB6369F6C5357D5984325D613D589EDA60818CBE9 (void);
+extern void U3CreturnToMenuU3Ed__15__ctor_m4526DCFDF3DDB9A0E3A0E289F6384EAE6E3FFF05 (void);
+extern void U3CreturnToMenuU3Ed__15_System_IDisposable_Dispose_mBCE4CD0A1B22A606D698268D16D80F24EB57F944 (void);
+extern void U3CreturnToMenuU3Ed__15_MoveNext_m1D31835E7B8077F93E07099F9429B65AEBB005A2 (void);
+extern void U3CreturnToMenuU3Ed__15_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mB2515AC8FA67924FC4BF992A5AD9D4BA3065501D (void);
+extern void U3CreturnToMenuU3Ed__15_System_Collections_IEnumerator_Reset_mDEE5030FAD37755AF3AEDE877528090D0B00621D (void);
+extern void U3CreturnToMenuU3Ed__15_System_Collections_IEnumerator_get_Current_m2277CBFDE4A9553B35B85F40A9AF59E8FAA26416 (void);
 extern void U3CshowImageU3Ed__14__ctor_m4FD57729255EA4ECF9455B6F9BF09F38978CCC1B (void);
 extern void U3CshowImageU3Ed__14_System_IDisposable_Dispose_m89A4B1EDB4169E5BDE69BE2C9392534D50BB0EF9 (void);
 extern void U3CshowImageU3Ed__14_MoveNext_m5E58D90AE22CB7A81B33D519F78F81491DBC7621 (void);
@@ -24,6 +31,10 @@ extern void ImageTargetHandler_Start_m7007058C70B1EE337B3CAF938C58C519104A13A6 (
 extern void ImageTargetHandler_OnTargetStatusChanged_m2E63FFCC0ECA0A61D041565519952DFD9FBE7373 (void);
 extern void ImageTargetHandler_Update_mD30F40E62E24C8006AAA6B42E0E2549FFB02A55A (void);
 extern void ImageTargetHandler__ctor_m5A4A7FC125ED90A209E4F9A31C691B103EAA23A0 (void);
+extern void ButtonLayoutManager_Start_mF92C2B0306C93EE50FDD721971533138177503AB (void);
+extern void ButtonLayoutManager_Update_m832068888C22275B68D4C719D9340435C11241F8 (void);
+extern void ButtonLayoutManager_UpdateUI_m777E752DD75EB5E29BD1E5CBD1F2F4EF8B88983E (void);
+extern void ButtonLayoutManager__ctor_mEC541E152AA32F09B15F8EF9F87E4FCEE762EAD4 (void);
 extern void MenuManager_StartGame_m24E9FA197C3694B75918B1103C9C2400CAD67BC4 (void);
 extern void MenuManager_CloseGame_m20A0E94D8AE812CF6464DC552E72D018328F0638 (void);
 extern void MenuManager__ctor_m07A22DFDD90E3164393F8BDE06DAEF5AFA786CF2 (void);
@@ -38,7 +49,7 @@ extern void VuforiaLicense_GetLicenseKey_m796D51E5EF1C53F3D62BA4EA8806AC1FB1A5E3
 extern void VuforiaLicense__ctor_m094B92B3323DFFD79ADB696474D5D158C95E291B (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (void);
-static Il2CppMethodPointer s_methodPointers[31] = 
+static Il2CppMethodPointer s_methodPointers[42] = 
 {
 	GameController_Start_mD0C79B8B5B5D8EDC88F7F2F88B5954B1342198EF,
 	GameController_updateUI_mE4F7F57CE7004374BFEA308FF5E5B4D5F11C488D,
@@ -46,7 +57,14 @@ static Il2CppMethodPointer s_methodPointers[31] =
 	GameController_generateNextTarget_mB9974FDE85033176A11939F755A88029EC64E02B,
 	GameController_GameOver_m79F2AC84C02E922C0A041133D6CF029886353C66,
 	GameController_showImage_m509C39AAE9A20CFC9F2199E6DED5875378319D0C,
+	GameController_returnToMenu_mBB683EA09FB73C1116370F52708ED9F2C3EDF6B4,
 	GameController__ctor_mB6369F6C5357D5984325D613D589EDA60818CBE9,
+	U3CreturnToMenuU3Ed__15__ctor_m4526DCFDF3DDB9A0E3A0E289F6384EAE6E3FFF05,
+	U3CreturnToMenuU3Ed__15_System_IDisposable_Dispose_mBCE4CD0A1B22A606D698268D16D80F24EB57F944,
+	U3CreturnToMenuU3Ed__15_MoveNext_m1D31835E7B8077F93E07099F9429B65AEBB005A2,
+	U3CreturnToMenuU3Ed__15_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mB2515AC8FA67924FC4BF992A5AD9D4BA3065501D,
+	U3CreturnToMenuU3Ed__15_System_Collections_IEnumerator_Reset_mDEE5030FAD37755AF3AEDE877528090D0B00621D,
+	U3CreturnToMenuU3Ed__15_System_Collections_IEnumerator_get_Current_m2277CBFDE4A9553B35B85F40A9AF59E8FAA26416,
 	U3CshowImageU3Ed__14__ctor_m4FD57729255EA4ECF9455B6F9BF09F38978CCC1B,
 	U3CshowImageU3Ed__14_System_IDisposable_Dispose_m89A4B1EDB4169E5BDE69BE2C9392534D50BB0EF9,
 	U3CshowImageU3Ed__14_MoveNext_m5E58D90AE22CB7A81B33D519F78F81491DBC7621,
@@ -57,6 +75,10 @@ static Il2CppMethodPointer s_methodPointers[31] =
 	ImageTargetHandler_OnTargetStatusChanged_m2E63FFCC0ECA0A61D041565519952DFD9FBE7373,
 	ImageTargetHandler_Update_mD30F40E62E24C8006AAA6B42E0E2549FFB02A55A,
 	ImageTargetHandler__ctor_m5A4A7FC125ED90A209E4F9A31C691B103EAA23A0,
+	ButtonLayoutManager_Start_mF92C2B0306C93EE50FDD721971533138177503AB,
+	ButtonLayoutManager_Update_m832068888C22275B68D4C719D9340435C11241F8,
+	ButtonLayoutManager_UpdateUI_m777E752DD75EB5E29BD1E5CBD1F2F4EF8B88983E,
+	ButtonLayoutManager__ctor_mEC541E152AA32F09B15F8EF9F87E4FCEE762EAD4,
 	MenuManager_StartGame_m24E9FA197C3694B75918B1103C9C2400CAD67BC4,
 	MenuManager_CloseGame_m20A0E94D8AE812CF6464DC552E72D018328F0638,
 	MenuManager__ctor_m07A22DFDD90E3164393F8BDE06DAEF5AFA786CF2,
@@ -72,7 +94,7 @@ static Il2CppMethodPointer s_methodPointers[31] =
 	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033,
 	UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1,
 };
-static const int32_t s_InvokerIndices[31] = 
+static const int32_t s_InvokerIndices[42] = 
 {
 	17133,
 	17133,
@@ -80,7 +102,14 @@ static const int32_t s_InvokerIndices[31] =
 	17133,
 	17133,
 	11208,
+	16916,
 	17133,
+	12983,
+	17133,
+	16715,
+	16916,
+	17133,
+	16916,
 	12983,
 	17133,
 	16715,
@@ -89,6 +118,10 @@ static const int32_t s_InvokerIndices[31] =
 	16916,
 	17133,
 	6680,
+	17133,
+	17133,
+	17133,
+	17133,
 	17133,
 	17133,
 	17133,
@@ -110,7 +143,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	31,
+	42,
 	s_methodPointers,
 	0,
 	NULL,
