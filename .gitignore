@@ -1,0 +1,99 @@
+# =========================================
+# UNITY + VUFORIA PROJECT .GITIGNORE
+# =========================================
+# Base: https://github.com/github/gitignore/blob/main/Unity.gitignore
+# Modificado para incluir soporte de Vuforia y AR
+# =========================================
+
+### Unity ###
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+
+# Memory Captures (pueden contener datos sensibles o ser enormes)
+[Mm]emoryCaptures/
+
+# Recordings (también grandes)
+[Rr]ecordings/
+
+# Uncomment si deseas ignorar Asset Store Tools
+# [Aa]ssets/AssetStoreTools*
+
+# JetBrains Rider auto-generated plugin
+[Aa]ssets/Plugins/Editor/JetBrains*
+
+# VS cache y archivos temporales
+.vs/
+.gradle/
+ExportedObj/
+.consulo/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Archivos meta generados innecesarios
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# Informes de crash
+sysinfo.txt
+
+# Builds
+*.apk
+*.aab
+*.unitypackage
+*.app
+
+# Crashlytics
+crashlytics-build.properties
+
+# Packed Addressables
+[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
+
+# Temporary auto-generated Android Assets
+[Aa]ssets/[Ss]treamingAssets/aa.meta
+[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# =========================================
+# 🔹 VUFORIA / AR-SPECIFIC IGNORES
+# =========================================
+
+# Ignorar paquetes locales Vuforia o AR Foundation pesados (.tgz)
+*.tgz
+Packages/com.ptc.vuforia.engine-*.tgz
+
+# Ignorar backups o recoveries automáticos
+[Aa]ssets/_Recovery/
+
+# Ignorar bases de datos temporales de AR o tracking
+[Aa]ssets/AR/Temp/
+[Aa]ssets/AR/Cache/
+[Aa]ssets/StreamingAssets/Vuforia/
+
+# Ignorar descargas o imports locales
+Packages/cache/
+Packages/packages-lock.json.backup
+
+# =========================================
+# 🔹 OPCIONAL: Git LFS (Large File Storage)
+# Si usas LFS, asegúrate de rastrear formatos grandes:
+# git lfs track "*.tgz" "*.unitypackage" "*.mp4"
+# =========================================
+
+# Fin del archivo .gitignore
