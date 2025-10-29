@@ -37,11 +37,13 @@ struct FontWeightU5BU5D_t2A406B5BAB0DD0F06E7F1773DB062E4AF98067BA;
 struct HighlightStateU5BU5D_tA878A0AF1F4F52882ACD29515AADC277EE135622;
 struct HorizontalAlignmentOptionsU5BU5D_t4D185662282BFB910D8B9A8199E91578E9422658;
 struct Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C;
+struct IntPtrU5BU5D_tFD177F8C806A6921AD7150264CCC62FA00CAD832;
 struct MaterialU5BU5D_t2B1D11C42DB07A4400C0535F92DBB87A2E346D3D;
 struct MaterialReferenceU5BU5D_t7491D335AB3E3E13CE9C0F5E931F396F6A02E1F2;
 struct ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918;
 struct RichTextTagAttributeU5BU5D_t5816316EFD8F59DBC30B9F88E15828C564E47B6D;
 struct SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C;
+struct StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF;
 struct StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248;
 struct TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99;
 struct TMP_ColorGradientU5BU5D_t2F65E8C42F268DFF33BB1392D94BCF5B5087308A;
@@ -60,6 +62,8 @@ struct Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B;
 struct DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E;
 struct GameController_tDA619EE453F7ED2C8297EF928518A0B447E44D09;
 struct GameObject_t76FEDD663AB33C991A9C9A23129337651094216F;
+struct IDictionary_t6D03155AF1FA9083817AA5B6AD7DEEACC26AB220;
+struct IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA;
 struct IObserver_tF96DF70DC62190F4AAF66B7DA6053BB7C714503C;
 struct ITextPreprocessor_tDBB49C8B68D7B80E8D233B9D9666C43981EFAAB9;
 struct ImageTargetHandler_t912C254221504FD8477662ADBEF6EAEB618F373A;
@@ -71,13 +75,16 @@ struct MeshFilter_t6D1CE2473A1E45AC73013400585A1163BF66B2F5;
 struct MeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE;
 struct MethodInfo_t;
 struct MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71;
+struct NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A;
 struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C;
 struct ObserverBehaviour_t5523404662BA53BE6118C49F6FFA9E19719115DB;
 struct PlanetRing_t866DA9F564C313DE9D5364CCBF57383576DF251E;
+struct RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179;
 struct Readme_tE17B99201D0F52BD5727638AD3F41072A65B3BBB;
 struct RectMask2D_tACF92BE999C791A665BD1ADEABF5BCEB82846670;
 struct RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5;
 struct Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF;
+struct SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6;
 struct ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A;
 struct String_t;
 struct TMP_Character_t7D37A55EF1A9FF6D0BFE6D50E86A00F80E7FAF35;
@@ -90,6 +97,7 @@ struct TMP_StyleSheet_t70C71699F5CB2D855C361DBB78A44C901236C859;
 struct TMP_TextElement_t262A55214F712D4274485ABE5676E5254B84D0A5;
 struct TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D;
 struct TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957;
+struct Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700;
 struct Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4;
 struct Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1;
 struct UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7;
@@ -97,6 +105,8 @@ struct UnitySourceGeneratedAssemblyMonoScriptTypes_v1_tC95F24D0C6E6B77389433852B
 struct VertexHelper_tB905FCB02AE67CBEE5F265FE37A5938FC5D136FE;
 struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915;
 struct VuforiaLicense_t558A3A93186A45EF8A9401D2262B52B5593182BC;
+struct WaitForSecondsRealtime_tA8CE0AAB4B0C872B843E7973637037D17682BA01;
+struct U3CshowImageU3Ed__14_t1F8BD8FB64EB8887CE7FDDA6923872C68A0DAB9B;
 struct CullStateChangedEvent_t6073CD0D951EC1256BF74B8F9107D68FC89B99B8;
 struct Section_t50C894D0A717C2368EBAAE5477D4E8626D0B5401;
 struct MissingCharacterEventCallback_t955241181324E0FEF9A9BDBA400E8780F8979DE6;
@@ -108,12 +118,15 @@ IL2CPP_EXTERN_C RuntimeClass* GameObject_t76FEDD663AB33C991A9C9A2312933765109421
 IL2CPP_EXTERN_C RuntimeClass* Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CshowImageU3Ed__14_t1F8BD8FB64EB8887CE7FDDA6923872C68A0DAB9B_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* WaitForSecondsRealtime_tA8CE0AAB4B0C872B843E7973637037D17682BA01_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____6CC6371AD65A9C9B16B44FF2FA293AD6F554F5985D845CE9E435F314D5136FEF_FieldInfo_var;
 IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____9380F356DD7456F517D661178A655F1038E408EE9A1CC35CF67BBBF65A550666_FieldInfo_var;
 IL2CPP_EXTERN_C String_t* _stringLiteral0A4A2072AF174386E423A74D152CEF42BD29F6BC;
@@ -133,6 +146,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteralEA90FFFCFB492237703B07BC45DC02172AB10EE9
 IL2CPP_EXTERN_C String_t* _stringLiteralF14270992ED12AFE215F30A69F8B2CB104F4FE3A;
 IL2CPP_EXTERN_C String_t* _stringLiteralF9BA2388BAB419DA6B6C7EE02753CB28F75067BF;
 IL2CPP_EXTERN_C String_t* _stringLiteralFA6852D4A86C4C0B2297B55A20E29E4BCE119E88;
+IL2CPP_EXTERN_C String_t* _stringLiteralFD776C52B66598466031D7D1332E578D36A80810;
 IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponent_TisObserverBehaviour_t5523404662BA53BE6118C49F6FFA9E19719115DB_mDC639300BE47642C9C8B6B9B1037E43085704742_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* GameObject_AddComponent_TisMeshFilter_t6D1CE2473A1E45AC73013400585A1163BF66B2F5_mEAB8177A64DF1A50BB7996ACEEEADCD65358AC94_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* GameObject_AddComponent_TisMeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE_mCDD3E77673305199F52C772AE8C7952F3864740D_RuntimeMethod_var;
@@ -143,8 +157,11 @@ IL2CPP_EXTERN_C const RuntimeMethod* List_1_Add_mF10DB1D3CBB0B14215F0E4F8AB4934A
 IL2CPP_EXTERN_C const RuntimeMethod* List_1__ctor_mCA8DD57EAC70C2B5923DBB9D5A77CEAC22E7068E_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Count_mB63183A9151F4345A9DD444A7CBE0D6E03F77C7C_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Item_m21AEC50E791371101DC22ABCF96A2E46800811F8_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CshowImageU3Ed__14_System_Collections_IEnumerator_Reset_m0D616E83326754B9BD48767EE1FCDDEC01B33F06_RuntimeMethod_var;
 struct Delegate_t_marshaled_com;
 struct Delegate_t_marshaled_pinvoke;
+struct Exception_t_marshaled_com;
+struct Exception_t_marshaled_pinvoke;
 
 struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031;
 struct Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C;
@@ -180,6 +197,9 @@ struct List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD  : public RuntimeObject
 struct U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA  : public RuntimeObject
 {
 };
+struct CustomYieldInstruction_t6B81A50D5D210C1ACAAE247FB53B65CDFFEB7617  : public RuntimeObject
+{
+};
 struct String_t  : public RuntimeObject
 {
 	int32_t ____stringLength;
@@ -199,6 +219,22 @@ struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_com
 };
 struct VuforiaLicense_t558A3A93186A45EF8A9401D2262B52B5593182BC  : public RuntimeObject
 {
+};
+struct YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D  : public RuntimeObject
+{
+};
+struct YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D_marshaled_pinvoke
+{
+};
+struct YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D_marshaled_com
+{
+};
+struct U3CshowImageU3Ed__14_t1F8BD8FB64EB8887CE7FDDA6923872C68A0DAB9B  : public RuntimeObject
+{
+	int32_t ___U3CU3E1__state;
+	RuntimeObject* ___U3CU3E2__current;
+	bool ___wasCorrect;
+	GameController_tDA619EE453F7ED2C8297EF928518A0B447E44D09* ___U3CU3E4__this;
 };
 struct Section_t50C894D0A717C2368EBAAE5477D4E8626D0B5401  : public RuntimeObject
 {
@@ -449,6 +485,11 @@ struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915
 		uint8_t Void_t4861ACF8F4594C3437BB48B6E56783494B843915__padding[1];
 	};
 };
+struct WaitForSecondsRealtime_tA8CE0AAB4B0C872B843E7973637037D17682BA01  : public CustomYieldInstruction_t6B81A50D5D210C1ACAAE247FB53B65CDFFEB7617
+{
+	float ___U3CwaitTimeU3Ek__BackingField;
+	float ___m_WaitUntilTime;
+};
 #pragma pack(push, tp, 1)
 struct __StaticArrayInitTypeSizeU3D128_tF4DC60A802E7EAF26084A16B33B2CDCC817796AB 
 {
@@ -561,6 +602,18 @@ struct ColorMode_tA7A815AAB9F175EFBA0AE0814E55728432A880BF
 {
 	int32_t ___value__;
 };
+struct Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B  : public YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D
+{
+	intptr_t ___m_Ptr;
+};
+struct Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B_marshaled_pinvoke : public YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D_marshaled_pinvoke
+{
+	intptr_t ___m_Ptr;
+};
+struct Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B_marshaled_com : public YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D_marshaled_com
+{
+	intptr_t ___m_Ptr;
+};
 struct Delegate_t  : public RuntimeObject
 {
 	intptr_t ___method_ptr;
@@ -608,6 +661,63 @@ struct Delegate_t_marshaled_com
 	MethodInfo_t* ___original_method_info;
 	DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E* ___data;
 	int32_t ___method_is_virtual;
+};
+struct Exception_t  : public RuntimeObject
+{
+	String_t* ____className;
+	String_t* ____message;
+	RuntimeObject* ____data;
+	Exception_t* ____innerException;
+	String_t* ____helpURL;
+	RuntimeObject* ____stackTrace;
+	String_t* ____stackTraceString;
+	String_t* ____remoteStackTraceString;
+	int32_t ____remoteStackIndex;
+	RuntimeObject* ____dynamicMethods;
+	int32_t ____HResult;
+	String_t* ____source;
+	SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6* ____safeSerializationManager;
+	StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF* ___captured_traces;
+	IntPtrU5BU5D_tFD177F8C806A6921AD7150264CCC62FA00CAD832* ___native_trace_ips;
+	int32_t ___caught_in_unmanaged;
+};
+struct Exception_t_marshaled_pinvoke
+{
+	char* ____className;
+	char* ____message;
+	RuntimeObject* ____data;
+	Exception_t_marshaled_pinvoke* ____innerException;
+	char* ____helpURL;
+	Il2CppIUnknown* ____stackTrace;
+	char* ____stackTraceString;
+	char* ____remoteStackTraceString;
+	int32_t ____remoteStackIndex;
+	Il2CppIUnknown* ____dynamicMethods;
+	int32_t ____HResult;
+	char* ____source;
+	SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6* ____safeSerializationManager;
+	StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF* ___captured_traces;
+	Il2CppSafeArray* ___native_trace_ips;
+	int32_t ___caught_in_unmanaged;
+};
+struct Exception_t_marshaled_com
+{
+	Il2CppChar* ____className;
+	Il2CppChar* ____message;
+	RuntimeObject* ____data;
+	Exception_t_marshaled_com* ____innerException;
+	Il2CppChar* ____helpURL;
+	Il2CppIUnknown* ____stackTrace;
+	Il2CppChar* ____stackTraceString;
+	Il2CppChar* ____remoteStackTraceString;
+	int32_t ____remoteStackIndex;
+	Il2CppIUnknown* ____dynamicMethods;
+	int32_t ____HResult;
+	Il2CppChar* ____source;
+	SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6* ____safeSerializationManager;
+	StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF* ___captured_traces;
+	Il2CppSafeArray* ___native_trace_ips;
+	int32_t ___caught_in_unmanaged;
 };
 struct Extents_tA2D2F95811D0A18CB7AC3570D2D8F8CD3AF4C4A8 
 {
@@ -762,6 +872,9 @@ struct ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A_marshaled_pinv
 struct ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A_marshaled_com : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_com
 {
 };
+struct SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295  : public Exception_t
+{
+};
 struct TMP_LineInfo_tB75C1965B58DB7B3A046C8CA55AD6AB92B6B17B3 
 {
 	int32_t ___controlCharacterCount;
@@ -798,6 +911,9 @@ struct Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA  : public Component_t
 {
 };
 struct MeshFilter_t6D1CE2473A1E45AC73013400585A1163BF66B2F5  : public Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3
+{
+};
+struct NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A  : public SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295
 {
 };
 struct Readme_tE17B99201D0F52BD5727638AD3F41072A65B3BBB  : public ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A
@@ -1050,6 +1166,8 @@ struct MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71  : public Behavio
 };
 struct GameController_tDA619EE453F7ED2C8297EF928518A0B447E44D09  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
+	RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179* ___correctIMG;
+	RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179* ___wrongIMG;
 	TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* ___scoreText;
 	TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* ___targetNameText;
 	TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* ___attemptsLeftText;
@@ -1130,6 +1248,11 @@ struct MaskableGraphic_tFC5B6BE351C90DE53744DF2A70940242774B361E  : public Graph
 	bool ___m_ShouldRecalculate;
 	int32_t ___m_StencilValue;
 	Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* ___m_Corners;
+};
+struct RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179  : public MaskableGraphic_tFC5B6BE351C90DE53744DF2A70940242774B361E
+{
+	Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* ___m_Texture;
+	Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D ___m_UVRect;
 };
 struct TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9  : public MaskableGraphic_tFC5B6BE351C90DE53744DF2A70940242774B361E
 {
@@ -1664,11 +1787,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GameObject_AddComponent_TisRun
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GameObject_GetComponent_TisRuntimeObject_m6EAED4AA356F0F48288F67899E5958792395563B_gshared (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void List_1_AddWithResize_m79A9BF770BEF9C06BE40D5401E55E375F2726CC4_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___0_item, const RuntimeMethod* method) ;
 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, bool ___0_value, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameController_generateNextTarget_mB9974FDE85033176A11939F755A88029EC64E02B (GameController_tDA619EE453F7ED2C8297EF928518A0B447E44D09* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameController_updateUI_mE4F7F57CE7004374BFEA308FF5E5B4D5F11C488D (GameController_tDA619EE453F7ED2C8297EF928518A0B447E44D09* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m9E3155FB84015C823606188F53B47CB44C444991 (String_t* ___0_str0, String_t* ___1_str1, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5 (int32_t* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1 (String_t* ___0_a, String_t* ___1_b, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GameController_showImage_m509C39AAE9A20CFC9F2199E6DED5875378319D0C (GameController_tDA619EE453F7ED2C8297EF928518A0B447E44D09* __this, bool ___0_wasCorrect, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812 (MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* __this, RuntimeObject* ___0_routine, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameController_GameOver_m79F2AC84C02E922C0A041133D6CF029886353C66 (GameController_tDA619EE453F7ED2C8297EF928518A0B447E44D09* __this, const RuntimeMethod* method) ;
 inline int32_t List_1_get_Count_mB63183A9151F4345A9DD444A7CBE0D6E03F77C7C_inline (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* __this, const RuntimeMethod* method)
 {
@@ -1679,6 +1806,7 @@ inline String_t* List_1_get_Item_m21AEC50E791371101DC22ABCF96A2E46800811F8 (List
 {
 	return ((  String_t* (*) (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD*, int32_t, const RuntimeMethod*))List_1_get_Item_m33561245D64798C2AB07584C0EC4F240E4839A38_gshared)(__this, ___0_index, method);
 }
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CshowImageU3Ed__14__ctor_m4FD57729255EA4ECF9455B6F9BF09F38978CCC1B (U3CshowImageU3Ed__14_t1F8BD8FB64EB8887CE7FDDA6923872C68A0DAB9B* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
 inline void List_1__ctor_mCA8DD57EAC70C2B5923DBB9D5A77CEAC22E7068E (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* __this, const RuntimeMethod* method)
 {
 	((  void (*) (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD*, const RuntimeMethod*))List_1__ctor_m7F078BB342729BDF11327FD89D7872265328F690_gshared)(__this, method);
@@ -1688,6 +1816,9 @@ inline void List_1_Add_mF10DB1D3CBB0B14215F0E4F8AB4934A1955E5351_inline (List_1_
 	((  void (*) (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD*, String_t*, const RuntimeMethod*))List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_gshared_inline)(__this, ___0_item, method);
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E (MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2 (RuntimeObject* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaitForSecondsRealtime__ctor_mBFC1E4F0E042D5EC6E7EEB211A2FE5193A8F6D6F (WaitForSecondsRealtime_tA8CE0AAB4B0C872B843E7973637037D17682BA01* __this, float ___0_time, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* __this, const RuntimeMethod* method) ;
 inline ObserverBehaviour_t5523404662BA53BE6118C49F6FFA9E19719115DB* Component_GetComponent_TisObserverBehaviour_t5523404662BA53BE6118C49F6FFA9E19719115DB_mDC639300BE47642C9C8B6B9B1037E43085704742 (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method)
 {
 	return ((  ObserverBehaviour_t5523404662BA53BE6118C49F6FFA9E19719115DB* (*) (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3*, const RuntimeMethod*))Component_GetComponent_TisRuntimeObject_m7181F81CAEC2CF53F5D2BC79B7425C16E1F80D33_gshared)(__this, method);
@@ -1729,7 +1860,6 @@ inline MeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE* GameObject_AddCom
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Renderer_set_material_m21E88977071E0A914D62F3D9CFF0193B3117C45A (Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* __this, Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___0_value, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* Transform_GetChild_mE686DF0C7AAC1F7AEF356967B1C04D8B8E240EAF (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, int32_t ___0_index, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method) ;
 inline MeshFilter_t6D1CE2473A1E45AC73013400585A1163BF66B2F5* GameObject_GetComponent_TisMeshFilter_t6D1CE2473A1E45AC73013400585A1163BF66B2F5_mDF6525BCE37B444313BE0AA2305BDF4EB8B92FE8 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method)
 {
 	return ((  MeshFilter_t6D1CE2473A1E45AC73013400585A1163BF66B2F5* (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, const RuntimeMethod*))GameObject_GetComponent_TisRuntimeObject_m6EAED4AA356F0F48288F67899E5958792395563B_gshared)(__this, method);
@@ -1749,7 +1879,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mesh_set_vertices_m5BB814D89E9ACA00DBF19
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mesh_set_uv_m6ED9C50E0DA8166DD48AC40FD6C828B9AD2E9617 (Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* __this, Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* ___0_value, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mesh_RecalculateNormals_m3AA2788914611444E030CA310E03E3CFE683902B (Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScriptableObject__ctor_mD037FDB0B487295EA47F79A4DB1BF1846C9087FF (ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A* __this, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2 (RuntimeObject* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B (RuntimeArray* ___0_array, RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 ___1_fldHandle, const RuntimeMethod* method) ;
 inline void List_1_AddWithResize_m79A9BF770BEF9C06BE40D5401E55E375F2726CC4 (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___0_item, const RuntimeMethod* method)
 {
@@ -1768,19 +1897,33 @@ inline void List_1_AddWithResize_m79A9BF770BEF9C06BE40D5401E55E375F2726CC4 (List
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 112454
+// Method Definition Index: 112446
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameController_Start_mD0C79B8B5B5D8EDC88F7F2F88B5954B1342198EF (GameController_tDA619EE453F7ED2C8297EF928518A0B447E44D09* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:23>
+		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:28>
+		RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179* L_0 = __this->___correctIMG;
+		NullCheck(L_0);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1;
+		L_1 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_0, NULL);
+		NullCheck(L_1);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_1, (bool)0, NULL);
+		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:29>
+		RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179* L_2 = __this->___wrongIMG;
+		NullCheck(L_2);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3;
+		L_3 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_2, NULL);
+		NullCheck(L_3);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_3, (bool)0, NULL);
+		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:30>
 		GameController_generateNextTarget_mB9974FDE85033176A11939F755A88029EC64E02B(__this, NULL);
-		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:24>
+		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:31>
 		GameController_updateUI_mE4F7F57CE7004374BFEA308FF5E5B4D5F11C488D(__this, NULL);
-		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:25>
+		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:32>
 		return;
 	}
 }
-// Method Definition Index: 112455
+// Method Definition Index: 112447
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameController_updateUI_mE4F7F57CE7004374BFEA308FF5E5B4D5F11C488D (GameController_tDA619EE453F7ED2C8297EF928518A0B447E44D09* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1788,17 +1931,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameController_updateUI_mE4F7F57CE700437
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral424125287DAF43815A9FC588AB7ED2A24358F4D8);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralA8492EB77AF2EB30EC5F59B56F3B9189237318C6);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralFD776C52B66598466031D7D1332E578D36A80810);
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:30>
+		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:37>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_0 = __this->___targetNameText;
 		String_t* L_1 = __this->___currentTarget;
 		String_t* L_2;
 		L_2 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral424125287DAF43815A9FC588AB7ED2A24358F4D8, L_1, NULL);
 		NullCheck(L_0);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_0, L_2);
-		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:31>
+		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:38>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_3 = __this->___attemptsLeftText;
 		int32_t* L_4 = (int32_t*)(&__this->___attemptsLeft);
 		String_t* L_5;
@@ -1807,78 +1951,92 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameController_updateUI_mE4F7F57CE700437
 		L_6 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralA8492EB77AF2EB30EC5F59B56F3B9189237318C6, L_5, NULL);
 		NullCheck(L_3);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_3, L_6);
-		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:33>
+		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:39>
+		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_7 = __this->___scoreText;
+		int32_t* L_8 = (int32_t*)(&__this->___score);
+		String_t* L_9;
+		L_9 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5(L_8, NULL);
+		String_t* L_10;
+		L_10 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralFD776C52B66598466031D7D1332E578D36A80810, L_9, NULL);
+		NullCheck(L_7);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_7, L_10);
+		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:40>
 		return;
 	}
 }
-// Method Definition Index: 112456
+// Method Definition Index: 112448
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameController_OnTargetFound_m636386392897DC7EBFACF3676486DBBE621DD8F8 (GameController_tDA619EE453F7ED2C8297EF928518A0B447E44D09* __this, String_t* ___0_targetFound, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:37>
+		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:44>
 		int32_t L_0 = __this->___attemptsLeft;
 		if ((((int32_t)L_0) <= ((int32_t)0)))
 		{
-			goto IL_005d;
+			goto IL_006d;
 		}
 	}
 	{
-		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:39>
-		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_1 = __this->___scoreText;
-		String_t* L_2 = ___0_targetFound;
-		NullCheck(L_1);
-		VirtualActionInvoker1< String_t* >::Invoke(66, L_1, L_2);
-		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:40>
-		String_t* L_3 = ___0_targetFound;
-		String_t* L_4 = __this->___currentTarget;
-		bool L_5;
-		L_5 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_3, L_4, NULL);
-		if (!L_5)
+		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:47>
+		String_t* L_1 = ___0_targetFound;
+		String_t* L_2 = __this->___currentTarget;
+		bool L_3;
+		L_3 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_1, L_2, NULL);
+		if (!L_3)
 		{
-			goto IL_0039;
+			goto IL_003b;
 		}
 	}
 	{
-		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:43>
-		int32_t L_6 = __this->___score;
-		__this->___score = ((int32_t)il2cpp_codegen_add(L_6, 1));
-		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:44>
+		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:50>
+		int32_t L_4 = __this->___score;
+		__this->___score = ((int32_t)il2cpp_codegen_add(L_4, 1));
+		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:51>
+		RuntimeObject* L_5;
+		L_5 = GameController_showImage_m509C39AAE9A20CFC9F2199E6DED5875378319D0C(__this, (bool)1, NULL);
+		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_6;
+		L_6 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_5, NULL);
+		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:52>
 		GameController_generateNextTarget_mB9974FDE85033176A11939F755A88029EC64E02B(__this, NULL);
-		goto IL_0057;
+		goto IL_0067;
 	}
 
-IL_0039:
+IL_003b:
 	{
-		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:49>
+		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:57>
 		int32_t L_7 = __this->___attemptsLeft;
 		__this->___attemptsLeft = ((int32_t)il2cpp_codegen_subtract(L_7, 1));
-		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:50>
-		int32_t L_8 = __this->___attemptsLeft;
-		if ((((int32_t)L_8) > ((int32_t)0)))
+		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:58>
+		RuntimeObject* L_8;
+		L_8 = GameController_showImage_m509C39AAE9A20CFC9F2199E6DED5875378319D0C(__this, (bool)0, NULL);
+		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_9;
+		L_9 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_8, NULL);
+		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:59>
+		int32_t L_10 = __this->___attemptsLeft;
+		if ((((int32_t)L_10) > ((int32_t)0)))
 		{
-			goto IL_0057;
+			goto IL_0067;
 		}
 	}
 	{
-		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:53>
+		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:62>
 		GameController_GameOver_m79F2AC84C02E922C0A041133D6CF029886353C66(__this, NULL);
-		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:54>
+		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:63>
 		return;
 	}
 
-IL_0057:
+IL_0067:
 	{
-		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:57>
+		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:66>
 		GameController_updateUI_mE4F7F57CE7004374BFEA308FF5E5B4D5F11C488D(__this, NULL);
 	}
 
-IL_005d:
+IL_006d:
 	{
-		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:59>
+		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:68>
 		return;
 	}
 }
-// Method Definition Index: 112457
+// Method Definition Index: 112449
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameController_generateNextTarget_mB9974FDE85033176A11939F755A88029EC64E02B (GameController_tDA619EE453F7ED2C8297EF928518A0B447E44D09* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1890,7 +2048,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameController_generateNextTarget_mB9974
 	}
 	int32_t V_0 = 0;
 	{
-		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:63>
+		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:72>
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_0 = __this->___targets;
 		NullCheck(L_0);
 		int32_t L_1;
@@ -1898,7 +2056,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameController_generateNextTarget_mB9974
 		int32_t L_2;
 		L_2 = Random_Range_m6763D9767F033357F88B6637F048F4ACA4123B68(0, L_1, NULL);
 		V_0 = L_2;
-		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:64>
+		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:73>
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_3 = __this->___targets;
 		int32_t L_4 = V_0;
 		NullCheck(L_3);
@@ -1906,11 +2064,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameController_generateNextTarget_mB9974
 		L_5 = List_1_get_Item_m21AEC50E791371101DC22ABCF96A2E46800811F8(L_3, L_4, List_1_get_Item_m21AEC50E791371101DC22ABCF96A2E46800811F8_RuntimeMethod_var);
 		__this->___currentTarget = L_5;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___currentTarget), (void*)L_5);
-		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:65>
+		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:74>
 		return;
 	}
 }
-// Method Definition Index: 112458
+// Method Definition Index: 112450
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameController_GameOver_m79F2AC84C02E922C0A041133D6CF029886353C66 (GameController_tDA619EE453F7ED2C8297EF928518A0B447E44D09* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1921,19 +2079,42 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameController_GameOver_m79F2AC84C02E922
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:68>
+		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:77>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_0 = __this->___attemptsLeftText;
 		NullCheck(L_0);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_0, _stringLiteralFA6852D4A86C4C0B2297B55A20E29E4BCE119E88);
-		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:69>
+		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:78>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_1 = __this->___targetNameText;
 		NullCheck(L_1);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_1, _stringLiteral0A4A2072AF174386E423A74D152CEF42BD29F6BC);
-		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:70>
+		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:79>
 		return;
 	}
 }
-// Method Definition Index: 112459
+// Method Definition Index: 112451
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GameController_showImage_m509C39AAE9A20CFC9F2199E6DED5875378319D0C (GameController_tDA619EE453F7ED2C8297EF928518A0B447E44D09* __this, bool ___0_wasCorrect, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CshowImageU3Ed__14_t1F8BD8FB64EB8887CE7FDDA6923872C68A0DAB9B_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		U3CshowImageU3Ed__14_t1F8BD8FB64EB8887CE7FDDA6923872C68A0DAB9B* L_0 = (U3CshowImageU3Ed__14_t1F8BD8FB64EB8887CE7FDDA6923872C68A0DAB9B*)il2cpp_codegen_object_new(U3CshowImageU3Ed__14_t1F8BD8FB64EB8887CE7FDDA6923872C68A0DAB9B_il2cpp_TypeInfo_var);
+		U3CshowImageU3Ed__14__ctor_m4FD57729255EA4ECF9455B6F9BF09F38978CCC1B(L_0, 0, NULL);
+		U3CshowImageU3Ed__14_t1F8BD8FB64EB8887CE7FDDA6923872C68A0DAB9B* L_1 = L_0;
+		NullCheck(L_1);
+		L_1->___U3CU3E4__this = __this;
+		Il2CppCodeGenWriteBarrier((void**)(&L_1->___U3CU3E4__this), (void*)__this);
+		U3CshowImageU3Ed__14_t1F8BD8FB64EB8887CE7FDDA6923872C68A0DAB9B* L_2 = L_1;
+		bool L_3 = ___0_wasCorrect;
+		NullCheck(L_2);
+		L_2->___wasCorrect = L_3;
+		return L_2;
+	}
+}
+// Method Definition Index: 112452
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameController__ctor_mB6369F6C5357D5984325D613D589EDA60818CBE9 (GameController_tDA619EE453F7ED2C8297EF928518A0B447E44D09* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1954,9 +2135,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameController__ctor_mB6369F6C5357D59843
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:15>
+		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:20>
 		__this->___attemptsLeft = 3;
-		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:18>
+		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:23>
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_0 = (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD*)il2cpp_codegen_object_new(List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD_il2cpp_TypeInfo_var);
 		List_1__ctor_mCA8DD57EAC70C2B5923DBB9D5A77CEAC22E7068E(L_0, List_1__ctor_mCA8DD57EAC70C2B5923DBB9D5A77CEAC22E7068E_RuntimeMethod_var);
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_1 = L_0;
@@ -2000,7 +2181,178 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameController__ctor_mB6369F6C5357D59843
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 112460
+// Method Definition Index: 112453
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CshowImageU3Ed__14__ctor_m4FD57729255EA4ECF9455B6F9BF09F38978CCC1B (U3CshowImageU3Ed__14_t1F8BD8FB64EB8887CE7FDDA6923872C68A0DAB9B* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		int32_t L_0 = ___0_U3CU3E1__state;
+		__this->___U3CU3E1__state = L_0;
+		return;
+	}
+}
+// Method Definition Index: 112454
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CshowImageU3Ed__14_System_IDisposable_Dispose_m89A4B1EDB4169E5BDE69BE2C9392534D50BB0EF9 (U3CshowImageU3Ed__14_t1F8BD8FB64EB8887CE7FDDA6923872C68A0DAB9B* __this, const RuntimeMethod* method) 
+{
+	{
+		return;
+	}
+}
+// Method Definition Index: 112455
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CshowImageU3Ed__14_MoveNext_m5E58D90AE22CB7A81B33D519F78F81491DBC7621 (U3CshowImageU3Ed__14_t1F8BD8FB64EB8887CE7FDDA6923872C68A0DAB9B* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&WaitForSecondsRealtime_tA8CE0AAB4B0C872B843E7973637037D17682BA01_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	GameController_tDA619EE453F7ED2C8297EF928518A0B447E44D09* V_1 = NULL;
+	{
+		int32_t L_0 = __this->___U3CU3E1__state;
+		V_0 = L_0;
+		GameController_tDA619EE453F7ED2C8297EF928518A0B447E44D09* L_1 = __this->___U3CU3E4__this;
+		V_1 = L_1;
+		int32_t L_2 = V_0;
+		switch (L_2)
+		{
+			case 0:
+			{
+				goto IL_0022;
+			}
+			case 1:
+			{
+				goto IL_005b;
+			}
+			case 2:
+			{
+				goto IL_009f;
+			}
+		}
+	}
+	{
+		return (bool)0;
+	}
+
+IL_0022:
+	{
+		__this->___U3CU3E1__state = (-1);
+		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:84>
+		bool L_3 = __this->___wasCorrect;
+		if (!L_3)
+		{
+			goto IL_0075;
+		}
+	}
+	{
+		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:86>
+		GameController_tDA619EE453F7ED2C8297EF928518A0B447E44D09* L_4 = V_1;
+		NullCheck(L_4);
+		RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179* L_5 = L_4->___correctIMG;
+		NullCheck(L_5);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6;
+		L_6 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_5, NULL);
+		NullCheck(L_6);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_6, (bool)1, NULL);
+		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:87>
+		WaitForSecondsRealtime_tA8CE0AAB4B0C872B843E7973637037D17682BA01* L_7 = (WaitForSecondsRealtime_tA8CE0AAB4B0C872B843E7973637037D17682BA01*)il2cpp_codegen_object_new(WaitForSecondsRealtime_tA8CE0AAB4B0C872B843E7973637037D17682BA01_il2cpp_TypeInfo_var);
+		WaitForSecondsRealtime__ctor_mBFC1E4F0E042D5EC6E7EEB211A2FE5193A8F6D6F(L_7, (2.0f), NULL);
+		__this->___U3CU3E2__current = L_7;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)L_7);
+		__this->___U3CU3E1__state = 1;
+		return (bool)1;
+	}
+
+IL_005b:
+	{
+		__this->___U3CU3E1__state = (-1);
+		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:88>
+		GameController_tDA619EE453F7ED2C8297EF928518A0B447E44D09* L_8 = V_1;
+		NullCheck(L_8);
+		RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179* L_9 = L_8->___correctIMG;
+		NullCheck(L_9);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_10;
+		L_10 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_9, NULL);
+		NullCheck(L_10);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_10, (bool)0, NULL);
+		goto IL_00b7;
+	}
+
+IL_0075:
+	{
+		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:92>
+		GameController_tDA619EE453F7ED2C8297EF928518A0B447E44D09* L_11 = V_1;
+		NullCheck(L_11);
+		RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179* L_12 = L_11->___wrongIMG;
+		NullCheck(L_12);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_13;
+		L_13 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_12, NULL);
+		NullCheck(L_13);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_13, (bool)1, NULL);
+		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:93>
+		WaitForSecondsRealtime_tA8CE0AAB4B0C872B843E7973637037D17682BA01* L_14 = (WaitForSecondsRealtime_tA8CE0AAB4B0C872B843E7973637037D17682BA01*)il2cpp_codegen_object_new(WaitForSecondsRealtime_tA8CE0AAB4B0C872B843E7973637037D17682BA01_il2cpp_TypeInfo_var);
+		WaitForSecondsRealtime__ctor_mBFC1E4F0E042D5EC6E7EEB211A2FE5193A8F6D6F(L_14, (2.0f), NULL);
+		__this->___U3CU3E2__current = L_14;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)L_14);
+		__this->___U3CU3E1__state = 2;
+		return (bool)1;
+	}
+
+IL_009f:
+	{
+		__this->___U3CU3E1__state = (-1);
+		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:94>
+		GameController_tDA619EE453F7ED2C8297EF928518A0B447E44D09* L_15 = V_1;
+		NullCheck(L_15);
+		RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179* L_16 = L_15->___wrongIMG;
+		NullCheck(L_16);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_17;
+		L_17 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_16, NULL);
+		NullCheck(L_17);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_17, (bool)0, NULL);
+	}
+
+IL_00b7:
+	{
+		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:96>
+		return (bool)0;
+	}
+}
+// Method Definition Index: 112456
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CshowImageU3Ed__14_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mE11A8F233E3D27C072FDEB724B69AC6B42475C4F (U3CshowImageU3Ed__14_t1F8BD8FB64EB8887CE7FDDA6923872C68A0DAB9B* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current;
+		return L_0;
+	}
+}
+// Method Definition Index: 112457
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CshowImageU3Ed__14_System_Collections_IEnumerator_Reset_m0D616E83326754B9BD48767EE1FCDDEC01B33F06 (U3CshowImageU3Ed__14_t1F8BD8FB64EB8887CE7FDDA6923872C68A0DAB9B* __this, const RuntimeMethod* method) 
+{
+	{
+		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
+		NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF(L_0, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CshowImageU3Ed__14_System_Collections_IEnumerator_Reset_m0D616E83326754B9BD48767EE1FCDDEC01B33F06_RuntimeMethod_var)));
+	}
+}
+// Method Definition Index: 112458
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CshowImageU3Ed__14_System_Collections_IEnumerator_get_Current_mB8DC0A77D3C6331B6C2A34AD97767DDCC6E81403 (U3CshowImageU3Ed__14_t1F8BD8FB64EB8887CE7FDDA6923872C68A0DAB9B* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current;
+		return L_0;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 112459
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ImageTargetHandler_Start_m7007058C70B1EE337B3CAF938C58C519104A13A6 (ImageTargetHandler_t912C254221504FD8477662ADBEF6EAEB618F373A* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2043,7 +2395,7 @@ IL_0030:
 		return;
 	}
 }
-// Method Definition Index: 112461
+// Method Definition Index: 112460
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ImageTargetHandler_OnTargetStatusChanged_m2E63FFCC0ECA0A61D041565519952DFD9FBE7373 (ImageTargetHandler_t912C254221504FD8477662ADBEF6EAEB618F373A* __this, ObserverBehaviour_t5523404662BA53BE6118C49F6FFA9E19719115DB* ___0_behaviour, TargetStatus_t5D866F1CAA9D70E5B66D532E69B190EA3BAAC4B0 ___1_status, const RuntimeMethod* method) 
 {
 	{
@@ -2072,7 +2424,7 @@ IL_001b:
 		return;
 	}
 }
-// Method Definition Index: 112462
+// Method Definition Index: 112461
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ImageTargetHandler_Update_mD30F40E62E24C8006AAA6B42E0E2549FFB02A55A (ImageTargetHandler_t912C254221504FD8477662ADBEF6EAEB618F373A* __this, const RuntimeMethod* method) 
 {
 	{
@@ -2080,7 +2432,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ImageTargetHandler_Update_mD30F40E62E24C
 		return;
 	}
 }
-// Method Definition Index: 112463
+// Method Definition Index: 112462
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ImageTargetHandler__ctor_m5A4A7FC125ED90A209E4F9A31C691B103EAA23A0 (ImageTargetHandler_t912C254221504FD8477662ADBEF6EAEB618F373A* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2116,7 +2468,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ImageTargetHandler__ctor_m5A4A7FC125ED90
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 112464
+// Method Definition Index: 112463
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MenuManager_StartGame_m24E9FA197C3694B75918B1103C9C2400CAD67BC4 (MenuManager_t34C8EA4F128D811DE986BE56D7938F2720BA7B16* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2134,7 +2486,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MenuManager_StartGame_m24E9FA197C3694B75
 		return;
 	}
 }
-// Method Definition Index: 112465
+// Method Definition Index: 112464
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MenuManager_CloseGame_m20A0E94D8AE812CF6464DC552E72D018328F0638 (MenuManager_t34C8EA4F128D811DE986BE56D7938F2720BA7B16* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2151,7 +2503,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MenuManager_CloseGame_m20A0E94D8AE812CF6
 		return;
 	}
 }
-// Method Definition Index: 112466
+// Method Definition Index: 112465
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MenuManager__ctor_m07A22DFDD90E3164393F8BDE06DAEF5AFA786CF2 (MenuManager_t34C8EA4F128D811DE986BE56D7938F2720BA7B16* __this, const RuntimeMethod* method) 
 {
 	{
@@ -2167,7 +2519,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MenuManager__ctor_m07A22DFDD90E3164393F8
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 112467
+// Method Definition Index: 112466
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlanetRing_OnEnable_mD777DB0E4EBEE5C944BE60E1F309137AFA18B6AA (PlanetRing_t866DA9F564C313DE9D5364CCBF57383576DF251E* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2212,7 +2564,7 @@ IL_0022:
 		return;
 	}
 }
-// Method Definition Index: 112468
+// Method Definition Index: 112467
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlanetRing_OnValidate_m06C3E8A17B5698B322C4FB541E0F4E0E83942E3A (PlanetRing_t866DA9F564C313DE9D5364CCBF57383576DF251E* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2257,7 +2609,7 @@ IL_0022:
 		return;
 	}
 }
-// Method Definition Index: 112469
+// Method Definition Index: 112468
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlanetRing_SetUpRing_m0C67476ECF054A32E49AF1DF0672CB0274C8A804 (PlanetRing_t866DA9F564C313DE9D5364CCBF57383576DF251E* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2415,7 +2767,7 @@ IL_010f:
 		return;
 	}
 }
-// Method Definition Index: 112470
+// Method Definition Index: 112469
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlanetRing_BuildRingMesh_m8B30D1CCCA913798A181C4EE1D5D1F78A4C94A43 (PlanetRing_t866DA9F564C313DE9D5364CCBF57383576DF251E* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2719,7 +3071,7 @@ IL_0255:
 		return;
 	}
 }
-// Method Definition Index: 112471
+// Method Definition Index: 112470
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlanetRing__ctor_m588D8856EC9E44FC4621B2AB29C57BB2E91B2042 (PlanetRing_t866DA9F564C313DE9D5364CCBF57383576DF251E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -2741,7 +3093,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlanetRing__ctor_m588D8856EC9E44FC4621B2
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 112472
+// Method Definition Index: 112471
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Readme__ctor_m69C325C4C171DCB0312B646A9034AA91EA8C39C6 (Readme_tE17B99201D0F52BD5727638AD3F41072A65B3BBB* __this, const RuntimeMethod* method) 
 {
 	{
@@ -2757,7 +3109,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Readme__ctor_m69C325C4C171DCB0312B646A90
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 112473
+// Method Definition Index: 112472
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Section__ctor_m5F732533E4DFC0167D965E5F5DB332E46055399B (Section_t50C894D0A717C2368EBAAE5477D4E8626D0B5401* __this, const RuntimeMethod* method) 
 {
 	{
@@ -2773,7 +3125,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Section__ctor_m5F732533E4DFC0167D965E5F5
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 112474
+// Method Definition Index: 112473
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* VuforiaLicense_GetLicenseKey_m796D51E5EF1C53F3D62BA4EA8806AC1FB1A5E3C4 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2787,7 +3139,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* VuforiaLicense_GetLicenseKey_m796D5
 		return _stringLiteralBA3A5185446BA28DBDF3F9F154AF5775D5807643;
 	}
 }
-// Method Definition Index: 112475
+// Method Definition Index: 112474
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VuforiaLicense__ctor_m094B92B3323DFFD79ADB696474D5D158C95E291B (VuforiaLicense_t558A3A93186A45EF8A9401D2262B52B5593182BC* __this, const RuntimeMethod* method) 
 {
 	{
@@ -2803,7 +3155,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VuforiaLicense__ctor_m094B92B3323DFFD79A
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 112476
+// Method Definition Index: 112475
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2837,7 +3189,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC
 		return L_6;
 	}
 }
-// Method Definition Index: 112477
+// Method Definition Index: 112476
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (UnitySourceGeneratedAssemblyMonoScriptTypes_v1_tC95F24D0C6E6B77389433852BB389F39C692926E* __this, const RuntimeMethod* method) 
 {
 	{

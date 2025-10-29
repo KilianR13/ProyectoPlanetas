@@ -1,11 +1,16 @@
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
+
 public class GameController : MonoBehaviour
 {
+    [Header("UI Elements")]
+    [SerializeField] private RawImage correctIMG;
+    [SerializeField] private RawImage wrongIMG;
 
     public TextMeshProUGUI scoreText;
     public TextMeshProUGUI targetNameText;
@@ -20,6 +25,8 @@ public class GameController : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        correctIMG.gameObject.SetActive(false);
+        wrongIMG.gameObject.SetActive(false);
         generateNextTarget();
         updateUI();
     }
@@ -29,24 +36,26 @@ public class GameController : MonoBehaviour
         // scoreText.text = "Current score: " + score;
         targetNameText.text = "Search for: " + currentTarget;
         attemptsLeftText.text = "Attempts left: " + attemptsLeft;
-        // scoreText.text = "Current score: " + score;
+        scoreText.text = "Current score: " + score;
     }
     
     public void OnTargetFound(String targetFound)
     {
         if (attemptsLeft > 0)
         {
-            scoreText.text = targetFound; // Debug
+            // scoreText.text = targetFound; // Debug
             if (targetFound == currentTarget)
             {
                 // El jugador ha acertado. Suma 1 punto y genera otro target
                 score++;
+                StartCoroutine(showImage(true));
                 generateNextTarget();
             }
             else
             {
                 // El jugador no ha acertado. Quitar 1 vida al jugador y generar
                 attemptsLeft--;
+                StartCoroutine(showImage(false));
                 if (attemptsLeft <= 0)
                 {
                     // El jugador pierde.
@@ -67,5 +76,22 @@ public class GameController : MonoBehaviour
     {
         attemptsLeftText.text = "Attempts left: 0";
         targetNameText.text = "GAME OVER!";
+    }
+
+    // Este código es estúpido
+    private IEnumerator showImage(bool wasCorrect)
+    {
+        if (wasCorrect)
+        {
+            correctIMG.gameObject.SetActive(true);
+            yield return new WaitForSecondsRealtime(2.0f);
+            correctIMG.gameObject.SetActive(false);
+        }
+        else
+        {
+            wrongIMG.gameObject.SetActive(true);
+            yield return new WaitForSecondsRealtime(2.0f);   
+            wrongIMG.gameObject.SetActive(false);
+        }
     }
 }
