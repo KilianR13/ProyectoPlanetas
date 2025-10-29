@@ -6,7 +6,7 @@ public class MenuManager : MonoBehaviour
     // [SerializeField] private Scene loadScene;
     public void StartGame()
     {
-        SceneManager.LoadScene("mainGame"); // Reemplazar con el nombre de la escena del juego
+        SceneManager.LoadScene("mainGame"); 
     }
     
     public void CloseGame()

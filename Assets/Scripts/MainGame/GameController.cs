@@ -50,12 +50,14 @@ public class GameController : MonoBehaviour
                 // El jugador ha acertado. Suma 1 punto y genera otro target
                 score++;
                 StartCoroutine(showImage(true));
+                updateUI();
                 generateNextTarget();
             }
             else
             {
                 // El jugador no ha acertado. Quitar 1 vida al jugador y generar
                 attemptsLeft--;
+                updateUI();
                 StartCoroutine(showImage(false));
                 if (attemptsLeft <= 0)
                 {
@@ -63,7 +65,6 @@ public class GameController : MonoBehaviour
                     StartCoroutine(returnToMenu());
                 }
             }
-            updateUI();
         }
     }
 
