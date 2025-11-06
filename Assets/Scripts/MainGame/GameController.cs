@@ -16,7 +16,11 @@ public class GameController : MonoBehaviour
     public TextMeshProUGUI scoreText;
     public TextMeshProUGUI targetNameText;
     public TextMeshProUGUI attemptsLeftText;
+    public TextMeshProUGUI timeLeftText;
 
+
+    private float time;
+    private bool allowTimer;
     private string currentTarget;
     private int attemptsLeft = 3;
     private int score = 0;
@@ -26,6 +30,8 @@ public class GameController : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        time = 10f;
+        allowTimer = true;
         correctIMG.gameObject.SetActive(false);
         wrongIMG.gameObject.SetActive(false);
         generateNextTarget();
@@ -34,37 +40,48 @@ public class GameController : MonoBehaviour
 
     void updateUI()
     {
-        // scoreText.text = "Current score: " + score;
+        time = 10f;
         targetNameText.text = "Search for: " + currentTarget;
         attemptsLeftText.text = "Attempts left: " + attemptsLeft;
         scoreText.text = "Current score: " + score;
     }
-    
+
     public void OnTargetFound(String targetFound)
     {
         if (attemptsLeft > 0)
         {
+            allowTimer = false;
             // scoreText.text = targetFound; // Debug
             if (targetFound == currentTarget)
             {
                 // El jugador ha acertado. Suma 1 punto y genera otro target
                 score++;
                 StartCoroutine(showImage(true));
-                updateUI();
                 generateNextTarget();
+                updateUI();
             }
             else
             {
-                // El jugador no ha acertado. Quitar 1 vida al jugador y generar
-                attemptsLeft--;
-                updateUI();
-                StartCoroutine(showImage(false));
-                if (attemptsLeft <= 0)
-                {
-                    // El jugador pierde.
-                    StartCoroutine(returnToMenu());
-                }
+                // El jugador no ha acertado. Quitar 1 vida al jugador y generar otro target
+                playerFailed();
             }
+            
+        }
+    }
+    
+    private void playerFailed()
+    {
+        attemptsLeft--;
+        updateUI();
+        StartCoroutine(showImage(false));
+        if (attemptsLeft <= 0)
+        {
+            // El jugador pierde.
+            StartCoroutine(returnToMenu());
+        }
+        else
+        {
+            allowTimer = true;
         }
     }
 
@@ -72,9 +89,11 @@ public class GameController : MonoBehaviour
     {
         int randomPos = UnityEngine.Random.Range(0, targets.Count);
         currentTarget = targets[randomPos];
+        allowTimer = true;
     }
     private void GameOver()
     {
+        allowTimer = false;
         attemptsLeftText.text = "Attempts left: 0";
         targetNameText.text = "GAME OVER!";
     }
@@ -82,6 +101,7 @@ public class GameController : MonoBehaviour
     // Este código es estúpido
     private IEnumerator showImage(bool wasCorrect)
     {
+        allowTimer = false;
         if (wasCorrect)
         {
             correctIMG.gameObject.SetActive(true);
@@ -94,11 +114,26 @@ public class GameController : MonoBehaviour
             yield return new WaitForSecondsRealtime(2.0f);
             wrongIMG.gameObject.SetActive(false);
         }
+        allowTimer = true;
     }
     private IEnumerator returnToMenu()
     {
         GameOver();
         yield return new WaitForSecondsRealtime(4.0f);
         SceneManager.LoadScene("mainMenu");
+    }
+
+    void Update()
+    {
+        timeLeftText.text = Mathf.Floor(time).ToString();
+        if (allowTimer)
+        {
+            time -= Time.deltaTime;    
+            if (time <= 0f)
+            {
+                allowTimer = false;
+                playerFailed();
+            }
+        }
     }
 }

@@ -25,6 +25,7 @@ struct Func_3_tC721DF8CDD07ED66A4833A19A2ED2302608C906C;
 struct Func_3_t6F6D9932638EA1A5A45303C6626C818C25D164E5;
 struct List_1_t3A076A19AF26E22A128C32B5C19804DDD2877607;
 struct List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D;
+struct List_1_t5ED555E220A2C0CA4F1CC393401AF0D7BA5B456B;
 struct List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD;
 struct TweenRunner_1_t5BB0582F926E75E2FE795492679A6CF55A4B4BC4;
 struct TMP_TextProcessingStack_1U5BU5D_t08293E0BB072311BB96170F351D1083BCA97B9B2;
@@ -54,6 +55,8 @@ struct Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C;
 struct WordWrapStateU5BU5D_t473D59C9DBCC949CE72EF1EB471CBA152A6CEAC9;
 struct SectionU5BU5D_t9D3017555FFF42E71BE91904A2486EAF429F24C4;
 struct TextProcessingElementU5BU5D_tC3E97D1672C8DB6E1F91DB2C0987D0ED9A2E7113;
+struct AdaptiveLayout_tFCB64265920D2504EE68AD3D8AB437D80D7CB31E;
+struct Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA;
 struct ButtonLayoutManager_tA634F96D56DC2B04681EF7892F12A98A3B9BB12D;
 struct CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B;
 struct Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26;
@@ -63,6 +66,7 @@ struct Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B;
 struct DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E;
 struct GameController_tDA619EE453F7ED2C8297EF928518A0B447E44D09;
 struct GameObject_t76FEDD663AB33C991A9C9A23129337651094216F;
+struct HorizontalLayoutGroup_t615DFEC1382E2E207BC9CBAA9A511F7ED93965BA;
 struct IDictionary_t6D03155AF1FA9083817AA5B6AD7DEEACC26AB220;
 struct IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA;
 struct IObserver_tF96DF70DC62190F4AAF66B7DA6053BB7C714503C;
@@ -83,6 +87,7 @@ struct PlanetRing_t866DA9F564C313DE9D5364CCBF57383576DF251E;
 struct RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179;
 struct Readme_tE17B99201D0F52BD5727638AD3F41072A65B3BBB;
 struct RectMask2D_tACF92BE999C791A665BD1ADEABF5BCEB82846670;
+struct RectOffset_t6358774A0DEEABA4586840CB9BC7DC88B39660B5;
 struct RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5;
 struct Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF;
 struct SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6;
@@ -104,11 +109,12 @@ struct Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1;
 struct UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7;
 struct UnitySourceGeneratedAssemblyMonoScriptTypes_v1_tC95F24D0C6E6B77389433852BB389F39C692926E;
 struct VertexHelper_tB905FCB02AE67CBEE5F265FE37A5938FC5D136FE;
+struct VerticalLayoutGroup_t06B5E51FC8051BF2009E6494876FBB9F3E5320B8;
 struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915;
 struct VuforiaLicense_t558A3A93186A45EF8A9401D2262B52B5593182BC;
 struct WaitForSecondsRealtime_tA8CE0AAB4B0C872B843E7973637037D17682BA01;
-struct U3CreturnToMenuU3Ed__15_t3D4986657EE4494B7DCDC836659044489A729690;
-struct U3CshowImageU3Ed__14_t1F8BD8FB64EB8887CE7FDDA6923872C68A0DAB9B;
+struct U3CreturnToMenuU3Ed__19_t5B2A313302BC000F75BBA85A6830F068B30A285F;
+struct U3CshowImageU3Ed__18_t0E45BAD616B494E0E34CAA2067FF5EE0F69411A0;
 struct CullStateChangedEvent_t6073CD0D951EC1256BF74B8F9107D68FC89B99B8;
 struct Section_t50C894D0A717C2368EBAAE5477D4E8626D0B5401;
 struct MissingCharacterEventCallback_t955241181324E0FEF9A9BDBA400E8780F8979DE6;
@@ -124,14 +130,14 @@ IL2CPP_EXTERN_C RuntimeClass* NotSupportedException_t1429765983D409BD2986508963C
 IL2CPP_EXTERN_C RuntimeClass* Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* U3CreturnToMenuU3Ed__15_t3D4986657EE4494B7DCDC836659044489A729690_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* U3CshowImageU3Ed__14_t1F8BD8FB64EB8887CE7FDDA6923872C68A0DAB9B_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CreturnToMenuU3Ed__19_t5B2A313302BC000F75BBA85A6830F068B30A285F_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CshowImageU3Ed__18_t0E45BAD616B494E0E34CAA2067FF5EE0F69411A0_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* WaitForSecondsRealtime_tA8CE0AAB4B0C872B843E7973637037D17682BA01_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____029ABA8CFBA6FCE66ACA33E68385DFE4805DE8F1BEAE68239A0561324B326838_FieldInfo_var;
-IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____3CAF3869153963A7C46693F455CAE5E080AF388F5D13AF0FEE561DB364AAFC06_FieldInfo_var;
+IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____A0FF5465CBD338EF5D72A7B473A55C66D4C291FB26036A447B563139630C89D3_FieldInfo_var;
+IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____FA67B3DB08FBD3D89B45571D2CBD8724FF178A04EE0D6629E881A18821D3BA11_FieldInfo_var;
 IL2CPP_EXTERN_C String_t* _stringLiteral0A4A2072AF174386E423A74D152CEF42BD29F6BC;
 IL2CPP_EXTERN_C String_t* _stringLiteral1B41B585BE49D415DA38772998D9F53F7269AA6D;
 IL2CPP_EXTERN_C String_t* _stringLiteral2874A53BC84CDC942669D941F6B15173D5A887DA;
@@ -151,7 +157,9 @@ IL2CPP_EXTERN_C String_t* _stringLiteralF14270992ED12AFE215F30A69F8B2CB104F4FE3A
 IL2CPP_EXTERN_C String_t* _stringLiteralF9BA2388BAB419DA6B6C7EE02753CB28F75067BF;
 IL2CPP_EXTERN_C String_t* _stringLiteralFA6852D4A86C4C0B2297B55A20E29E4BCE119E88;
 IL2CPP_EXTERN_C String_t* _stringLiteralFD776C52B66598466031D7D1332E578D36A80810;
+IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponent_TisHorizontalLayoutGroup_t615DFEC1382E2E207BC9CBAA9A511F7ED93965BA_m1DF360D4574B72DBFE3008DB7BFC2D4EDA680CEB_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponent_TisObserverBehaviour_t5523404662BA53BE6118C49F6FFA9E19719115DB_mDC639300BE47642C9C8B6B9B1037E43085704742_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponent_TisVerticalLayoutGroup_t06B5E51FC8051BF2009E6494876FBB9F3E5320B8_mAC986122994FA401969C9C3D1E463D0181FA836C_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* GameObject_AddComponent_TisMeshFilter_t6D1CE2473A1E45AC73013400585A1163BF66B2F5_mEAB8177A64DF1A50BB7996ACEEEADCD65358AC94_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* GameObject_AddComponent_TisMeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE_mCDD3E77673305199F52C772AE8C7952F3864740D_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* GameObject_GetComponent_TisMeshFilter_t6D1CE2473A1E45AC73013400585A1163BF66B2F5_mDF6525BCE37B444313BE0AA2305BDF4EB8B92FE8_RuntimeMethod_var;
@@ -161,8 +169,8 @@ IL2CPP_EXTERN_C const RuntimeMethod* List_1_Add_mF10DB1D3CBB0B14215F0E4F8AB4934A
 IL2CPP_EXTERN_C const RuntimeMethod* List_1__ctor_mCA8DD57EAC70C2B5923DBB9D5A77CEAC22E7068E_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Count_mB63183A9151F4345A9DD444A7CBE0D6E03F77C7C_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Item_m21AEC50E791371101DC22ABCF96A2E46800811F8_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* U3CreturnToMenuU3Ed__15_System_Collections_IEnumerator_Reset_mDEE5030FAD37755AF3AEDE877528090D0B00621D_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* U3CshowImageU3Ed__14_System_Collections_IEnumerator_Reset_m0D616E83326754B9BD48767EE1FCDDEC01B33F06_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CreturnToMenuU3Ed__19_System_Collections_IEnumerator_Reset_m3D2BC9CFCF8A16FEEF3858C2B3CFF4A4E302EB17_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CshowImageU3Ed__18_System_Collections_IEnumerator_Reset_mA41CEFD7B291DC48E4B3E38B17AC2853E729321F_RuntimeMethod_var;
 struct Delegate_t_marshaled_com;
 struct Delegate_t_marshaled_pinvoke;
 struct Exception_t_marshaled_com;
@@ -234,18 +242,18 @@ struct YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D_marshaled_pinv
 struct YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D_marshaled_com
 {
 };
-struct U3CreturnToMenuU3Ed__15_t3D4986657EE4494B7DCDC836659044489A729690  : public RuntimeObject
+struct U3CreturnToMenuU3Ed__19_t5B2A313302BC000F75BBA85A6830F068B30A285F  : public RuntimeObject
 {
 	int32_t ___U3CU3E1__state;
 	RuntimeObject* ___U3CU3E2__current;
 	GameController_tDA619EE453F7ED2C8297EF928518A0B447E44D09* ___U3CU3E4__this;
 };
-struct U3CshowImageU3Ed__14_t1F8BD8FB64EB8887CE7FDDA6923872C68A0DAB9B  : public RuntimeObject
+struct U3CshowImageU3Ed__18_t0E45BAD616B494E0E34CAA2067FF5EE0F69411A0  : public RuntimeObject
 {
 	int32_t ___U3CU3E1__state;
 	RuntimeObject* ___U3CU3E2__current;
-	bool ___wasCorrect;
 	GameController_tDA619EE453F7ED2C8297EF928518A0B447E44D09* ___U3CU3E4__this;
+	bool ___wasCorrect;
 };
 struct Section_t50C894D0A717C2368EBAAE5477D4E8626D0B5401  : public RuntimeObject
 {
@@ -356,6 +364,16 @@ struct Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B
 			char ___a_OffsetPadding_forAlignmentOnly[3];
 			uint8_t ___a_forAlignmentOnly;
 		};
+	};
+};
+struct DrivenRectTransformTracker_tFB0706C933E3C68E4F377C204FCEEF091F1EE0B1 
+{
+	union
+	{
+		struct
+		{
+		};
+		uint8_t DrivenRectTransformTracker_tFB0706C933E3C68E4F377C204FCEEF091F1EE0B1__padding[1];
 	};
 };
 struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2  : public ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F
@@ -502,7 +520,7 @@ struct WaitForSecondsRealtime_tA8CE0AAB4B0C872B843E7973637037D17682BA01  : publi
 	float ___m_WaitUntilTime;
 };
 #pragma pack(push, tp, 1)
-struct __StaticArrayInitTypeSizeU3D153_t673538284E614E2418B7F97317FB3CC8AFB62A73 
+struct __StaticArrayInitTypeSizeU3D173_t7DCD38AE8B1CC6711808BD218D6914DC563DFA95 
 {
 	union
 	{
@@ -512,12 +530,12 @@ struct __StaticArrayInitTypeSizeU3D153_t673538284E614E2418B7F97317FB3CC8AFB62A73
 			{
 			};
 		};
-		uint8_t __StaticArrayInitTypeSizeU3D153_t673538284E614E2418B7F97317FB3CC8AFB62A73__padding[153];
+		uint8_t __StaticArrayInitTypeSizeU3D173_t7DCD38AE8B1CC6711808BD218D6914DC563DFA95__padding[173];
 	};
 };
 #pragma pack(pop, tp)
 #pragma pack(push, tp, 1)
-struct __StaticArrayInitTypeSizeU3D335_t77AAB02B814B2CD7D53E281553843B7E5930F584 
+struct __StaticArrayInitTypeSizeU3D385_t1D59F61C89E12D6DE778DB47C7F5F09BD5FFD2DA 
 {
 	union
 	{
@@ -527,7 +545,7 @@ struct __StaticArrayInitTypeSizeU3D335_t77AAB02B814B2CD7D53E281553843B7E5930F584
 			{
 			};
 		};
-		uint8_t __StaticArrayInitTypeSizeU3D335_t77AAB02B814B2CD7D53E281553843B7E5930F584__padding[335];
+		uint8_t __StaticArrayInitTypeSizeU3D385_t1D59F61C89E12D6DE778DB47C7F5F09BD5FFD2DA__padding[385];
 	};
 };
 #pragma pack(pop, tp)
@@ -785,6 +803,10 @@ struct TMP_TextElementType_t51EE6662436732F22C6B599F5757B7F35F706342
 	int32_t ___value__;
 };
 struct TextAlignmentOptions_tF3FA9020F7E2AF1A48660044540254009A22EF01 
+{
+	int32_t ___value__;
+};
+struct TextAnchor_tA46E794186AC1CD0F22888652F589EBF7DFDF830 
 {
 	int32_t ___value__;
 };
@@ -1175,6 +1197,11 @@ struct MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71  : public Behavio
 {
 	CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B* ___m_CancellationTokenSource;
 };
+struct AdaptiveLayout_tFCB64265920D2504EE68AD3D8AB437D80D7CB31E  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	VerticalLayoutGroup_t06B5E51FC8051BF2009E6494876FBB9F3E5320B8* ___vertical;
+	HorizontalLayoutGroup_t615DFEC1382E2E207BC9CBAA9A511F7ED93965BA* ___horizontal;
+};
 struct ButtonLayoutManager_tA634F96D56DC2B04681EF7892F12A98A3B9BB12D  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___panelHorizontal;
@@ -1187,6 +1214,9 @@ struct GameController_tDA619EE453F7ED2C8297EF928518A0B447E44D09  : public MonoBe
 	TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* ___scoreText;
 	TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* ___targetNameText;
 	TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* ___attemptsLeftText;
+	TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* ___timeLeftText;
+	float ___time;
+	bool ___allowTimer;
 	String_t* ___currentTarget;
 	int32_t ___attemptsLeft;
 	int32_t ___score;
@@ -1240,6 +1270,17 @@ struct Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931  : public UIBehaviour_t
 	TweenRunner_1_t5BB0582F926E75E2FE795492679A6CF55A4B4BC4* ___m_ColorTweenRunner;
 	bool ___U3CuseLegacyMeshGenerationU3Ek__BackingField;
 };
+struct LayoutGroup_t32417833C700E77EDFA7C20034DAFD26604E05CE  : public UIBehaviour_tB9D4295827BD2EEDEF0749200C6CA7090C742A9D
+{
+	RectOffset_t6358774A0DEEABA4586840CB9BC7DC88B39660B5* ___m_Padding;
+	int32_t ___m_ChildAlignment;
+	RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___m_Rect;
+	DrivenRectTransformTracker_tFB0706C933E3C68E4F377C204FCEEF091F1EE0B1 ___m_Tracker;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___m_TotalMinSize;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___m_TotalPreferredSize;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___m_TotalFlexibleSize;
+	List_1_t5ED555E220A2C0CA4F1CC393401AF0D7BA5B456B* ___m_RectChildren;
+};
 struct ObserverBehaviour_t5523404662BA53BE6118C49F6FFA9E19719115DB  : public VuforiaMonoBehaviour_tA15D7FADFFC01834965106EC085F8D90177AB89D
 {
 	bool ___PreviewVisible;
@@ -1251,6 +1292,17 @@ struct ObserverBehaviour_t5523404662BA53BE6118C49F6FFA9E19719115DB  : public Vuf
 	Action_1_t49AD19663F9D6070EBF5FD37F8BEA43810805799* ___OnBehaviourDestroyed;
 	RuntimeObject* ___mObserver;
 	TargetStatus_t5D866F1CAA9D70E5B66D532E69B190EA3BAAC4B0 ___U3CTargetStatusU3Ek__BackingField;
+};
+struct HorizontalOrVerticalLayoutGroup_tF1A06BC885BD6E7F38A8C43815549C111EEDEF2E  : public LayoutGroup_t32417833C700E77EDFA7C20034DAFD26604E05CE
+{
+	float ___m_Spacing;
+	bool ___m_ChildForceExpandWidth;
+	bool ___m_ChildForceExpandHeight;
+	bool ___m_ChildControlWidth;
+	bool ___m_ChildControlHeight;
+	bool ___m_ChildScaleWidth;
+	bool ___m_ChildScaleHeight;
+	bool ___m_ReverseArrangement;
 };
 struct MaskableGraphic_tFC5B6BE351C90DE53744DF2A70940242774B361E  : public Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931
 {
@@ -1264,6 +1316,9 @@ struct MaskableGraphic_tFC5B6BE351C90DE53744DF2A70940242774B361E  : public Graph
 	bool ___m_ShouldRecalculate;
 	int32_t ___m_StencilValue;
 	Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* ___m_Corners;
+};
+struct HorizontalLayoutGroup_t615DFEC1382E2E207BC9CBAA9A511F7ED93965BA  : public HorizontalOrVerticalLayoutGroup_tF1A06BC885BD6E7F38A8C43815549C111EEDEF2E
+{
 };
 struct RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179  : public MaskableGraphic_tFC5B6BE351C90DE53744DF2A70940242774B361E
 {
@@ -1487,6 +1542,9 @@ struct TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9  : public MaskableGrap
 	TextBackingContainer_t33D1CE628E7B26C45EDAC1D87BEF2DD22A5C6361 ___m_TextBackingArray;
 	DecimalU5BU5D_t93BA0C88FA80728F73B792EE1A5199D0C060B615* ___k_Power;
 };
+struct VerticalLayoutGroup_t06B5E51FC8051BF2009E6494876FBB9F3E5320B8  : public HorizontalOrVerticalLayoutGroup_tF1A06BC885BD6E7F38A8C43815549C111EEDEF2E
+{
+};
 struct TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957  : public TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9
 {
 	bool ___m_isRebuildingLayout;
@@ -1522,8 +1580,8 @@ struct List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD_StaticFields
 };
 struct U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA_StaticFields
 {
-	__StaticArrayInitTypeSizeU3D335_t77AAB02B814B2CD7D53E281553843B7E5930F584 ___029ABA8CFBA6FCE66ACA33E68385DFE4805DE8F1BEAE68239A0561324B326838;
-	__StaticArrayInitTypeSizeU3D153_t673538284E614E2418B7F97317FB3CC8AFB62A73 ___3CAF3869153963A7C46693F455CAE5E080AF388F5D13AF0FEE561DB364AAFC06;
+	__StaticArrayInitTypeSizeU3D385_t1D59F61C89E12D6DE778DB47C7F5F09BD5FFD2DA ___A0FF5465CBD338EF5D72A7B473A55C66D4C291FB26036A447B563139630C89D3;
+	__StaticArrayInitTypeSizeU3D173_t7DCD38AE8B1CC6711808BD218D6914DC563DFA95 ___FA67B3DB08FBD3D89B45571D2CBD8724FF178A04EE0D6629E881A18821D3BA11;
 };
 struct String_t_StaticFields
 {
@@ -1812,6 +1870,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Int32_ToString_m030E01C24E294D6762F
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1 (String_t* ___0_a, String_t* ___1_b, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GameController_showImage_m509C39AAE9A20CFC9F2199E6DED5875378319D0C (GameController_tDA619EE453F7ED2C8297EF928518A0B447E44D09* __this, bool ___0_wasCorrect, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812 (MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* __this, RuntimeObject* ___0_routine, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameController_playerFailed_mC3D28C3DC2CB92C018E2A086E67096C83349BAD6 (GameController_tDA619EE453F7ED2C8297EF928518A0B447E44D09* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GameController_returnToMenu_mBB683EA09FB73C1116370F52708ED9F2C3EDF6B4 (GameController_tDA619EE453F7ED2C8297EF928518A0B447E44D09* __this, const RuntimeMethod* method) ;
 inline int32_t List_1_get_Count_mB63183A9151F4345A9DD444A7CBE0D6E03F77C7C_inline (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* __this, const RuntimeMethod* method)
 {
@@ -1822,8 +1881,10 @@ inline String_t* List_1_get_Item_m21AEC50E791371101DC22ABCF96A2E46800811F8 (List
 {
 	return ((  String_t* (*) (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD*, int32_t, const RuntimeMethod*))List_1_get_Item_m33561245D64798C2AB07584C0EC4F240E4839A38_gshared)(__this, ___0_index, method);
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CshowImageU3Ed__14__ctor_m4FD57729255EA4ECF9455B6F9BF09F38978CCC1B (U3CshowImageU3Ed__14_t1F8BD8FB64EB8887CE7FDDA6923872C68A0DAB9B* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CreturnToMenuU3Ed__15__ctor_m4526DCFDF3DDB9A0E3A0E289F6384EAE6E3FFF05 (U3CreturnToMenuU3Ed__15_t3D4986657EE4494B7DCDC836659044489A729690* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CshowImageU3Ed__18__ctor_mA8A1D9178290945F75EC2D771B070BCCC85142C7 (U3CshowImageU3Ed__18_t0E45BAD616B494E0E34CAA2067FF5EE0F69411A0* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CreturnToMenuU3Ed__19__ctor_mB28B1B8A8BDA18FE5306DDDA9DA8ED356EE33AB7 (U3CreturnToMenuU3Ed__19_t5B2A313302BC000F75BBA85A6830F068B30A285F* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Single_ToString_mE282EDA9CA4F7DF88432D807732837A629D04972 (float* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865 (const RuntimeMethod* method) ;
 inline void List_1__ctor_mCA8DD57EAC70C2B5923DBB9D5A77CEAC22E7068E (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* __this, const RuntimeMethod* method)
 {
 	((  void (*) (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD*, const RuntimeMethod*))List_1__ctor_m7F078BB342729BDF11327FD89D7872265328F690_gshared)(__this, method);
@@ -1851,9 +1912,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObserverBehaviour_add_OnTargetStatusChan
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t TargetStatus_get_Status_m6CA973C4D857DCA6B775DF7E053B0990A83026A3_inline (TargetStatus_t5D866F1CAA9D70E5B66D532E69B190EA3BAAC4B0* __this, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* ObserverBehaviour_get_TargetName_mFB6FC5459068E0E9800E2C8AFFEF6F8F48297AB1_inline (ObserverBehaviour_t5523404662BA53BE6118C49F6FFA9E19719115DB* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameController_OnTargetFound_m636386392897DC7EBFACF3676486DBBE621DD8F8 (GameController_tDA619EE453F7ED2C8297EF928518A0B447E44D09* __this, String_t* ___0_targetFound, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ButtonLayoutManager_UpdateUI_m777E752DD75EB5E29BD1E5CBD1F2F4EF8B88983E (ButtonLayoutManager_tA634F96D56DC2B04681EF7892F12A98A3B9BB12D* __this, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Screen_get_width_mF608FF3252213E7EFA1F0D2F744C28110E9E5AC9 (const RuntimeMethod* method) ;
+inline VerticalLayoutGroup_t06B5E51FC8051BF2009E6494876FBB9F3E5320B8* Component_GetComponent_TisVerticalLayoutGroup_t06B5E51FC8051BF2009E6494876FBB9F3E5320B8_mAC986122994FA401969C9C3D1E463D0181FA836C (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method)
+{
+	return ((  VerticalLayoutGroup_t06B5E51FC8051BF2009E6494876FBB9F3E5320B8* (*) (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3*, const RuntimeMethod*))Component_GetComponent_TisRuntimeObject_m7181F81CAEC2CF53F5D2BC79B7425C16E1F80D33_gshared)(__this, method);
+}
+inline HorizontalLayoutGroup_t615DFEC1382E2E207BC9CBAA9A511F7ED93965BA* Component_GetComponent_TisHorizontalLayoutGroup_t615DFEC1382E2E207BC9CBAA9A511F7ED93965BA_m1DF360D4574B72DBFE3008DB7BFC2D4EDA680CEB (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method)
+{
+	return ((  HorizontalLayoutGroup_t615DFEC1382E2E207BC9CBAA9A511F7ED93965BA* (*) (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3*, const RuntimeMethod*))Component_GetComponent_TisRuntimeObject_m7181F81CAEC2CF53F5D2BC79B7425C16E1F80D33_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdaptiveLayout_UpdateLayout_mA3E80CB205AAF69164ED7D4F6A5C627D735CCC93 (AdaptiveLayout_tFCB64265920D2504EE68AD3D8AB437D80D7CB31E* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Screen_get_height_m01A3102DE71EE1FBEA51D09D6B0261CF864FE8F9 (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Screen_get_width_mF608FF3252213E7EFA1F0D2F744C28110E9E5AC9 (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A (Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA* __this, bool ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ButtonLayoutManager_UpdateUI_m777E752DD75EB5E29BD1E5CBD1F2F4EF8B88983E (ButtonLayoutManager_tA634F96D56DC2B04681EF7892F12A98A3B9BB12D* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Application_Quit_mE304382DB9A6455C2A474C8F364C7387F37E9281 (const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_x, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___1_y, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlanetRing_SetUpRing_m0C67476ECF054A32E49AF1DF0672CB0274C8A804 (PlanetRing_t866DA9F564C313DE9D5364CCBF57383576DF251E* __this, const RuntimeMethod* method) ;
@@ -1918,33 +1989,37 @@ inline void List_1_AddWithResize_m79A9BF770BEF9C06BE40D5401E55E375F2726CC4 (List
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 112414
+// Method Definition Index: 112394
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameController_Start_mD0C79B8B5B5D8EDC88F7F2F88B5954B1342198EF (GameController_tDA619EE453F7ED2C8297EF928518A0B447E44D09* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:29>
+		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:33>
+		__this->___time = (10.0f);
+		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:34>
+		__this->___allowTimer = (bool)1;
+		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:35>
 		RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179* L_0 = __this->___correctIMG;
 		NullCheck(L_0);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1;
 		L_1 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_0, NULL);
 		NullCheck(L_1);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_1, (bool)0, NULL);
-		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:30>
+		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:36>
 		RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179* L_2 = __this->___wrongIMG;
 		NullCheck(L_2);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3;
 		L_3 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_2, NULL);
 		NullCheck(L_3);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_3, (bool)0, NULL);
-		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:31>
+		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:37>
 		GameController_generateNextTarget_mB9974FDE85033176A11939F755A88029EC64E02B(__this, NULL);
-		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:32>
+		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:38>
 		GameController_updateUI_mE4F7F57CE7004374BFEA308FF5E5B4D5F11C488D(__this, NULL);
-		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:33>
+		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:39>
 		return;
 	}
 }
-// Method Definition Index: 112415
+// Method Definition Index: 112395
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameController_updateUI_mE4F7F57CE7004374BFEA308FF5E5B4D5F11C488D (GameController_tDA619EE453F7ED2C8297EF928518A0B447E44D09* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1956,14 +2031,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameController_updateUI_mE4F7F57CE700437
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:38>
+		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:43>
+		__this->___time = (10.0f);
+		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:44>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_0 = __this->___targetNameText;
 		String_t* L_1 = __this->___currentTarget;
 		String_t* L_2;
 		L_2 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral424125287DAF43815A9FC588AB7ED2A24358F4D8, L_1, NULL);
 		NullCheck(L_0);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_0, L_2);
-		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:39>
+		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:45>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_3 = __this->___attemptsLeftText;
 		int32_t* L_4 = (int32_t*)(&__this->___attemptsLeft);
 		String_t* L_5;
@@ -1972,7 +2049,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameController_updateUI_mE4F7F57CE700437
 		L_6 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralA8492EB77AF2EB30EC5F59B56F3B9189237318C6, L_5, NULL);
 		NullCheck(L_3);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_3, L_6);
-		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:40>
+		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:46>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_7 = __this->___scoreText;
 		int32_t* L_8 = (int32_t*)(&__this->___score);
 		String_t* L_9;
@@ -1981,84 +2058,101 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameController_updateUI_mE4F7F57CE700437
 		L_10 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralFD776C52B66598466031D7D1332E578D36A80810, L_9, NULL);
 		NullCheck(L_7);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_7, L_10);
-		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:41>
+		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:47>
 		return;
 	}
 }
-// Method Definition Index: 112416
+// Method Definition Index: 112396
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameController_OnTargetFound_m636386392897DC7EBFACF3676486DBBE621DD8F8 (GameController_tDA619EE453F7ED2C8297EF928518A0B447E44D09* __this, String_t* ___0_targetFound, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:45>
+		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:51>
 		int32_t L_0 = __this->___attemptsLeft;
 		if ((((int32_t)L_0) <= ((int32_t)0)))
 		{
-			goto IL_0073;
+			goto IL_004d;
 		}
 	}
 	{
-		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:48>
+		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:53>
+		__this->___allowTimer = (bool)0;
+		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:55>
 		String_t* L_1 = ___0_targetFound;
 		String_t* L_2 = __this->___currentTarget;
 		bool L_3;
 		L_3 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_1, L_2, NULL);
 		if (!L_3)
 		{
-			goto IL_003b;
+			goto IL_0047;
 		}
 	}
 	{
-		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:51>
+		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:58>
 		int32_t L_4 = __this->___score;
 		__this->___score = ((int32_t)il2cpp_codegen_add(L_4, 1));
-		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:52>
+		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:59>
 		RuntimeObject* L_5;
 		L_5 = GameController_showImage_m509C39AAE9A20CFC9F2199E6DED5875378319D0C(__this, (bool)1, NULL);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_6;
 		L_6 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_5, NULL);
-		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:53>
-		GameController_generateNextTarget_mB9974FDE85033176A11939F755A88029EC64E02B(__this, NULL);
-		goto IL_006d;
-	}
-
-IL_003b:
-	{
-		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:58>
-		int32_t L_7 = __this->___attemptsLeft;
-		__this->___attemptsLeft = ((int32_t)il2cpp_codegen_subtract(L_7, 1));
-		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:59>
-		RuntimeObject* L_8;
-		L_8 = GameController_showImage_m509C39AAE9A20CFC9F2199E6DED5875378319D0C(__this, (bool)0, NULL);
-		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_9;
-		L_9 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_8, NULL);
 		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:60>
-		int32_t L_10 = __this->___attemptsLeft;
-		if ((((int32_t)L_10) > ((int32_t)0)))
-		{
-			goto IL_006d;
-		}
-	}
-	{
-		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:63>
-		RuntimeObject* L_11;
-		L_11 = GameController_returnToMenu_mBB683EA09FB73C1116370F52708ED9F2C3EDF6B4(__this, NULL);
-		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_12;
-		L_12 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_11, NULL);
+		GameController_generateNextTarget_mB9974FDE85033176A11939F755A88029EC64E02B(__this, NULL);
+		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:61>
+		GameController_updateUI_mE4F7F57CE7004374BFEA308FF5E5B4D5F11C488D(__this, NULL);
+		return;
 	}
 
-IL_006d:
+IL_0047:
 	{
 		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:66>
-		GameController_updateUI_mE4F7F57CE7004374BFEA308FF5E5B4D5F11C488D(__this, NULL);
+		GameController_playerFailed_mC3D28C3DC2CB92C018E2A086E67096C83349BAD6(__this, NULL);
 	}
 
-IL_0073:
+IL_004d:
 	{
-		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:68>
+		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:70>
 		return;
 	}
 }
-// Method Definition Index: 112417
+// Method Definition Index: 112397
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameController_playerFailed_mC3D28C3DC2CB92C018E2A086E67096C83349BAD6 (GameController_tDA619EE453F7ED2C8297EF928518A0B447E44D09* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:74>
+		int32_t L_0 = __this->___attemptsLeft;
+		__this->___attemptsLeft = ((int32_t)il2cpp_codegen_subtract(L_0, 1));
+		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:75>
+		GameController_updateUI_mE4F7F57CE7004374BFEA308FF5E5B4D5F11C488D(__this, NULL);
+		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:76>
+		RuntimeObject* L_1;
+		L_1 = GameController_showImage_m509C39AAE9A20CFC9F2199E6DED5875378319D0C(__this, (bool)0, NULL);
+		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_2;
+		L_2 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_1, NULL);
+		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:77>
+		int32_t L_3 = __this->___attemptsLeft;
+		if ((((int32_t)L_3) > ((int32_t)0)))
+		{
+			goto IL_0039;
+		}
+	}
+	{
+		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:80>
+		RuntimeObject* L_4;
+		L_4 = GameController_returnToMenu_mBB683EA09FB73C1116370F52708ED9F2C3EDF6B4(__this, NULL);
+		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_5;
+		L_5 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_4, NULL);
+		return;
+	}
+
+IL_0039:
+	{
+		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:84>
+		__this->___allowTimer = (bool)1;
+		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:86>
+		return;
+	}
+}
+// Method Definition Index: 112398
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameController_generateNextTarget_mB9974FDE85033176A11939F755A88029EC64E02B (GameController_tDA619EE453F7ED2C8297EF928518A0B447E44D09* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2070,7 +2164,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameController_generateNextTarget_mB9974
 	}
 	int32_t V_0 = 0;
 	{
-		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:72>
+		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:90>
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_0 = __this->___targets;
 		NullCheck(L_0);
 		int32_t L_1;
@@ -2078,7 +2172,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameController_generateNextTarget_mB9974
 		int32_t L_2;
 		L_2 = Random_Range_m6763D9767F033357F88B6637F048F4ACA4123B68(0, L_1, NULL);
 		V_0 = L_2;
-		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:73>
+		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:91>
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_3 = __this->___targets;
 		int32_t L_4 = V_0;
 		NullCheck(L_3);
@@ -2086,11 +2180,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameController_generateNextTarget_mB9974
 		L_5 = List_1_get_Item_m21AEC50E791371101DC22ABCF96A2E46800811F8(L_3, L_4, List_1_get_Item_m21AEC50E791371101DC22ABCF96A2E46800811F8_RuntimeMethod_var);
 		__this->___currentTarget = L_5;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___currentTarget), (void*)L_5);
-		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:74>
+		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:92>
+		__this->___allowTimer = (bool)1;
+		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:93>
 		return;
 	}
 }
-// Method Definition Index: 112418
+// Method Definition Index: 112399
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameController_GameOver_m79F2AC84C02E922C0A041133D6CF029886353C66 (GameController_tDA619EE453F7ED2C8297EF928518A0B447E44D09* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2101,61 +2197,111 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameController_GameOver_m79F2AC84C02E922
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:77>
+		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:96>
+		__this->___allowTimer = (bool)0;
+		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:97>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_0 = __this->___attemptsLeftText;
 		NullCheck(L_0);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_0, _stringLiteralFA6852D4A86C4C0B2297B55A20E29E4BCE119E88);
-		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:78>
+		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:98>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_1 = __this->___targetNameText;
 		NullCheck(L_1);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_1, _stringLiteral0A4A2072AF174386E423A74D152CEF42BD29F6BC);
-		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:79>
+		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:99>
 		return;
 	}
 }
-// Method Definition Index: 112419
+// Method Definition Index: 112400
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GameController_showImage_m509C39AAE9A20CFC9F2199E6DED5875378319D0C (GameController_tDA619EE453F7ED2C8297EF928518A0B447E44D09* __this, bool ___0_wasCorrect, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CshowImageU3Ed__14_t1F8BD8FB64EB8887CE7FDDA6923872C68A0DAB9B_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CshowImageU3Ed__18_t0E45BAD616B494E0E34CAA2067FF5EE0F69411A0_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		U3CshowImageU3Ed__14_t1F8BD8FB64EB8887CE7FDDA6923872C68A0DAB9B* L_0 = (U3CshowImageU3Ed__14_t1F8BD8FB64EB8887CE7FDDA6923872C68A0DAB9B*)il2cpp_codegen_object_new(U3CshowImageU3Ed__14_t1F8BD8FB64EB8887CE7FDDA6923872C68A0DAB9B_il2cpp_TypeInfo_var);
-		U3CshowImageU3Ed__14__ctor_m4FD57729255EA4ECF9455B6F9BF09F38978CCC1B(L_0, 0, NULL);
-		U3CshowImageU3Ed__14_t1F8BD8FB64EB8887CE7FDDA6923872C68A0DAB9B* L_1 = L_0;
+		U3CshowImageU3Ed__18_t0E45BAD616B494E0E34CAA2067FF5EE0F69411A0* L_0 = (U3CshowImageU3Ed__18_t0E45BAD616B494E0E34CAA2067FF5EE0F69411A0*)il2cpp_codegen_object_new(U3CshowImageU3Ed__18_t0E45BAD616B494E0E34CAA2067FF5EE0F69411A0_il2cpp_TypeInfo_var);
+		U3CshowImageU3Ed__18__ctor_mA8A1D9178290945F75EC2D771B070BCCC85142C7(L_0, 0, NULL);
+		U3CshowImageU3Ed__18_t0E45BAD616B494E0E34CAA2067FF5EE0F69411A0* L_1 = L_0;
 		NullCheck(L_1);
 		L_1->___U3CU3E4__this = __this;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___U3CU3E4__this), (void*)__this);
-		U3CshowImageU3Ed__14_t1F8BD8FB64EB8887CE7FDDA6923872C68A0DAB9B* L_2 = L_1;
+		U3CshowImageU3Ed__18_t0E45BAD616B494E0E34CAA2067FF5EE0F69411A0* L_2 = L_1;
 		bool L_3 = ___0_wasCorrect;
 		NullCheck(L_2);
 		L_2->___wasCorrect = L_3;
 		return L_2;
 	}
 }
-// Method Definition Index: 112420
+// Method Definition Index: 112401
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GameController_returnToMenu_mBB683EA09FB73C1116370F52708ED9F2C3EDF6B4 (GameController_tDA619EE453F7ED2C8297EF928518A0B447E44D09* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CreturnToMenuU3Ed__15_t3D4986657EE4494B7DCDC836659044489A729690_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CreturnToMenuU3Ed__19_t5B2A313302BC000F75BBA85A6830F068B30A285F_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		U3CreturnToMenuU3Ed__15_t3D4986657EE4494B7DCDC836659044489A729690* L_0 = (U3CreturnToMenuU3Ed__15_t3D4986657EE4494B7DCDC836659044489A729690*)il2cpp_codegen_object_new(U3CreturnToMenuU3Ed__15_t3D4986657EE4494B7DCDC836659044489A729690_il2cpp_TypeInfo_var);
-		U3CreturnToMenuU3Ed__15__ctor_m4526DCFDF3DDB9A0E3A0E289F6384EAE6E3FFF05(L_0, 0, NULL);
-		U3CreturnToMenuU3Ed__15_t3D4986657EE4494B7DCDC836659044489A729690* L_1 = L_0;
+		U3CreturnToMenuU3Ed__19_t5B2A313302BC000F75BBA85A6830F068B30A285F* L_0 = (U3CreturnToMenuU3Ed__19_t5B2A313302BC000F75BBA85A6830F068B30A285F*)il2cpp_codegen_object_new(U3CreturnToMenuU3Ed__19_t5B2A313302BC000F75BBA85A6830F068B30A285F_il2cpp_TypeInfo_var);
+		U3CreturnToMenuU3Ed__19__ctor_mB28B1B8A8BDA18FE5306DDDA9DA8ED356EE33AB7(L_0, 0, NULL);
+		U3CreturnToMenuU3Ed__19_t5B2A313302BC000F75BBA85A6830F068B30A285F* L_1 = L_0;
 		NullCheck(L_1);
 		L_1->___U3CU3E4__this = __this;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___U3CU3E4__this), (void*)__this);
 		return L_1;
 	}
 }
-// Method Definition Index: 112421
+// Method Definition Index: 112402
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameController_Update_m5E36D1D6999A7510DFDFBF6805CF9E9CB50F0962 (GameController_tDA619EE453F7ED2C8297EF928518A0B447E44D09* __this, const RuntimeMethod* method) 
+{
+	float V_0 = 0.0f;
+	{
+		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:128>
+		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_0 = __this->___timeLeftText;
+		float L_1 = __this->___time;
+		float L_2;
+		L_2 = floorf(L_1);
+		V_0 = L_2;
+		String_t* L_3;
+		L_3 = Single_ToString_mE282EDA9CA4F7DF88432D807732837A629D04972((&V_0), NULL);
+		NullCheck(L_0);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_0, L_3);
+		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:129>
+		bool L_4 = __this->___allowTimer;
+		if (!L_4)
+		{
+			goto IL_0052;
+		}
+	}
+	{
+		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:131>
+		float L_5 = __this->___time;
+		float L_6;
+		L_6 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
+		__this->___time = ((float)il2cpp_codegen_subtract(L_5, L_6));
+		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:132>
+		float L_7 = __this->___time;
+		if ((!(((float)L_7) <= ((float)(0.0f)))))
+		{
+			goto IL_0052;
+		}
+	}
+	{
+		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:134>
+		__this->___allowTimer = (bool)0;
+		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:135>
+		GameController_playerFailed_mC3D28C3DC2CB92C018E2A086E67096C83349BAD6(__this, NULL);
+	}
+
+IL_0052:
+	{
+		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:138>
+		return;
+	}
+}
+// Method Definition Index: 112403
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameController__ctor_mB6369F6C5357D5984325D613D589EDA60818CBE9 (GameController_tDA619EE453F7ED2C8297EF928518A0B447E44D09* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2176,9 +2322,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameController__ctor_mB6369F6C5357D59843
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:21>
+		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:25>
 		__this->___attemptsLeft = 3;
-		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:24>
+		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:28>
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_0 = (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD*)il2cpp_codegen_object_new(List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD_il2cpp_TypeInfo_var);
 		List_1__ctor_mCA8DD57EAC70C2B5923DBB9D5A77CEAC22E7068E(L_0, List_1__ctor_mCA8DD57EAC70C2B5923DBB9D5A77CEAC22E7068E_RuntimeMethod_var);
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_1 = L_0;
@@ -2222,8 +2368,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameController__ctor_mB6369F6C5357D59843
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 112422
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CreturnToMenuU3Ed__15__ctor_m4526DCFDF3DDB9A0E3A0E289F6384EAE6E3FFF05 (U3CreturnToMenuU3Ed__15_t3D4986657EE4494B7DCDC836659044489A729690* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
+// Method Definition Index: 112404
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CreturnToMenuU3Ed__19__ctor_mB28B1B8A8BDA18FE5306DDDA9DA8ED356EE33AB7 (U3CreturnToMenuU3Ed__19_t5B2A313302BC000F75BBA85A6830F068B30A285F* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
@@ -2232,15 +2378,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CreturnToMenuU3Ed__15__ctor_m4526DCFDF
 		return;
 	}
 }
-// Method Definition Index: 112423
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CreturnToMenuU3Ed__15_System_IDisposable_Dispose_mBCE4CD0A1B22A606D698268D16D80F24EB57F944 (U3CreturnToMenuU3Ed__15_t3D4986657EE4494B7DCDC836659044489A729690* __this, const RuntimeMethod* method) 
+// Method Definition Index: 112405
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CreturnToMenuU3Ed__19_System_IDisposable_Dispose_m3E7979BD9619D4AB9287A4F46830005E1199A601 (U3CreturnToMenuU3Ed__19_t5B2A313302BC000F75BBA85A6830F068B30A285F* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// Method Definition Index: 112424
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CreturnToMenuU3Ed__15_MoveNext_m1D31835E7B8077F93E07099F9429B65AEBB005A2 (U3CreturnToMenuU3Ed__15_t3D4986657EE4494B7DCDC836659044489A729690* __this, const RuntimeMethod* method) 
+// Method Definition Index: 112406
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CreturnToMenuU3Ed__19_MoveNext_m6FE850C033FE76181BCDDC17122218D2B869DE8D (U3CreturnToMenuU3Ed__19_t5B2A313302BC000F75BBA85A6830F068B30A285F* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -2277,11 +2423,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CreturnToMenuU3Ed__15_MoveNext_m1D3183
 IL_0017:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:99>
+		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:121>
 		GameController_tDA619EE453F7ED2C8297EF928518A0B447E44D09* L_4 = V_1;
 		NullCheck(L_4);
 		GameController_GameOver_m79F2AC84C02E922C0A041133D6CF029886353C66(L_4, NULL);
-		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:100>
+		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:122>
 		WaitForSecondsRealtime_tA8CE0AAB4B0C872B843E7973637037D17682BA01* L_5 = (WaitForSecondsRealtime_tA8CE0AAB4B0C872B843E7973637037D17682BA01*)il2cpp_codegen_object_new(WaitForSecondsRealtime_tA8CE0AAB4B0C872B843E7973637037D17682BA01_il2cpp_TypeInfo_var);
 		WaitForSecondsRealtime__ctor_mBFC1E4F0E042D5EC6E7EEB211A2FE5193A8F6D6F(L_5, (4.0f), NULL);
 		__this->___U3CU3E2__current = L_5;
@@ -2293,32 +2439,32 @@ IL_0017:
 IL_003d:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:101>
+		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:123>
 		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
 		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteral2874A53BC84CDC942669D941F6B15173D5A887DA, NULL);
-		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:102>
+		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:124>
 		return (bool)0;
 	}
 }
-// Method Definition Index: 112425
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CreturnToMenuU3Ed__15_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mB2515AC8FA67924FC4BF992A5AD9D4BA3065501D (U3CreturnToMenuU3Ed__15_t3D4986657EE4494B7DCDC836659044489A729690* __this, const RuntimeMethod* method) 
+// Method Definition Index: 112407
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CreturnToMenuU3Ed__19_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m0C7573AC3D77133D65E138C787B04E1BD94660C0 (U3CreturnToMenuU3Ed__19_t5B2A313302BC000F75BBA85A6830F068B30A285F* __this, const RuntimeMethod* method) 
 {
 	{
 		RuntimeObject* L_0 = __this->___U3CU3E2__current;
 		return L_0;
 	}
 }
-// Method Definition Index: 112426
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CreturnToMenuU3Ed__15_System_Collections_IEnumerator_Reset_mDEE5030FAD37755AF3AEDE877528090D0B00621D (U3CreturnToMenuU3Ed__15_t3D4986657EE4494B7DCDC836659044489A729690* __this, const RuntimeMethod* method) 
+// Method Definition Index: 112408
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CreturnToMenuU3Ed__19_System_Collections_IEnumerator_Reset_m3D2BC9CFCF8A16FEEF3858C2B3CFF4A4E302EB17 (U3CreturnToMenuU3Ed__19_t5B2A313302BC000F75BBA85A6830F068B30A285F* __this, const RuntimeMethod* method) 
 {
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF(L_0, NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CreturnToMenuU3Ed__15_System_Collections_IEnumerator_Reset_mDEE5030FAD37755AF3AEDE877528090D0B00621D_RuntimeMethod_var)));
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CreturnToMenuU3Ed__19_System_Collections_IEnumerator_Reset_m3D2BC9CFCF8A16FEEF3858C2B3CFF4A4E302EB17_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 112427
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CreturnToMenuU3Ed__15_System_Collections_IEnumerator_get_Current_m2277CBFDE4A9553B35B85F40A9AF59E8FAA26416 (U3CreturnToMenuU3Ed__15_t3D4986657EE4494B7DCDC836659044489A729690* __this, const RuntimeMethod* method) 
+// Method Definition Index: 112409
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CreturnToMenuU3Ed__19_System_Collections_IEnumerator_get_Current_m34BE5752AD38D07CF81B38EDD4C454E02CC28FFF (U3CreturnToMenuU3Ed__19_t5B2A313302BC000F75BBA85A6830F068B30A285F* __this, const RuntimeMethod* method) 
 {
 	{
 		RuntimeObject* L_0 = __this->___U3CU3E2__current;
@@ -2333,8 +2479,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CreturnToMenuU3Ed__15_System
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 112428
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CshowImageU3Ed__14__ctor_m4FD57729255EA4ECF9455B6F9BF09F38978CCC1B (U3CshowImageU3Ed__14_t1F8BD8FB64EB8887CE7FDDA6923872C68A0DAB9B* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
+// Method Definition Index: 112410
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CshowImageU3Ed__18__ctor_mA8A1D9178290945F75EC2D771B070BCCC85142C7 (U3CshowImageU3Ed__18_t0E45BAD616B494E0E34CAA2067FF5EE0F69411A0* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
@@ -2343,15 +2489,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CshowImageU3Ed__14__ctor_m4FD57729255E
 		return;
 	}
 }
-// Method Definition Index: 112429
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CshowImageU3Ed__14_System_IDisposable_Dispose_m89A4B1EDB4169E5BDE69BE2C9392534D50BB0EF9 (U3CshowImageU3Ed__14_t1F8BD8FB64EB8887CE7FDDA6923872C68A0DAB9B* __this, const RuntimeMethod* method) 
+// Method Definition Index: 112411
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CshowImageU3Ed__18_System_IDisposable_Dispose_mDA721596A045C09E61B8E86E04A1B3F84D8DEC8D (U3CshowImageU3Ed__18_t0E45BAD616B494E0E34CAA2067FF5EE0F69411A0* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// Method Definition Index: 112430
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CshowImageU3Ed__14_MoveNext_m5E58D90AE22CB7A81B33D519F78F81491DBC7621 (U3CshowImageU3Ed__14_t1F8BD8FB64EB8887CE7FDDA6923872C68A0DAB9B* __this, const RuntimeMethod* method) 
+// Method Definition Index: 112412
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CshowImageU3Ed__18_MoveNext_m38A01D20FCB399EDA652F2A414101A3D572C707F (U3CshowImageU3Ed__18_t0E45BAD616B494E0E34CAA2067FF5EE0F69411A0* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -2375,11 +2521,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CshowImageU3Ed__14_MoveNext_m5E58D90AE
 			}
 			case 1:
 			{
-				goto IL_005b;
+				goto IL_0062;
 			}
 			case 2:
 			{
-				goto IL_009f;
+				goto IL_00a6;
 			}
 		}
 	}
@@ -2390,106 +2536,114 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CshowImageU3Ed__14_MoveNext_m5E58D90AE
 IL_0022:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:84>
-		bool L_3 = __this->___wasCorrect;
-		if (!L_3)
+		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:104>
+		GameController_tDA619EE453F7ED2C8297EF928518A0B447E44D09* L_3 = V_1;
+		NullCheck(L_3);
+		L_3->___allowTimer = (bool)0;
+		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:105>
+		bool L_4 = __this->___wasCorrect;
+		if (!L_4)
 		{
-			goto IL_0075;
+			goto IL_007c;
 		}
 	}
 	{
-		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:86>
-		GameController_tDA619EE453F7ED2C8297EF928518A0B447E44D09* L_4 = V_1;
-		NullCheck(L_4);
-		RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179* L_5 = L_4->___correctIMG;
+		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:107>
+		GameController_tDA619EE453F7ED2C8297EF928518A0B447E44D09* L_5 = V_1;
 		NullCheck(L_5);
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6;
-		L_6 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_5, NULL);
+		RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179* L_6 = L_5->___correctIMG;
 		NullCheck(L_6);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_6, (bool)1, NULL);
-		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:87>
-		WaitForSecondsRealtime_tA8CE0AAB4B0C872B843E7973637037D17682BA01* L_7 = (WaitForSecondsRealtime_tA8CE0AAB4B0C872B843E7973637037D17682BA01*)il2cpp_codegen_object_new(WaitForSecondsRealtime_tA8CE0AAB4B0C872B843E7973637037D17682BA01_il2cpp_TypeInfo_var);
-		WaitForSecondsRealtime__ctor_mBFC1E4F0E042D5EC6E7EEB211A2FE5193A8F6D6F(L_7, (2.0f), NULL);
-		__this->___U3CU3E2__current = L_7;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)L_7);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_7;
+		L_7 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_6, NULL);
+		NullCheck(L_7);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_7, (bool)1, NULL);
+		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:108>
+		WaitForSecondsRealtime_tA8CE0AAB4B0C872B843E7973637037D17682BA01* L_8 = (WaitForSecondsRealtime_tA8CE0AAB4B0C872B843E7973637037D17682BA01*)il2cpp_codegen_object_new(WaitForSecondsRealtime_tA8CE0AAB4B0C872B843E7973637037D17682BA01_il2cpp_TypeInfo_var);
+		WaitForSecondsRealtime__ctor_mBFC1E4F0E042D5EC6E7EEB211A2FE5193A8F6D6F(L_8, (2.0f), NULL);
+		__this->___U3CU3E2__current = L_8;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)L_8);
 		__this->___U3CU3E1__state = 1;
 		return (bool)1;
 	}
 
-IL_005b:
+IL_0062:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:88>
-		GameController_tDA619EE453F7ED2C8297EF928518A0B447E44D09* L_8 = V_1;
-		NullCheck(L_8);
-		RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179* L_9 = L_8->___correctIMG;
+		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:109>
+		GameController_tDA619EE453F7ED2C8297EF928518A0B447E44D09* L_9 = V_1;
 		NullCheck(L_9);
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_10;
-		L_10 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_9, NULL);
+		RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179* L_10 = L_9->___correctIMG;
 		NullCheck(L_10);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_10, (bool)0, NULL);
-		goto IL_00b7;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_11;
+		L_11 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_10, NULL);
+		NullCheck(L_11);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_11, (bool)0, NULL);
+		goto IL_00be;
 	}
 
-IL_0075:
+IL_007c:
 	{
-		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:92>
-		GameController_tDA619EE453F7ED2C8297EF928518A0B447E44D09* L_11 = V_1;
-		NullCheck(L_11);
-		RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179* L_12 = L_11->___wrongIMG;
+		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:113>
+		GameController_tDA619EE453F7ED2C8297EF928518A0B447E44D09* L_12 = V_1;
 		NullCheck(L_12);
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_13;
-		L_13 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_12, NULL);
+		RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179* L_13 = L_12->___wrongIMG;
 		NullCheck(L_13);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_13, (bool)1, NULL);
-		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:93>
-		WaitForSecondsRealtime_tA8CE0AAB4B0C872B843E7973637037D17682BA01* L_14 = (WaitForSecondsRealtime_tA8CE0AAB4B0C872B843E7973637037D17682BA01*)il2cpp_codegen_object_new(WaitForSecondsRealtime_tA8CE0AAB4B0C872B843E7973637037D17682BA01_il2cpp_TypeInfo_var);
-		WaitForSecondsRealtime__ctor_mBFC1E4F0E042D5EC6E7EEB211A2FE5193A8F6D6F(L_14, (2.0f), NULL);
-		__this->___U3CU3E2__current = L_14;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)L_14);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_14;
+		L_14 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_13, NULL);
+		NullCheck(L_14);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_14, (bool)1, NULL);
+		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:114>
+		WaitForSecondsRealtime_tA8CE0AAB4B0C872B843E7973637037D17682BA01* L_15 = (WaitForSecondsRealtime_tA8CE0AAB4B0C872B843E7973637037D17682BA01*)il2cpp_codegen_object_new(WaitForSecondsRealtime_tA8CE0AAB4B0C872B843E7973637037D17682BA01_il2cpp_TypeInfo_var);
+		WaitForSecondsRealtime__ctor_mBFC1E4F0E042D5EC6E7EEB211A2FE5193A8F6D6F(L_15, (2.0f), NULL);
+		__this->___U3CU3E2__current = L_15;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)L_15);
 		__this->___U3CU3E1__state = 2;
 		return (bool)1;
 	}
 
-IL_009f:
+IL_00a6:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:94>
-		GameController_tDA619EE453F7ED2C8297EF928518A0B447E44D09* L_15 = V_1;
-		NullCheck(L_15);
-		RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179* L_16 = L_15->___wrongIMG;
+		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:115>
+		GameController_tDA619EE453F7ED2C8297EF928518A0B447E44D09* L_16 = V_1;
 		NullCheck(L_16);
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_17;
-		L_17 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_16, NULL);
+		RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179* L_17 = L_16->___wrongIMG;
 		NullCheck(L_17);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_17, (bool)0, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_18;
+		L_18 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_17, NULL);
+		NullCheck(L_18);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_18, (bool)0, NULL);
 	}
 
-IL_00b7:
+IL_00be:
 	{
-		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:96>
+		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:117>
+		GameController_tDA619EE453F7ED2C8297EF928518A0B447E44D09* L_19 = V_1;
+		NullCheck(L_19);
+		L_19->___allowTimer = (bool)1;
+		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:118>
 		return (bool)0;
 	}
 }
-// Method Definition Index: 112431
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CshowImageU3Ed__14_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mE11A8F233E3D27C072FDEB724B69AC6B42475C4F (U3CshowImageU3Ed__14_t1F8BD8FB64EB8887CE7FDDA6923872C68A0DAB9B* __this, const RuntimeMethod* method) 
+// Method Definition Index: 112413
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CshowImageU3Ed__18_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m0ED230B78BFD7EB14362CFADBC0DAD461F04C170 (U3CshowImageU3Ed__18_t0E45BAD616B494E0E34CAA2067FF5EE0F69411A0* __this, const RuntimeMethod* method) 
 {
 	{
 		RuntimeObject* L_0 = __this->___U3CU3E2__current;
 		return L_0;
 	}
 }
-// Method Definition Index: 112432
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CshowImageU3Ed__14_System_Collections_IEnumerator_Reset_m0D616E83326754B9BD48767EE1FCDDEC01B33F06 (U3CshowImageU3Ed__14_t1F8BD8FB64EB8887CE7FDDA6923872C68A0DAB9B* __this, const RuntimeMethod* method) 
+// Method Definition Index: 112414
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CshowImageU3Ed__18_System_Collections_IEnumerator_Reset_mA41CEFD7B291DC48E4B3E38B17AC2853E729321F (U3CshowImageU3Ed__18_t0E45BAD616B494E0E34CAA2067FF5EE0F69411A0* __this, const RuntimeMethod* method) 
 {
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF(L_0, NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CshowImageU3Ed__14_System_Collections_IEnumerator_Reset_m0D616E83326754B9BD48767EE1FCDDEC01B33F06_RuntimeMethod_var)));
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CshowImageU3Ed__18_System_Collections_IEnumerator_Reset_mA41CEFD7B291DC48E4B3E38B17AC2853E729321F_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 112433
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CshowImageU3Ed__14_System_Collections_IEnumerator_get_Current_mB8DC0A77D3C6331B6C2A34AD97767DDCC6E81403 (U3CshowImageU3Ed__14_t1F8BD8FB64EB8887CE7FDDA6923872C68A0DAB9B* __this, const RuntimeMethod* method) 
+// Method Definition Index: 112415
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CshowImageU3Ed__18_System_Collections_IEnumerator_get_Current_m333FC3E969776633B2CE9622BE0C17806D741948 (U3CshowImageU3Ed__18_t0E45BAD616B494E0E34CAA2067FF5EE0F69411A0* __this, const RuntimeMethod* method) 
 {
 	{
 		RuntimeObject* L_0 = __this->___U3CU3E2__current;
@@ -2504,7 +2658,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CshowImageU3Ed__14_System_Co
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 112434
+// Method Definition Index: 112416
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ImageTargetHandler_Start_m7007058C70B1EE337B3CAF938C58C519104A13A6 (ImageTargetHandler_t912C254221504FD8477662ADBEF6EAEB618F373A* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2547,7 +2701,7 @@ IL_0030:
 		return;
 	}
 }
-// Method Definition Index: 112435
+// Method Definition Index: 112417
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ImageTargetHandler_OnTargetStatusChanged_m2E63FFCC0ECA0A61D041565519952DFD9FBE7373 (ImageTargetHandler_t912C254221504FD8477662ADBEF6EAEB618F373A* __this, ObserverBehaviour_t5523404662BA53BE6118C49F6FFA9E19719115DB* ___0_behaviour, TargetStatus_t5D866F1CAA9D70E5B66D532E69B190EA3BAAC4B0 ___1_status, const RuntimeMethod* method) 
 {
 	{
@@ -2576,7 +2730,7 @@ IL_001b:
 		return;
 	}
 }
-// Method Definition Index: 112436
+// Method Definition Index: 112418
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ImageTargetHandler_Update_mD30F40E62E24C8006AAA6B42E0E2549FFB02A55A (ImageTargetHandler_t912C254221504FD8477662ADBEF6EAEB618F373A* __this, const RuntimeMethod* method) 
 {
 	{
@@ -2584,7 +2738,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ImageTargetHandler_Update_mD30F40E62E24C
 		return;
 	}
 }
-// Method Definition Index: 112437
+// Method Definition Index: 112419
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ImageTargetHandler__ctor_m5A4A7FC125ED90A209E4F9A31C691B103EAA23A0 (ImageTargetHandler_t912C254221504FD8477662ADBEF6EAEB618F373A* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2620,7 +2774,121 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ImageTargetHandler__ctor_m5A4A7FC125ED90
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 112438
+// Method Definition Index: 112420
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdaptiveLayout_Awake_m220C5CA911A87604C80E5B3CA2B9C52A8BAAD5CB (AdaptiveLayout_tFCB64265920D2504EE68AD3D8AB437D80D7CB31E* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponent_TisHorizontalLayoutGroup_t615DFEC1382E2E207BC9CBAA9A511F7ED93965BA_m1DF360D4574B72DBFE3008DB7BFC2D4EDA680CEB_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponent_TisVerticalLayoutGroup_t06B5E51FC8051BF2009E6494876FBB9F3E5320B8_mAC986122994FA401969C9C3D1E463D0181FA836C_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainMenu/AdaptiveLayout.cs:12>
+		VerticalLayoutGroup_t06B5E51FC8051BF2009E6494876FBB9F3E5320B8* L_0;
+		L_0 = Component_GetComponent_TisVerticalLayoutGroup_t06B5E51FC8051BF2009E6494876FBB9F3E5320B8_mAC986122994FA401969C9C3D1E463D0181FA836C(__this, Component_GetComponent_TisVerticalLayoutGroup_t06B5E51FC8051BF2009E6494876FBB9F3E5320B8_mAC986122994FA401969C9C3D1E463D0181FA836C_RuntimeMethod_var);
+		__this->___vertical = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___vertical), (void*)L_0);
+		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainMenu/AdaptiveLayout.cs:13>
+		HorizontalLayoutGroup_t615DFEC1382E2E207BC9CBAA9A511F7ED93965BA* L_1;
+		L_1 = Component_GetComponent_TisHorizontalLayoutGroup_t615DFEC1382E2E207BC9CBAA9A511F7ED93965BA_m1DF360D4574B72DBFE3008DB7BFC2D4EDA680CEB(__this, Component_GetComponent_TisHorizontalLayoutGroup_t615DFEC1382E2E207BC9CBAA9A511F7ED93965BA_m1DF360D4574B72DBFE3008DB7BFC2D4EDA680CEB_RuntimeMethod_var);
+		__this->___horizontal = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___horizontal), (void*)L_1);
+		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainMenu/AdaptiveLayout.cs:14>
+		AdaptiveLayout_UpdateLayout_mA3E80CB205AAF69164ED7D4F6A5C627D735CCC93(__this, NULL);
+		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainMenu/AdaptiveLayout.cs:15>
+		return;
+	}
+}
+// Method Definition Index: 112421
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdaptiveLayout_Update_m0B3A3B997061D3F692D9A078ECC170632D1F2C7C (AdaptiveLayout_tFCB64265920D2504EE68AD3D8AB437D80D7CB31E* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainMenu/AdaptiveLayout.cs:19>
+		AdaptiveLayout_UpdateLayout_mA3E80CB205AAF69164ED7D4F6A5C627D735CCC93(__this, NULL);
+		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainMenu/AdaptiveLayout.cs:20>
+		return;
+	}
+}
+// Method Definition Index: 112422
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdaptiveLayout_UpdateLayout_mA3E80CB205AAF69164ED7D4F6A5C627D735CCC93 (AdaptiveLayout_tFCB64265920D2504EE68AD3D8AB437D80D7CB31E* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	{
+		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainMenu/AdaptiveLayout.cs:24>
+		int32_t L_0;
+		L_0 = Screen_get_height_m01A3102DE71EE1FBEA51D09D6B0261CF864FE8F9(NULL);
+		int32_t L_1;
+		L_1 = Screen_get_width_mF608FF3252213E7EFA1F0D2F744C28110E9E5AC9(NULL);
+		V_0 = (bool)((((int32_t)L_0) > ((int32_t)L_1))? 1 : 0);
+		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainMenu/AdaptiveLayout.cs:26>
+		VerticalLayoutGroup_t06B5E51FC8051BF2009E6494876FBB9F3E5320B8* L_2 = __this->___vertical;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_3;
+		L_3 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_2, NULL);
+		if (!L_3)
+		{
+			goto IL_0026;
+		}
+	}
+	{
+		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainMenu/AdaptiveLayout.cs:26>
+		VerticalLayoutGroup_t06B5E51FC8051BF2009E6494876FBB9F3E5320B8* L_4 = __this->___vertical;
+		bool L_5 = V_0;
+		NullCheck(L_4);
+		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(L_4, L_5, NULL);
+	}
+
+IL_0026:
+	{
+		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainMenu/AdaptiveLayout.cs:27>
+		HorizontalLayoutGroup_t615DFEC1382E2E207BC9CBAA9A511F7ED93965BA* L_6 = __this->___horizontal;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_7;
+		L_7 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_6, NULL);
+		if (!L_7)
+		{
+			goto IL_0042;
+		}
+	}
+	{
+		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainMenu/AdaptiveLayout.cs:27>
+		HorizontalLayoutGroup_t615DFEC1382E2E207BC9CBAA9A511F7ED93965BA* L_8 = __this->___horizontal;
+		bool L_9 = V_0;
+		NullCheck(L_8);
+		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(L_8, (bool)((((int32_t)L_9) == ((int32_t)0))? 1 : 0), NULL);
+	}
+
+IL_0042:
+	{
+		//<source_info:C:/Users/Kilian/ProyectoPlanetas/Assets/Scripts/MainMenu/AdaptiveLayout.cs:28>
+		return;
+	}
+}
+// Method Definition Index: 112423
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdaptiveLayout__ctor_mC408EDB8FF974D54A56A4736D7B213E6FD19877F (AdaptiveLayout_tFCB64265920D2504EE68AD3D8AB437D80D7CB31E* __this, const RuntimeMethod* method) 
+{
+	{
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 112424
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ButtonLayoutManager_Start_mF92C2B0306C93EE50FDD721971533138177503AB (ButtonLayoutManager_tA634F96D56DC2B04681EF7892F12A98A3B9BB12D* __this, const RuntimeMethod* method) 
 {
 	{
@@ -2629,7 +2897,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ButtonLayoutManager_Start_mF92C2B0306C93
 		return;
 	}
 }
-// Method Definition Index: 112439
+// Method Definition Index: 112425
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ButtonLayoutManager_Update_m832068888C22275B68D4C719D9340435C11241F8 (ButtonLayoutManager_tA634F96D56DC2B04681EF7892F12A98A3B9BB12D* __this, const RuntimeMethod* method) 
 {
 	{
@@ -2639,7 +2907,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ButtonLayoutManager_Update_m832068888C22
 		return;
 	}
 }
-// Method Definition Index: 112440
+// Method Definition Index: 112426
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ButtonLayoutManager_UpdateUI_m777E752DD75EB5E29BD1E5CBD1F2F4EF8B88983E (ButtonLayoutManager_tA634F96D56DC2B04681EF7892F12A98A3B9BB12D* __this, const RuntimeMethod* method) 
 {
 	bool V_0 = false;
@@ -2664,7 +2932,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ButtonLayoutManager_UpdateUI_m777E752DD7
 		return;
 	}
 }
-// Method Definition Index: 112441
+// Method Definition Index: 112427
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ButtonLayoutManager__ctor_mEC541E152AA32F09B15F8EF9F87E4FCEE762EAD4 (ButtonLayoutManager_tA634F96D56DC2B04681EF7892F12A98A3B9BB12D* __this, const RuntimeMethod* method) 
 {
 	{
@@ -2680,7 +2948,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ButtonLayoutManager__ctor_mEC541E152AA32
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 112442
+// Method Definition Index: 112428
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MenuManager_StartGame_m24E9FA197C3694B75918B1103C9C2400CAD67BC4 (MenuManager_t34C8EA4F128D811DE986BE56D7938F2720BA7B16* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2698,7 +2966,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MenuManager_StartGame_m24E9FA197C3694B75
 		return;
 	}
 }
-// Method Definition Index: 112443
+// Method Definition Index: 112429
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MenuManager_CloseGame_m20A0E94D8AE812CF6464DC552E72D018328F0638 (MenuManager_t34C8EA4F128D811DE986BE56D7938F2720BA7B16* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2715,7 +2983,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MenuManager_CloseGame_m20A0E94D8AE812CF6
 		return;
 	}
 }
-// Method Definition Index: 112444
+// Method Definition Index: 112430
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MenuManager__ctor_m07A22DFDD90E3164393F8BDE06DAEF5AFA786CF2 (MenuManager_t34C8EA4F128D811DE986BE56D7938F2720BA7B16* __this, const RuntimeMethod* method) 
 {
 	{
@@ -2731,7 +2999,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MenuManager__ctor_m07A22DFDD90E3164393F8
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 112445
+// Method Definition Index: 112431
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlanetRing_OnEnable_mD777DB0E4EBEE5C944BE60E1F309137AFA18B6AA (PlanetRing_t866DA9F564C313DE9D5364CCBF57383576DF251E* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2776,7 +3044,7 @@ IL_0022:
 		return;
 	}
 }
-// Method Definition Index: 112446
+// Method Definition Index: 112432
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlanetRing_OnValidate_m06C3E8A17B5698B322C4FB541E0F4E0E83942E3A (PlanetRing_t866DA9F564C313DE9D5364CCBF57383576DF251E* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2821,7 +3089,7 @@ IL_0022:
 		return;
 	}
 }
-// Method Definition Index: 112447
+// Method Definition Index: 112433
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlanetRing_SetUpRing_m0C67476ECF054A32E49AF1DF0672CB0274C8A804 (PlanetRing_t866DA9F564C313DE9D5364CCBF57383576DF251E* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2979,7 +3247,7 @@ IL_010f:
 		return;
 	}
 }
-// Method Definition Index: 112448
+// Method Definition Index: 112434
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlanetRing_BuildRingMesh_m8B30D1CCCA913798A181C4EE1D5D1F78A4C94A43 (PlanetRing_t866DA9F564C313DE9D5364CCBF57383576DF251E* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3283,7 +3551,7 @@ IL_0255:
 		return;
 	}
 }
-// Method Definition Index: 112449
+// Method Definition Index: 112435
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlanetRing__ctor_m588D8856EC9E44FC4621B2AB29C57BB2E91B2042 (PlanetRing_t866DA9F564C313DE9D5364CCBF57383576DF251E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -3305,7 +3573,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlanetRing__ctor_m588D8856EC9E44FC4621B2
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 112450
+// Method Definition Index: 112436
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Readme__ctor_m69C325C4C171DCB0312B646A9034AA91EA8C39C6 (Readme_tE17B99201D0F52BD5727638AD3F41072A65B3BBB* __this, const RuntimeMethod* method) 
 {
 	{
@@ -3321,7 +3589,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Readme__ctor_m69C325C4C171DCB0312B646A90
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 112451
+// Method Definition Index: 112437
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Section__ctor_m5F732533E4DFC0167D965E5F5DB332E46055399B (Section_t50C894D0A717C2368EBAAE5477D4E8626D0B5401* __this, const RuntimeMethod* method) 
 {
 	{
@@ -3337,7 +3605,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Section__ctor_m5F732533E4DFC0167D965E5F5
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 112452
+// Method Definition Index: 112438
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* VuforiaLicense_GetLicenseKey_m796D51E5EF1C53F3D62BA4EA8806AC1FB1A5E3C4 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3351,7 +3619,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* VuforiaLicense_GetLicenseKey_m796D5
 		return _stringLiteralBA3A5185446BA28DBDF3F9F154AF5775D5807643;
 	}
 }
-// Method Definition Index: 112453
+// Method Definition Index: 112439
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VuforiaLicense__ctor_m094B92B3323DFFD79ADB696474D5D158C95E291B (VuforiaLicense_t558A3A93186A45EF8A9401D2262B52B5593182BC* __this, const RuntimeMethod* method) 
 {
 	{
@@ -3367,41 +3635,41 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VuforiaLicense__ctor_m094B92B3323DFFD79A
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 112454
+// Method Definition Index: 112440
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____029ABA8CFBA6FCE66ACA33E68385DFE4805DE8F1BEAE68239A0561324B326838_FieldInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____3CAF3869153963A7C46693F455CAE5E080AF388F5D13AF0FEE561DB364AAFC06_FieldInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____A0FF5465CBD338EF5D72A7B473A55C66D4C291FB26036A447B563139630C89D3_FieldInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____FA67B3DB08FBD3D89B45571D2CBD8724FF178A04EE0D6629E881A18821D3BA11_FieldInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
 		il2cpp_codegen_initobj((&V_0), sizeof(MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E));
-		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)((int32_t)335));
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)((int32_t)385));
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_1 = L_0;
-		RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 L_2 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____029ABA8CFBA6FCE66ACA33E68385DFE4805DE8F1BEAE68239A0561324B326838_FieldInfo_var) };
+		RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 L_2 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____A0FF5465CBD338EF5D72A7B473A55C66D4C291FB26036A447B563139630C89D3_FieldInfo_var) };
 		RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B((RuntimeArray*)L_1, L_2, NULL);
 		(&V_0)->___FilePathsData = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___FilePathsData), (void*)L_1);
-		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_3 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)((int32_t)153));
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_3 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)((int32_t)173));
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_4 = L_3;
-		RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 L_5 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____3CAF3869153963A7C46693F455CAE5E080AF388F5D13AF0FEE561DB364AAFC06_FieldInfo_var) };
+		RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 L_5 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____FA67B3DB08FBD3D89B45571D2CBD8724FF178A04EE0D6629E881A18821D3BA11_FieldInfo_var) };
 		RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B((RuntimeArray*)L_4, L_5, NULL);
 		(&V_0)->___TypesData = L_4;
 		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___TypesData), (void*)L_4);
-		(&V_0)->___TotalFiles = 7;
-		(&V_0)->___TotalTypes = 8;
+		(&V_0)->___TotalFiles = 8;
+		(&V_0)->___TotalTypes = ((int32_t)9);
 		(&V_0)->___IsEditorOnly = (bool)0;
 		MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E L_6 = V_0;
 		return L_6;
 	}
 }
-// Method Definition Index: 112455
+// Method Definition Index: 112441
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (UnitySourceGeneratedAssemblyMonoScriptTypes_v1_tC95F24D0C6E6B77389433852BB389F39C692926E* __this, const RuntimeMethod* method) 
 {
 	{
