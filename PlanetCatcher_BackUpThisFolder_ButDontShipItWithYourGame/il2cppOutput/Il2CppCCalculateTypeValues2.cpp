@@ -3872,7 +3872,6 @@ struct U3CreturnToMenuU3Ed__19_t5B2A313302BC000F75BBA85A6830F068B30A285F  : publ
 {
 	int32_t ___U3CU3E1__state;
 	RuntimeObject* ___U3CU3E2__current;
-	GameController_tDA619EE453F7ED2C8297EF928518A0B447E44D09* ___U3CU3E4__this;
 };
 struct U3CshowImageU3Ed__18_t0E45BAD616B494E0E34CAA2067FF5EE0F69411A0  : public RuntimeObject
 {
@@ -30909,6 +30908,7 @@ struct GameController_tDA619EE453F7ED2C8297EF928518A0B447E44D09  : public MonoBe
 	TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* ___timeLeftText;
 	float ___time;
 	bool ___allowTimer;
+	bool ___gameOver;
 	String_t* ___currentTarget;
 	int32_t ___attemptsLeft;
 	int32_t ___score;

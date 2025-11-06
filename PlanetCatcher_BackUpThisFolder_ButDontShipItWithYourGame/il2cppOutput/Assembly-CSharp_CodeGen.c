@@ -12,7 +12,6 @@ extern void GameController_updateUI_mE4F7F57CE7004374BFEA308FF5E5B4D5F11C488D (v
 extern void GameController_OnTargetFound_m636386392897DC7EBFACF3676486DBBE621DD8F8 (void);
 extern void GameController_playerFailed_mC3D28C3DC2CB92C018E2A086E67096C83349BAD6 (void);
 extern void GameController_generateNextTarget_mB9974FDE85033176A11939F755A88029EC64E02B (void);
-extern void GameController_GameOver_m79F2AC84C02E922C0A041133D6CF029886353C66 (void);
 extern void GameController_showImage_m509C39AAE9A20CFC9F2199E6DED5875378319D0C (void);
 extern void GameController_returnToMenu_mBB683EA09FB73C1116370F52708ED9F2C3EDF6B4 (void);
 extern void GameController_Update_m5E36D1D6999A7510DFDFBF6805CF9E9CB50F0962 (void);
@@ -31,7 +30,6 @@ extern void U3CshowImageU3Ed__18_System_Collections_IEnumerator_Reset_mA41CEFD7B
 extern void U3CshowImageU3Ed__18_System_Collections_IEnumerator_get_Current_m333FC3E969776633B2CE9622BE0C17806D741948 (void);
 extern void ImageTargetHandler_Start_m7007058C70B1EE337B3CAF938C58C519104A13A6 (void);
 extern void ImageTargetHandler_OnTargetStatusChanged_m2E63FFCC0ECA0A61D041565519952DFD9FBE7373 (void);
-extern void ImageTargetHandler_Update_mD30F40E62E24C8006AAA6B42E0E2549FFB02A55A (void);
 extern void ImageTargetHandler__ctor_m5A4A7FC125ED90A209E4F9A31C691B103EAA23A0 (void);
 extern void AdaptiveLayout_Awake_m220C5CA911A87604C80E5B3CA2B9C52A8BAAD5CB (void);
 extern void AdaptiveLayout_Update_m0B3A3B997061D3F692D9A078ECC170632D1F2C7C (void);
@@ -55,14 +53,13 @@ extern void VuforiaLicense_GetLicenseKey_m796D51E5EF1C53F3D62BA4EA8806AC1FB1A5E3
 extern void VuforiaLicense__ctor_m094B92B3323DFFD79ADB696474D5D158C95E291B (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (void);
-static Il2CppMethodPointer s_methodPointers[48] = 
+static Il2CppMethodPointer s_methodPointers[46] = 
 {
 	GameController_Start_mD0C79B8B5B5D8EDC88F7F2F88B5954B1342198EF,
 	GameController_updateUI_mE4F7F57CE7004374BFEA308FF5E5B4D5F11C488D,
 	GameController_OnTargetFound_m636386392897DC7EBFACF3676486DBBE621DD8F8,
 	GameController_playerFailed_mC3D28C3DC2CB92C018E2A086E67096C83349BAD6,
 	GameController_generateNextTarget_mB9974FDE85033176A11939F755A88029EC64E02B,
-	GameController_GameOver_m79F2AC84C02E922C0A041133D6CF029886353C66,
 	GameController_showImage_m509C39AAE9A20CFC9F2199E6DED5875378319D0C,
 	GameController_returnToMenu_mBB683EA09FB73C1116370F52708ED9F2C3EDF6B4,
 	GameController_Update_m5E36D1D6999A7510DFDFBF6805CF9E9CB50F0962,
@@ -81,7 +78,6 @@ static Il2CppMethodPointer s_methodPointers[48] =
 	U3CshowImageU3Ed__18_System_Collections_IEnumerator_get_Current_m333FC3E969776633B2CE9622BE0C17806D741948,
 	ImageTargetHandler_Start_m7007058C70B1EE337B3CAF938C58C519104A13A6,
 	ImageTargetHandler_OnTargetStatusChanged_m2E63FFCC0ECA0A61D041565519952DFD9FBE7373,
-	ImageTargetHandler_Update_mD30F40E62E24C8006AAA6B42E0E2549FFB02A55A,
 	ImageTargetHandler__ctor_m5A4A7FC125ED90A209E4F9A31C691B103EAA23A0,
 	AdaptiveLayout_Awake_m220C5CA911A87604C80E5B3CA2B9C52A8BAAD5CB,
 	AdaptiveLayout_Update_m0B3A3B997061D3F692D9A078ECC170632D1F2C7C,
@@ -106,12 +102,11 @@ static Il2CppMethodPointer s_methodPointers[48] =
 	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033,
 	UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1,
 };
-static const int32_t s_InvokerIndices[48] = 
+static const int32_t s_InvokerIndices[46] = 
 {
 	17133,
 	17133,
 	13047,
-	17133,
 	17133,
 	17133,
 	11208,
@@ -151,7 +146,6 @@ static const int32_t s_InvokerIndices[48] =
 	17133,
 	17133,
 	17133,
-	17133,
 	28727,
 	17133,
 	28868,
@@ -161,7 +155,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	48,
+	46,
 	s_methodPointers,
 	0,
 	NULL,

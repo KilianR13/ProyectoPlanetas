@@ -21,6 +21,7 @@ public class GameController : MonoBehaviour
 
     private float time;
     private bool allowTimer;
+    private bool gameOver;
     private string currentTarget;
     private int attemptsLeft = 3;
     private int score = 0;
@@ -32,6 +33,7 @@ public class GameController : MonoBehaviour
     {
         time = 10f;
         allowTimer = true;
+        gameOver = false;
         correctIMG.gameObject.SetActive(false);
         wrongIMG.gameObject.SetActive(false);
         generateNextTarget();
@@ -50,7 +52,6 @@ public class GameController : MonoBehaviour
     {
         if (attemptsLeft > 0)
         {
-            allowTimer = false;
             // scoreText.text = targetFound; // Debug
             if (targetFound == currentTarget)
             {
@@ -77,11 +78,12 @@ public class GameController : MonoBehaviour
         if (attemptsLeft <= 0)
         {
             // El jugador pierde.
+            allowTimer = false;
+            gameOver = true;
+            timeLeftText.text = "";
+            attemptsLeftText.text = "Attempts: 0";
+            targetNameText.text = "GAME OVER!";
             StartCoroutine(returnToMenu());
-        }
-        else
-        {
-            allowTimer = true;
         }
     }
 
@@ -89,13 +91,6 @@ public class GameController : MonoBehaviour
     {
         int randomPos = UnityEngine.Random.Range(0, targets.Count);
         currentTarget = targets[randomPos];
-        allowTimer = true;
-    }
-    private void GameOver()
-    {
-        allowTimer = false;
-        attemptsLeftText.text = "Attempts: 0";
-        targetNameText.text = "GAME OVER!";
     }
 
     // Este código es estúpido
@@ -114,17 +109,23 @@ public class GameController : MonoBehaviour
             yield return new WaitForSecondsRealtime(2.0f);
             wrongIMG.gameObject.SetActive(false);
         }
+        if (!gameOver)
+        {
+            allowTimer = true;    
+        }
     }
     private IEnumerator returnToMenu()
     {
-        GameOver();
         yield return new WaitForSecondsRealtime(4.0f);
         SceneManager.LoadScene("mainMenu");
     }
 
     void Update()
     {
-        timeLeftText.text = Mathf.Floor(time).ToString();
+        if (!gameOver)
+        {
+            timeLeftText.text = Mathf.Floor(time).ToString();    
+        }
         if (allowTimer)
         {
             time -= Time.deltaTime;    

@@ -24,10 +24,4 @@ public class ImageTargetHandler : MonoBehaviour
             gameController.OnTargetFound(behaviour.TargetName); // Detecta la imagen y le pasa el nombre de la imagen
         }
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
