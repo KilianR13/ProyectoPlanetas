@@ -42,8 +42,8 @@ public class GameController : MonoBehaviour
     {
         time = 10f;
         targetNameText.text = "Search for: " + currentTarget;
-        attemptsLeftText.text = "Attempts left: " + attemptsLeft;
-        scoreText.text = "Current score: " + score;
+        attemptsLeftText.text = "Attempts: " + attemptsLeft;
+        scoreText.text = "Score: " + score;
     }
 
     public void OnTargetFound(String targetFound)
@@ -94,7 +94,7 @@ public class GameController : MonoBehaviour
     private void GameOver()
     {
         allowTimer = false;
-        attemptsLeftText.text = "Attempts left: 0";
+        attemptsLeftText.text = "Attempts: 0";
         targetNameText.text = "GAME OVER!";
     }
 
@@ -114,7 +114,6 @@ public class GameController : MonoBehaviour
             yield return new WaitForSecondsRealtime(2.0f);
             wrongIMG.gameObject.SetActive(false);
         }
-        allowTimer = true;
     }
     private IEnumerator returnToMenu()
     {
