@@ -6,7 +6,10 @@ public class ImageTargetHandler : MonoBehaviour
 {
     private ObserverBehaviour observerBehaviour;
     [SerializeField] private GameController gameController;
-    private List<string> targets = new List<string>() { "", "" };
+    private string lastTarget = "";
+    private float lastDetectionTime = 0f;
+    private float detectionCooldown = 2f;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -21,7 +24,16 @@ public class ImageTargetHandler : MonoBehaviour
     {
         if (status.Status == Status.TRACKED)
         {
-            gameController.OnTargetFound(behaviour.TargetName); // Detecta la imagen y le pasa el nombre de la imagen
+            string targetName = behaviour.TargetName;
+
+            // Evitar repeticiones si es el mismo target demasiado pronto
+            if (targetName == lastTarget && Time.time - lastDetectionTime < detectionCooldown)
+                return;
+
+            lastTarget = targetName;
+            lastDetectionTime = Time.time;
+
+            gameController.OnTargetFound(targetName);
         }
     }
 }

@@ -54,6 +54,7 @@ struct Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C;
 struct WordWrapStateU5BU5D_t473D59C9DBCC949CE72EF1EB471CBA152A6CEAC9;
 struct SectionU5BU5D_t9D3017555FFF42E71BE91904A2486EAF429F24C4;
 struct TextProcessingElementU5BU5D_tC3E97D1672C8DB6E1F91DB2C0987D0ED9A2E7113;
+struct AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299;
 struct CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B;
 struct Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26;
 struct CanvasRenderer_tAB9A55A976C4E3B2B37D0CE5616E5685A8B43860;
@@ -106,8 +107,8 @@ struct VertexHelper_tB905FCB02AE67CBEE5F265FE37A5938FC5D136FE;
 struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915;
 struct VuforiaLicense_t558A3A93186A45EF8A9401D2262B52B5593182BC;
 struct WaitForSecondsRealtime_tA8CE0AAB4B0C872B843E7973637037D17682BA01;
-struct U3CreturnToMenuU3Ed__19_t5B2A313302BC000F75BBA85A6830F068B30A285F;
-struct U3CshowImageU3Ed__18_t0E45BAD616B494E0E34CAA2067FF5EE0F69411A0;
+struct U3CreturnToMenuU3Ed__21_tFFD4784210EE05BB9AD77CDB3A0EA4B48EAC34B6;
+struct U3CshowImageU3Ed__20_t080A44A8D9886C3D1457BE501D1C0509D471B238;
 struct CullStateChangedEvent_t6073CD0D951EC1256BF74B8F9107D68FC89B99B8;
 struct Section_t50C894D0A717C2368EBAAE5477D4E8626D0B5401;
 struct MissingCharacterEventCallback_t955241181324E0FEF9A9BDBA400E8780F8979DE6;
@@ -123,8 +124,8 @@ IL2CPP_EXTERN_C RuntimeClass* NotSupportedException_t1429765983D409BD2986508963C
 IL2CPP_EXTERN_C RuntimeClass* Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* U3CreturnToMenuU3Ed__19_t5B2A313302BC000F75BBA85A6830F068B30A285F_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* U3CshowImageU3Ed__18_t0E45BAD616B494E0E34CAA2067FF5EE0F69411A0_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CreturnToMenuU3Ed__21_tFFD4784210EE05BB9AD77CDB3A0EA4B48EAC34B6_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CshowImageU3Ed__20_t080A44A8D9886C3D1457BE501D1C0509D471B238_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var;
@@ -160,8 +161,8 @@ IL2CPP_EXTERN_C const RuntimeMethod* List_1_Add_mF10DB1D3CBB0B14215F0E4F8AB4934A
 IL2CPP_EXTERN_C const RuntimeMethod* List_1__ctor_mCA8DD57EAC70C2B5923DBB9D5A77CEAC22E7068E_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Count_mB63183A9151F4345A9DD444A7CBE0D6E03F77C7C_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Item_m21AEC50E791371101DC22ABCF96A2E46800811F8_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* U3CreturnToMenuU3Ed__19_System_Collections_IEnumerator_Reset_m3D2BC9CFCF8A16FEEF3858C2B3CFF4A4E302EB17_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* U3CshowImageU3Ed__18_System_Collections_IEnumerator_Reset_mA41CEFD7B291DC48E4B3E38B17AC2853E729321F_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CreturnToMenuU3Ed__21_System_Collections_IEnumerator_Reset_m28A3C6617C0A1B20D3C152A3EBC33963975CFB38_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CshowImageU3Ed__20_System_Collections_IEnumerator_Reset_m9E40A093E7FAB99EE1D609AAC626A45AD5D92A43_RuntimeMethod_var;
 struct Delegate_t_marshaled_com;
 struct Delegate_t_marshaled_pinvoke;
 struct Exception_t_marshaled_com;
@@ -233,12 +234,12 @@ struct YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D_marshaled_pinv
 struct YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D_marshaled_com
 {
 };
-struct U3CreturnToMenuU3Ed__19_t5B2A313302BC000F75BBA85A6830F068B30A285F  : public RuntimeObject
+struct U3CreturnToMenuU3Ed__21_tFFD4784210EE05BB9AD77CDB3A0EA4B48EAC34B6  : public RuntimeObject
 {
 	int32_t ___U3CU3E1__state;
 	RuntimeObject* ___U3CU3E2__current;
 };
-struct U3CshowImageU3Ed__18_t0E45BAD616B494E0E34CAA2067FF5EE0F69411A0  : public RuntimeObject
+struct U3CshowImageU3Ed__20_t080A44A8D9886C3D1457BE501D1C0509D471B238  : public RuntimeObject
 {
 	int32_t ___U3CU3E1__state;
 	RuntimeObject* ___U3CU3E2__current;
@@ -1166,12 +1167,18 @@ struct TMP_TextProcessingStack_1_t2DDA00FFC64AF6E3AFD475AB2086D16C34787E0F
 	int32_t ___m_RolloverSize;
 	int32_t ___m_Count;
 };
+struct AudioBehaviour_t2DC0BEF7B020C952F3D2DA5AAAC88501C7EEB941  : public Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA
+{
+};
 struct MeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE  : public Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF
 {
 };
 struct MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71  : public Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA
 {
 	CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B* ___m_CancellationTokenSource;
+};
+struct AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299  : public AudioBehaviour_t2DC0BEF7B020C952F3D2DA5AAAC88501C7EEB941
+{
 };
 struct GameController_tDA619EE453F7ED2C8297EF928518A0B447E44D09  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
@@ -1181,6 +1188,8 @@ struct GameController_tDA619EE453F7ED2C8297EF928518A0B447E44D09  : public MonoBe
 	TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* ___targetNameText;
 	TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* ___attemptsLeftText;
 	TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* ___timeLeftText;
+	AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* ___correctSFX;
+	AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* ___wrongSFX;
 	float ___time;
 	bool ___allowTimer;
 	bool ___gameOver;
@@ -1193,7 +1202,9 @@ struct ImageTargetHandler_t912C254221504FD8477662ADBEF6EAEB618F373A  : public Mo
 {
 	ObserverBehaviour_t5523404662BA53BE6118C49F6FFA9E19719115DB* ___observerBehaviour;
 	GameController_tDA619EE453F7ED2C8297EF928518A0B447E44D09* ___gameController;
-	List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* ___targets;
+	String_t* ___lastTarget;
+	float ___lastDetectionTime;
+	float ___detectionCooldown;
 };
 struct MenuManager_t34C8EA4F128D811DE986BE56D7938F2720BA7B16  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
@@ -1821,8 +1832,8 @@ inline String_t* List_1_get_Item_m21AEC50E791371101DC22ABCF96A2E46800811F8 (List
 {
 	return ((  String_t* (*) (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD*, int32_t, const RuntimeMethod*))List_1_get_Item_m33561245D64798C2AB07584C0EC4F240E4839A38_gshared)(__this, ___0_index, method);
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CshowImageU3Ed__18__ctor_mA8A1D9178290945F75EC2D771B070BCCC85142C7 (U3CshowImageU3Ed__18_t0E45BAD616B494E0E34CAA2067FF5EE0F69411A0* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CreturnToMenuU3Ed__19__ctor_mB28B1B8A8BDA18FE5306DDDA9DA8ED356EE33AB7 (U3CreturnToMenuU3Ed__19_t5B2A313302BC000F75BBA85A6830F068B30A285F* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CshowImageU3Ed__20__ctor_mF9856696E6D295FE01906A29F434BE6DD0F0DE5F (U3CshowImageU3Ed__20_t080A44A8D9886C3D1457BE501D1C0509D471B238* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CreturnToMenuU3Ed__21__ctor_mD939D4B5B8078C528C7D458D0FFDCB57321B3F0B (U3CreturnToMenuU3Ed__21_tFFD4784210EE05BB9AD77CDB3A0EA4B48EAC34B6* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Single_ToString_mE282EDA9CA4F7DF88432D807732837A629D04972 (float* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865 (const RuntimeMethod* method) ;
 inline void List_1__ctor_mCA8DD57EAC70C2B5923DBB9D5A77CEAC22E7068E (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* __this, const RuntimeMethod* method)
@@ -1838,6 +1849,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object__ctor_mE837C6B9FA8C6D5D109F4B2EC8
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaitForSecondsRealtime__ctor_mBFC1E4F0E042D5EC6E7EEB211A2FE5193A8F6D6F (WaitForSecondsRealtime_tA8CE0AAB4B0C872B843E7973637037D17682BA01* __this, float ___0_time, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E (String_t* ___0_sceneName, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioSource_Play_m95DF07111C61D0E0F00257A00384D31531D590C3 (AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* __this, const RuntimeMethod* method) ;
 inline ObserverBehaviour_t5523404662BA53BE6118C49F6FFA9E19719115DB* Component_GetComponent_TisObserverBehaviour_t5523404662BA53BE6118C49F6FFA9E19719115DB_mDC639300BE47642C9C8B6B9B1037E43085704742 (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method)
 {
 	return ((  ObserverBehaviour_t5523404662BA53BE6118C49F6FFA9E19719115DB* (*) (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3*, const RuntimeMethod*))Component_GetComponent_TisRuntimeObject_m7181F81CAEC2CF53F5D2BC79B7425C16E1F80D33_gshared)(__this, method);
@@ -1850,6 +1862,7 @@ inline void Action_2__ctor_mCE1D840FD103AC1247B1231CAB0A34B795A2978C (Action_2_t
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ObserverBehaviour_add_OnTargetStatusChanged_m3EEEEDBF95D9B118056440AACBC08A516975FA6F (ObserverBehaviour_t5523404662BA53BE6118C49F6FFA9E19719115DB* __this, Action_2_tAC0AA9B652075EE1CE661500AC3373C7008D598F* ___0_value, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t TargetStatus_get_Status_m6CA973C4D857DCA6B775DF7E053B0990A83026A3_inline (TargetStatus_t5D866F1CAA9D70E5B66D532E69B190EA3BAAC4B0* __this, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* ObserverBehaviour_get_TargetName_mFB6FC5459068E0E9800E2C8AFFEF6F8F48297AB1_inline (ObserverBehaviour_t5523404662BA53BE6118C49F6FFA9E19719115DB* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Time_get_time_m3A271BB1B20041144AC5B7863B71AB1F0150374B (const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameController_OnTargetFound_m636386392897DC7EBFACF3676486DBBE621DD8F8 (GameController_tDA619EE453F7ED2C8297EF928518A0B447E44D09* __this, String_t* ___0_targetFound, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GameObject_get_activeSelf_m4F3E5240E138B66AAA080EA30759A3D0517DA368 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Application_Quit_mE304382DB9A6455C2A474C8F364C7387F37E9281 (const RuntimeMethod* method) ;
@@ -1916,39 +1929,39 @@ inline void List_1_AddWithResize_m79A9BF770BEF9C06BE40D5401E55E375F2726CC4 (List
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 112414
+// Method Definition Index: 112419
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameController_Start_mD0C79B8B5B5D8EDC88F7F2F88B5954B1342198EF (GameController_tDA619EE453F7ED2C8297EF928518A0B447E44D09* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:34>
+		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:39>
 		__this->___time = (10.0f);
-		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:35>
+		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:40>
 		__this->___allowTimer = (bool)1;
-		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:36>
+		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:41>
 		__this->___gameOver = (bool)0;
-		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:37>
+		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:42>
 		RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179* L_0 = __this->___correctIMG;
 		NullCheck(L_0);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1;
 		L_1 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_0, NULL);
 		NullCheck(L_1);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_1, (bool)0, NULL);
-		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:38>
+		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:43>
 		RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179* L_2 = __this->___wrongIMG;
 		NullCheck(L_2);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3;
 		L_3 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_2, NULL);
 		NullCheck(L_3);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_3, (bool)0, NULL);
-		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:39>
+		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:44>
 		GameController_generateNextTarget_mB9974FDE85033176A11939F755A88029EC64E02B(__this, NULL);
-		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:40>
+		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:45>
 		GameController_updateUI_mE4F7F57CE7004374BFEA308FF5E5B4D5F11C488D(__this, NULL);
-		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:41>
+		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:46>
 		return;
 	}
 }
-// Method Definition Index: 112415
+// Method Definition Index: 112420
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameController_updateUI_mE4F7F57CE7004374BFEA308FF5E5B4D5F11C488D (GameController_tDA619EE453F7ED2C8297EF928518A0B447E44D09* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1960,16 +1973,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameController_updateUI_mE4F7F57CE700437
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:45>
+		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:50>
 		__this->___time = (10.0f);
-		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:46>
+		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:51>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_0 = __this->___targetNameText;
 		String_t* L_1 = __this->___currentTarget;
 		String_t* L_2;
 		L_2 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral424125287DAF43815A9FC588AB7ED2A24358F4D8, L_1, NULL);
 		NullCheck(L_0);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_0, L_2);
-		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:47>
+		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:52>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_3 = __this->___attemptsLeftText;
 		int32_t* L_4 = (int32_t*)(&__this->___attemptsLeft);
 		String_t* L_5;
@@ -1978,7 +1991,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameController_updateUI_mE4F7F57CE700437
 		L_6 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral4C66E45573C133DD8A6C2C27F219D662406993BA, L_5, NULL);
 		NullCheck(L_3);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_3, L_6);
-		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:48>
+		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:53>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_7 = __this->___scoreText;
 		int32_t* L_8 = (int32_t*)(&__this->___score);
 		String_t* L_9;
@@ -1987,15 +2000,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameController_updateUI_mE4F7F57CE700437
 		L_10 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral1B00FE8D93C8DA57AEA59DB0FE808A827C3503B6, L_9, NULL);
 		NullCheck(L_7);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_7, L_10);
-		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:49>
+		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:54>
 		return;
 	}
 }
-// Method Definition Index: 112416
+// Method Definition Index: 112421
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameController_OnTargetFound_m636386392897DC7EBFACF3676486DBBE621DD8F8 (GameController_tDA619EE453F7ED2C8297EF928518A0B447E44D09* __this, String_t* ___0_targetFound, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:53>
+		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:58>
 		int32_t L_0 = __this->___attemptsLeft;
 		if ((((int32_t)L_0) <= ((int32_t)0)))
 		{
@@ -2003,7 +2016,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameController_OnTargetFound_m6363863928
 		}
 	}
 	{
-		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:56>
+		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:61>
 		String_t* L_1 = ___0_targetFound;
 		String_t* L_2 = __this->___currentTarget;
 		bool L_3;
@@ -2014,34 +2027,34 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameController_OnTargetFound_m6363863928
 		}
 	}
 	{
-		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:59>
+		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:64>
 		int32_t L_4 = __this->___score;
 		__this->___score = ((int32_t)il2cpp_codegen_add(L_4, 1));
-		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:60>
+		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:65>
 		RuntimeObject* L_5;
 		L_5 = GameController_showImage_m509C39AAE9A20CFC9F2199E6DED5875378319D0C(__this, (bool)1, NULL);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_6;
 		L_6 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_5, NULL);
-		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:61>
+		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:66>
 		GameController_generateNextTarget_mB9974FDE85033176A11939F755A88029EC64E02B(__this, NULL);
-		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:62>
+		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:67>
 		GameController_updateUI_mE4F7F57CE7004374BFEA308FF5E5B4D5F11C488D(__this, NULL);
 		return;
 	}
 
 IL_0040:
 	{
-		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:67>
+		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:72>
 		GameController_playerFailed_mC3D28C3DC2CB92C018E2A086E67096C83349BAD6(__this, NULL);
 	}
 
 IL_0046:
 	{
-		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:71>
+		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:76>
 		return;
 	}
 }
-// Method Definition Index: 112417
+// Method Definition Index: 112422
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameController_playerFailed_mC3D28C3DC2CB92C018E2A086E67096C83349BAD6 (GameController_tDA619EE453F7ED2C8297EF928518A0B447E44D09* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2053,17 +2066,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameController_playerFailed_mC3D28C3DC2C
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:75>
+		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:80>
 		int32_t L_0 = __this->___attemptsLeft;
 		__this->___attemptsLeft = ((int32_t)il2cpp_codegen_subtract(L_0, 1));
-		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:76>
+		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:81>
 		GameController_updateUI_mE4F7F57CE7004374BFEA308FF5E5B4D5F11C488D(__this, NULL);
-		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:77>
+		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:82>
 		RuntimeObject* L_1;
 		L_1 = GameController_showImage_m509C39AAE9A20CFC9F2199E6DED5875378319D0C(__this, (bool)0, NULL);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_2;
 		L_2 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_1, NULL);
-		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:78>
+		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:83>
 		int32_t L_3 = __this->___attemptsLeft;
 		if ((((int32_t)L_3) > ((int32_t)0)))
 		{
@@ -2071,23 +2084,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameController_playerFailed_mC3D28C3DC2C
 		}
 	}
 	{
-		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:81>
+		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:86>
 		__this->___allowTimer = (bool)0;
-		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:82>
+		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:87>
 		__this->___gameOver = (bool)1;
-		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:83>
+		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:88>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_4 = __this->___timeLeftText;
 		NullCheck(L_4);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_4, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
-		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:84>
+		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:89>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_5 = __this->___attemptsLeftText;
 		NullCheck(L_5);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_5, _stringLiteralC41DD0E557FFBE497098728BAA49AA3B5098DD2E);
-		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:85>
+		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:90>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_6 = __this->___targetNameText;
 		NullCheck(L_6);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_6, _stringLiteral0A4A2072AF174386E423A74D152CEF42BD29F6BC);
-		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:86>
+		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:91>
 		RuntimeObject* L_7;
 		L_7 = GameController_returnToMenu_mBB683EA09FB73C1116370F52708ED9F2C3EDF6B4(__this, NULL);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_8;
@@ -2096,11 +2109,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameController_playerFailed_mC3D28C3DC2C
 
 IL_0076:
 	{
-		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:88>
+		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:93>
 		return;
 	}
 }
-// Method Definition Index: 112418
+// Method Definition Index: 112423
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameController_generateNextTarget_mB9974FDE85033176A11939F755A88029EC64E02B (GameController_tDA619EE453F7ED2C8297EF928518A0B447E44D09* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2112,7 +2125,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameController_generateNextTarget_mB9974
 	}
 	int32_t V_0 = 0;
 	{
-		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:92>
+		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:97>
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_0 = __this->___targets;
 		NullCheck(L_0);
 		int32_t L_1;
@@ -2120,7 +2133,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameController_generateNextTarget_mB9974
 		int32_t L_2;
 		L_2 = Random_Range_m6763D9767F033357F88B6637F048F4ACA4123B68(0, L_1, NULL);
 		V_0 = L_2;
-		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:93>
+		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:98>
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_3 = __this->___targets;
 		int32_t L_4 = V_0;
 		NullCheck(L_3);
@@ -2128,54 +2141,54 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameController_generateNextTarget_mB9974
 		L_5 = List_1_get_Item_m21AEC50E791371101DC22ABCF96A2E46800811F8(L_3, L_4, List_1_get_Item_m21AEC50E791371101DC22ABCF96A2E46800811F8_RuntimeMethod_var);
 		__this->___currentTarget = L_5;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___currentTarget), (void*)L_5);
-		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:94>
+		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:99>
 		return;
 	}
 }
-// Method Definition Index: 112419
+// Method Definition Index: 112424
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GameController_showImage_m509C39AAE9A20CFC9F2199E6DED5875378319D0C (GameController_tDA619EE453F7ED2C8297EF928518A0B447E44D09* __this, bool ___0_wasCorrect, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CshowImageU3Ed__18_t0E45BAD616B494E0E34CAA2067FF5EE0F69411A0_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CshowImageU3Ed__20_t080A44A8D9886C3D1457BE501D1C0509D471B238_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		U3CshowImageU3Ed__18_t0E45BAD616B494E0E34CAA2067FF5EE0F69411A0* L_0 = (U3CshowImageU3Ed__18_t0E45BAD616B494E0E34CAA2067FF5EE0F69411A0*)il2cpp_codegen_object_new(U3CshowImageU3Ed__18_t0E45BAD616B494E0E34CAA2067FF5EE0F69411A0_il2cpp_TypeInfo_var);
-		U3CshowImageU3Ed__18__ctor_mA8A1D9178290945F75EC2D771B070BCCC85142C7(L_0, 0, NULL);
-		U3CshowImageU3Ed__18_t0E45BAD616B494E0E34CAA2067FF5EE0F69411A0* L_1 = L_0;
+		U3CshowImageU3Ed__20_t080A44A8D9886C3D1457BE501D1C0509D471B238* L_0 = (U3CshowImageU3Ed__20_t080A44A8D9886C3D1457BE501D1C0509D471B238*)il2cpp_codegen_object_new(U3CshowImageU3Ed__20_t080A44A8D9886C3D1457BE501D1C0509D471B238_il2cpp_TypeInfo_var);
+		U3CshowImageU3Ed__20__ctor_mF9856696E6D295FE01906A29F434BE6DD0F0DE5F(L_0, 0, NULL);
+		U3CshowImageU3Ed__20_t080A44A8D9886C3D1457BE501D1C0509D471B238* L_1 = L_0;
 		NullCheck(L_1);
 		L_1->___U3CU3E4__this = __this;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___U3CU3E4__this), (void*)__this);
-		U3CshowImageU3Ed__18_t0E45BAD616B494E0E34CAA2067FF5EE0F69411A0* L_2 = L_1;
+		U3CshowImageU3Ed__20_t080A44A8D9886C3D1457BE501D1C0509D471B238* L_2 = L_1;
 		bool L_3 = ___0_wasCorrect;
 		NullCheck(L_2);
 		L_2->___wasCorrect = L_3;
 		return L_2;
 	}
 }
-// Method Definition Index: 112420
+// Method Definition Index: 112425
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GameController_returnToMenu_mBB683EA09FB73C1116370F52708ED9F2C3EDF6B4 (GameController_tDA619EE453F7ED2C8297EF928518A0B447E44D09* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CreturnToMenuU3Ed__19_t5B2A313302BC000F75BBA85A6830F068B30A285F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CreturnToMenuU3Ed__21_tFFD4784210EE05BB9AD77CDB3A0EA4B48EAC34B6_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		U3CreturnToMenuU3Ed__19_t5B2A313302BC000F75BBA85A6830F068B30A285F* L_0 = (U3CreturnToMenuU3Ed__19_t5B2A313302BC000F75BBA85A6830F068B30A285F*)il2cpp_codegen_object_new(U3CreturnToMenuU3Ed__19_t5B2A313302BC000F75BBA85A6830F068B30A285F_il2cpp_TypeInfo_var);
-		U3CreturnToMenuU3Ed__19__ctor_mB28B1B8A8BDA18FE5306DDDA9DA8ED356EE33AB7(L_0, 0, NULL);
+		U3CreturnToMenuU3Ed__21_tFFD4784210EE05BB9AD77CDB3A0EA4B48EAC34B6* L_0 = (U3CreturnToMenuU3Ed__21_tFFD4784210EE05BB9AD77CDB3A0EA4B48EAC34B6*)il2cpp_codegen_object_new(U3CreturnToMenuU3Ed__21_tFFD4784210EE05BB9AD77CDB3A0EA4B48EAC34B6_il2cpp_TypeInfo_var);
+		U3CreturnToMenuU3Ed__21__ctor_mD939D4B5B8078C528C7D458D0FFDCB57321B3F0B(L_0, 0, NULL);
 		return L_0;
 	}
 }
-// Method Definition Index: 112421
+// Method Definition Index: 112426
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameController_Update_m5E36D1D6999A7510DFDFBF6805CF9E9CB50F0962 (GameController_tDA619EE453F7ED2C8297EF928518A0B447E44D09* __this, const RuntimeMethod* method) 
 {
 	float V_0 = 0.0f;
 	{
-		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:125>
+		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:132>
 		bool L_0 = __this->___gameOver;
 		if (L_0)
 		{
@@ -2183,7 +2196,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameController_Update_m5E36D1D6999A7510D
 		}
 	}
 	{
-		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:127>
+		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:134>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_1 = __this->___timeLeftText;
 		float L_2 = __this->___time;
 		float L_3;
@@ -2197,7 +2210,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameController_Update_m5E36D1D6999A7510D
 
 IL_0026:
 	{
-		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:129>
+		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:136>
 		bool L_5 = __this->___allowTimer;
 		if (!L_5)
 		{
@@ -2205,12 +2218,12 @@ IL_0026:
 		}
 	}
 	{
-		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:131>
+		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:138>
 		float L_6 = __this->___time;
 		float L_7;
 		L_7 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
 		__this->___time = ((float)il2cpp_codegen_subtract(L_6, L_7));
-		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:132>
+		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:139>
 		float L_8 = __this->___time;
 		if ((!(((float)L_8) <= ((float)(0.0f)))))
 		{
@@ -2218,19 +2231,19 @@ IL_0026:
 		}
 	}
 	{
-		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:134>
+		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:141>
 		__this->___allowTimer = (bool)0;
-		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:135>
+		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:142>
 		GameController_playerFailed_mC3D28C3DC2CB92C018E2A086E67096C83349BAD6(__this, NULL);
 	}
 
 IL_005a:
 	{
-		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:138>
+		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:145>
 		return;
 	}
 }
-// Method Definition Index: 112422
+// Method Definition Index: 112427
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameController__ctor_mB6369F6C5357D5984325D613D589EDA60818CBE9 (GameController_tDA619EE453F7ED2C8297EF928518A0B447E44D09* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2251,9 +2264,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameController__ctor_mB6369F6C5357D59843
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:26>
+		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:31>
 		__this->___attemptsLeft = 3;
-		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:29>
+		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:34>
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_0 = (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD*)il2cpp_codegen_object_new(List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD_il2cpp_TypeInfo_var);
 		List_1__ctor_mCA8DD57EAC70C2B5923DBB9D5A77CEAC22E7068E(L_0, List_1__ctor_mCA8DD57EAC70C2B5923DBB9D5A77CEAC22E7068E_RuntimeMethod_var);
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_1 = L_0;
@@ -2297,8 +2310,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameController__ctor_mB6369F6C5357D59843
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 112423
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CreturnToMenuU3Ed__19__ctor_mB28B1B8A8BDA18FE5306DDDA9DA8ED356EE33AB7 (U3CreturnToMenuU3Ed__19_t5B2A313302BC000F75BBA85A6830F068B30A285F* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
+// Method Definition Index: 112428
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CreturnToMenuU3Ed__21__ctor_mD939D4B5B8078C528C7D458D0FFDCB57321B3F0B (U3CreturnToMenuU3Ed__21_tFFD4784210EE05BB9AD77CDB3A0EA4B48EAC34B6* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
@@ -2307,15 +2320,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CreturnToMenuU3Ed__19__ctor_mB28B1B8A8
 		return;
 	}
 }
-// Method Definition Index: 112424
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CreturnToMenuU3Ed__19_System_IDisposable_Dispose_m3E7979BD9619D4AB9287A4F46830005E1199A601 (U3CreturnToMenuU3Ed__19_t5B2A313302BC000F75BBA85A6830F068B30A285F* __this, const RuntimeMethod* method) 
+// Method Definition Index: 112429
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CreturnToMenuU3Ed__21_System_IDisposable_Dispose_m425A151D322359BE9D699B191928E0D794906E15 (U3CreturnToMenuU3Ed__21_tFFD4784210EE05BB9AD77CDB3A0EA4B48EAC34B6* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// Method Definition Index: 112425
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CreturnToMenuU3Ed__19_MoveNext_m6FE850C033FE76181BCDDC17122218D2B869DE8D (U3CreturnToMenuU3Ed__19_t5B2A313302BC000F75BBA85A6830F068B30A285F* __this, const RuntimeMethod* method) 
+// Method Definition Index: 112430
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CreturnToMenuU3Ed__21_MoveNext_mFC09FE96EB751354BF3D783C6129E5918488C3CC (U3CreturnToMenuU3Ed__21_tFFD4784210EE05BB9AD77CDB3A0EA4B48EAC34B6* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -2349,7 +2362,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CreturnToMenuU3Ed__19_MoveNext_m6FE850
 IL_0010:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:119>
+		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:126>
 		WaitForSecondsRealtime_tA8CE0AAB4B0C872B843E7973637037D17682BA01* L_3 = (WaitForSecondsRealtime_tA8CE0AAB4B0C872B843E7973637037D17682BA01*)il2cpp_codegen_object_new(WaitForSecondsRealtime_tA8CE0AAB4B0C872B843E7973637037D17682BA01_il2cpp_TypeInfo_var);
 		WaitForSecondsRealtime__ctor_mBFC1E4F0E042D5EC6E7EEB211A2FE5193A8F6D6F(L_3, (4.0f), NULL);
 		__this->___U3CU3E2__current = L_3;
@@ -2361,32 +2374,32 @@ IL_0010:
 IL_0030:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:120>
+		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:127>
 		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
 		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteral2874A53BC84CDC942669D941F6B15173D5A887DA, NULL);
-		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:121>
+		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:128>
 		return (bool)0;
 	}
 }
-// Method Definition Index: 112426
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CreturnToMenuU3Ed__19_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m0C7573AC3D77133D65E138C787B04E1BD94660C0 (U3CreturnToMenuU3Ed__19_t5B2A313302BC000F75BBA85A6830F068B30A285F* __this, const RuntimeMethod* method) 
+// Method Definition Index: 112431
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CreturnToMenuU3Ed__21_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mE59EC0E4948AE509BA78CAA06A4426D15ACA2E81 (U3CreturnToMenuU3Ed__21_tFFD4784210EE05BB9AD77CDB3A0EA4B48EAC34B6* __this, const RuntimeMethod* method) 
 {
 	{
 		RuntimeObject* L_0 = __this->___U3CU3E2__current;
 		return L_0;
 	}
 }
-// Method Definition Index: 112427
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CreturnToMenuU3Ed__19_System_Collections_IEnumerator_Reset_m3D2BC9CFCF8A16FEEF3858C2B3CFF4A4E302EB17 (U3CreturnToMenuU3Ed__19_t5B2A313302BC000F75BBA85A6830F068B30A285F* __this, const RuntimeMethod* method) 
+// Method Definition Index: 112432
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CreturnToMenuU3Ed__21_System_Collections_IEnumerator_Reset_m28A3C6617C0A1B20D3C152A3EBC33963975CFB38 (U3CreturnToMenuU3Ed__21_tFFD4784210EE05BB9AD77CDB3A0EA4B48EAC34B6* __this, const RuntimeMethod* method) 
 {
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF(L_0, NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CreturnToMenuU3Ed__19_System_Collections_IEnumerator_Reset_m3D2BC9CFCF8A16FEEF3858C2B3CFF4A4E302EB17_RuntimeMethod_var)));
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CreturnToMenuU3Ed__21_System_Collections_IEnumerator_Reset_m28A3C6617C0A1B20D3C152A3EBC33963975CFB38_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 112428
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CreturnToMenuU3Ed__19_System_Collections_IEnumerator_get_Current_m34BE5752AD38D07CF81B38EDD4C454E02CC28FFF (U3CreturnToMenuU3Ed__19_t5B2A313302BC000F75BBA85A6830F068B30A285F* __this, const RuntimeMethod* method) 
+// Method Definition Index: 112433
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CreturnToMenuU3Ed__21_System_Collections_IEnumerator_get_Current_mB7C22AB5AA6936EB09D833BC6EAB118CA84B592F (U3CreturnToMenuU3Ed__21_tFFD4784210EE05BB9AD77CDB3A0EA4B48EAC34B6* __this, const RuntimeMethod* method) 
 {
 	{
 		RuntimeObject* L_0 = __this->___U3CU3E2__current;
@@ -2401,8 +2414,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CreturnToMenuU3Ed__19_System
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 112429
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CshowImageU3Ed__18__ctor_mA8A1D9178290945F75EC2D771B070BCCC85142C7 (U3CshowImageU3Ed__18_t0E45BAD616B494E0E34CAA2067FF5EE0F69411A0* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
+// Method Definition Index: 112434
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CshowImageU3Ed__20__ctor_mF9856696E6D295FE01906A29F434BE6DD0F0DE5F (U3CshowImageU3Ed__20_t080A44A8D9886C3D1457BE501D1C0509D471B238* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
@@ -2411,15 +2424,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CshowImageU3Ed__18__ctor_mA8A1D9178290
 		return;
 	}
 }
-// Method Definition Index: 112430
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CshowImageU3Ed__18_System_IDisposable_Dispose_mDA721596A045C09E61B8E86E04A1B3F84D8DEC8D (U3CshowImageU3Ed__18_t0E45BAD616B494E0E34CAA2067FF5EE0F69411A0* __this, const RuntimeMethod* method) 
+// Method Definition Index: 112435
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CshowImageU3Ed__20_System_IDisposable_Dispose_m2C2170EAB5ADF23AC988B519BF6C1742C7A7BDCC (U3CshowImageU3Ed__20_t080A44A8D9886C3D1457BE501D1C0509D471B238* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// Method Definition Index: 112431
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CshowImageU3Ed__18_MoveNext_m38A01D20FCB399EDA652F2A414101A3D572C707F (U3CshowImageU3Ed__18_t0E45BAD616B494E0E34CAA2067FF5EE0F69411A0* __this, const RuntimeMethod* method) 
+// Method Definition Index: 112436
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CshowImageU3Ed__20_MoveNext_mD891CFFDACADB2365A6C48022E3802184AB8DA26 (U3CshowImageU3Ed__20_t080A44A8D9886C3D1457BE501D1C0509D471B238* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -2443,11 +2456,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CshowImageU3Ed__18_MoveNext_m38A01D20F
 			}
 			case 1:
 			{
-				goto IL_0062;
+				goto IL_006d;
 			}
 			case 2:
 			{
-				goto IL_00a6;
+				goto IL_00bc;
 			}
 		}
 	}
@@ -2458,19 +2471,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CshowImageU3Ed__18_MoveNext_m38A01D20F
 IL_0022:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:99>
+		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:104>
 		GameController_tDA619EE453F7ED2C8297EF928518A0B447E44D09* L_3 = V_1;
 		NullCheck(L_3);
 		L_3->___allowTimer = (bool)0;
-		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:100>
+		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:105>
 		bool L_4 = __this->___wasCorrect;
 		if (!L_4)
 		{
-			goto IL_007c;
+			goto IL_0087;
 		}
 	}
 	{
-		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:102>
+		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:107>
 		GameController_tDA619EE453F7ED2C8297EF928518A0B447E44D09* L_5 = V_1;
 		NullCheck(L_5);
 		RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179* L_6 = L_5->___correctIMG;
@@ -2479,107 +2492,119 @@ IL_0022:
 		L_7 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_6, NULL);
 		NullCheck(L_7);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_7, (bool)1, NULL);
-		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:103>
-		WaitForSecondsRealtime_tA8CE0AAB4B0C872B843E7973637037D17682BA01* L_8 = (WaitForSecondsRealtime_tA8CE0AAB4B0C872B843E7973637037D17682BA01*)il2cpp_codegen_object_new(WaitForSecondsRealtime_tA8CE0AAB4B0C872B843E7973637037D17682BA01_il2cpp_TypeInfo_var);
-		WaitForSecondsRealtime__ctor_mBFC1E4F0E042D5EC6E7EEB211A2FE5193A8F6D6F(L_8, (2.0f), NULL);
-		__this->___U3CU3E2__current = L_8;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)L_8);
+		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:108>
+		GameController_tDA619EE453F7ED2C8297EF928518A0B447E44D09* L_8 = V_1;
+		NullCheck(L_8);
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_9 = L_8->___correctSFX;
+		NullCheck(L_9);
+		AudioSource_Play_m95DF07111C61D0E0F00257A00384D31531D590C3(L_9, NULL);
+		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:109>
+		WaitForSecondsRealtime_tA8CE0AAB4B0C872B843E7973637037D17682BA01* L_10 = (WaitForSecondsRealtime_tA8CE0AAB4B0C872B843E7973637037D17682BA01*)il2cpp_codegen_object_new(WaitForSecondsRealtime_tA8CE0AAB4B0C872B843E7973637037D17682BA01_il2cpp_TypeInfo_var);
+		WaitForSecondsRealtime__ctor_mBFC1E4F0E042D5EC6E7EEB211A2FE5193A8F6D6F(L_10, (2.0f), NULL);
+		__this->___U3CU3E2__current = L_10;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)L_10);
 		__this->___U3CU3E1__state = 1;
 		return (bool)1;
 	}
 
-IL_0062:
+IL_006d:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:104>
-		GameController_tDA619EE453F7ED2C8297EF928518A0B447E44D09* L_9 = V_1;
-		NullCheck(L_9);
-		RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179* L_10 = L_9->___correctIMG;
-		NullCheck(L_10);
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_11;
-		L_11 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_10, NULL);
+		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:110>
+		GameController_tDA619EE453F7ED2C8297EF928518A0B447E44D09* L_11 = V_1;
 		NullCheck(L_11);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_11, (bool)0, NULL);
-		goto IL_00be;
+		RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179* L_12 = L_11->___correctIMG;
+		NullCheck(L_12);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_13;
+		L_13 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_12, NULL);
+		NullCheck(L_13);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_13, (bool)0, NULL);
+		goto IL_00d4;
 	}
 
-IL_007c:
+IL_0087:
 	{
-		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:108>
-		GameController_tDA619EE453F7ED2C8297EF928518A0B447E44D09* L_12 = V_1;
-		NullCheck(L_12);
-		RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179* L_13 = L_12->___wrongIMG;
-		NullCheck(L_13);
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_14;
-		L_14 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_13, NULL);
+		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:114>
+		GameController_tDA619EE453F7ED2C8297EF928518A0B447E44D09* L_14 = V_1;
 		NullCheck(L_14);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_14, (bool)1, NULL);
-		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:109>
-		WaitForSecondsRealtime_tA8CE0AAB4B0C872B843E7973637037D17682BA01* L_15 = (WaitForSecondsRealtime_tA8CE0AAB4B0C872B843E7973637037D17682BA01*)il2cpp_codegen_object_new(WaitForSecondsRealtime_tA8CE0AAB4B0C872B843E7973637037D17682BA01_il2cpp_TypeInfo_var);
-		WaitForSecondsRealtime__ctor_mBFC1E4F0E042D5EC6E7EEB211A2FE5193A8F6D6F(L_15, (2.0f), NULL);
-		__this->___U3CU3E2__current = L_15;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)L_15);
+		RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179* L_15 = L_14->___wrongIMG;
+		NullCheck(L_15);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_16;
+		L_16 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_15, NULL);
+		NullCheck(L_16);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_16, (bool)1, NULL);
+		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:115>
+		GameController_tDA619EE453F7ED2C8297EF928518A0B447E44D09* L_17 = V_1;
+		NullCheck(L_17);
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_18 = L_17->___wrongSFX;
+		NullCheck(L_18);
+		AudioSource_Play_m95DF07111C61D0E0F00257A00384D31531D590C3(L_18, NULL);
+		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:116>
+		WaitForSecondsRealtime_tA8CE0AAB4B0C872B843E7973637037D17682BA01* L_19 = (WaitForSecondsRealtime_tA8CE0AAB4B0C872B843E7973637037D17682BA01*)il2cpp_codegen_object_new(WaitForSecondsRealtime_tA8CE0AAB4B0C872B843E7973637037D17682BA01_il2cpp_TypeInfo_var);
+		WaitForSecondsRealtime__ctor_mBFC1E4F0E042D5EC6E7EEB211A2FE5193A8F6D6F(L_19, (2.0f), NULL);
+		__this->___U3CU3E2__current = L_19;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)L_19);
 		__this->___U3CU3E1__state = 2;
 		return (bool)1;
 	}
 
-IL_00a6:
+IL_00bc:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:110>
-		GameController_tDA619EE453F7ED2C8297EF928518A0B447E44D09* L_16 = V_1;
-		NullCheck(L_16);
-		RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179* L_17 = L_16->___wrongIMG;
-		NullCheck(L_17);
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_18;
-		L_18 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_17, NULL);
-		NullCheck(L_18);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_18, (bool)0, NULL);
+		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:117>
+		GameController_tDA619EE453F7ED2C8297EF928518A0B447E44D09* L_20 = V_1;
+		NullCheck(L_20);
+		RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179* L_21 = L_20->___wrongIMG;
+		NullCheck(L_21);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_22;
+		L_22 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_21, NULL);
+		NullCheck(L_22);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_22, (bool)0, NULL);
 	}
 
-IL_00be:
+IL_00d4:
 	{
-		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:112>
-		GameController_tDA619EE453F7ED2C8297EF928518A0B447E44D09* L_19 = V_1;
-		NullCheck(L_19);
-		bool L_20 = L_19->___gameOver;
-		if (L_20)
+		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:119>
+		GameController_tDA619EE453F7ED2C8297EF928518A0B447E44D09* L_23 = V_1;
+		NullCheck(L_23);
+		bool L_24 = L_23->___gameOver;
+		if (L_24)
 		{
-			goto IL_00cd;
+			goto IL_00e3;
 		}
 	}
 	{
-		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:114>
-		GameController_tDA619EE453F7ED2C8297EF928518A0B447E44D09* L_21 = V_1;
-		NullCheck(L_21);
-		L_21->___allowTimer = (bool)1;
+		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:121>
+		GameController_tDA619EE453F7ED2C8297EF928518A0B447E44D09* L_25 = V_1;
+		NullCheck(L_25);
+		L_25->___allowTimer = (bool)1;
 	}
 
-IL_00cd:
+IL_00e3:
 	{
-		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:116>
+		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/GameController.cs:123>
 		return (bool)0;
 	}
 }
-// Method Definition Index: 112432
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CshowImageU3Ed__18_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m0ED230B78BFD7EB14362CFADBC0DAD461F04C170 (U3CshowImageU3Ed__18_t0E45BAD616B494E0E34CAA2067FF5EE0F69411A0* __this, const RuntimeMethod* method) 
+// Method Definition Index: 112437
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CshowImageU3Ed__20_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mC210A6520CAA6156D41AA748E155AB1DFDC98BDE (U3CshowImageU3Ed__20_t080A44A8D9886C3D1457BE501D1C0509D471B238* __this, const RuntimeMethod* method) 
 {
 	{
 		RuntimeObject* L_0 = __this->___U3CU3E2__current;
 		return L_0;
 	}
 }
-// Method Definition Index: 112433
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CshowImageU3Ed__18_System_Collections_IEnumerator_Reset_mA41CEFD7B291DC48E4B3E38B17AC2853E729321F (U3CshowImageU3Ed__18_t0E45BAD616B494E0E34CAA2067FF5EE0F69411A0* __this, const RuntimeMethod* method) 
+// Method Definition Index: 112438
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CshowImageU3Ed__20_System_Collections_IEnumerator_Reset_m9E40A093E7FAB99EE1D609AAC626A45AD5D92A43 (U3CshowImageU3Ed__20_t080A44A8D9886C3D1457BE501D1C0509D471B238* __this, const RuntimeMethod* method) 
 {
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF(L_0, NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CshowImageU3Ed__18_System_Collections_IEnumerator_Reset_mA41CEFD7B291DC48E4B3E38B17AC2853E729321F_RuntimeMethod_var)));
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CshowImageU3Ed__20_System_Collections_IEnumerator_Reset_m9E40A093E7FAB99EE1D609AAC626A45AD5D92A43_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 112434
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CshowImageU3Ed__18_System_Collections_IEnumerator_get_Current_m333FC3E969776633B2CE9622BE0C17806D741948 (U3CshowImageU3Ed__18_t0E45BAD616B494E0E34CAA2067FF5EE0F69411A0* __this, const RuntimeMethod* method) 
+// Method Definition Index: 112439
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CshowImageU3Ed__20_System_Collections_IEnumerator_get_Current_m4E9799864FB89ED15A924541D113065C20843A55 (U3CshowImageU3Ed__20_t080A44A8D9886C3D1457BE501D1C0509D471B238* __this, const RuntimeMethod* method) 
 {
 	{
 		RuntimeObject* L_0 = __this->___U3CU3E2__current;
@@ -2594,7 +2619,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CshowImageU3Ed__18_System_Co
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 112435
+// Method Definition Index: 112440
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ImageTargetHandler_Start_m7007058C70B1EE337B3CAF938C58C519104A13A6 (ImageTargetHandler_t912C254221504FD8477662ADBEF6EAEB618F373A* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2607,12 +2632,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ImageTargetHandler_Start_m7007058C70B1EE
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/ImageTargetHandler.cs:13>
+		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/ImageTargetHandler.cs:16>
 		ObserverBehaviour_t5523404662BA53BE6118C49F6FFA9E19719115DB* L_0;
 		L_0 = Component_GetComponent_TisObserverBehaviour_t5523404662BA53BE6118C49F6FFA9E19719115DB_mDC639300BE47642C9C8B6B9B1037E43085704742(__this, Component_GetComponent_TisObserverBehaviour_t5523404662BA53BE6118C49F6FFA9E19719115DB_mDC639300BE47642C9C8B6B9B1037E43085704742_RuntimeMethod_var);
 		__this->___observerBehaviour = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___observerBehaviour), (void*)L_0);
-		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/ImageTargetHandler.cs:14>
+		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/ImageTargetHandler.cs:17>
 		ObserverBehaviour_t5523404662BA53BE6118C49F6FFA9E19719115DB* L_1 = __this->___observerBehaviour;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_2;
@@ -2623,7 +2648,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ImageTargetHandler_Start_m7007058C70B1EE
 		}
 	}
 	{
-		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/ImageTargetHandler.cs:16>
+		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/ImageTargetHandler.cs:19>
 		ObserverBehaviour_t5523404662BA53BE6118C49F6FFA9E19719115DB* L_3 = __this->___observerBehaviour;
 		Action_2_tAC0AA9B652075EE1CE661500AC3373C7008D598F* L_4 = (Action_2_tAC0AA9B652075EE1CE661500AC3373C7008D598F*)il2cpp_codegen_object_new(Action_2_tAC0AA9B652075EE1CE661500AC3373C7008D598F_il2cpp_TypeInfo_var);
 		Action_2__ctor_mCE1D840FD103AC1247B1231CAB0A34B795A2978C(L_4, __this, (intptr_t)((void*)ImageTargetHandler_OnTargetStatusChanged_m2E63FFCC0ECA0A61D041565519952DFD9FBE7373_RuntimeMethod_var), NULL);
@@ -2633,63 +2658,93 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ImageTargetHandler_Start_m7007058C70B1EE
 
 IL_0030:
 	{
-		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/ImageTargetHandler.cs:18>
+		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/ImageTargetHandler.cs:21>
 		return;
 	}
 }
-// Method Definition Index: 112436
+// Method Definition Index: 112441
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ImageTargetHandler_OnTargetStatusChanged_m2E63FFCC0ECA0A61D041565519952DFD9FBE7373 (ImageTargetHandler_t912C254221504FD8477662ADBEF6EAEB618F373A* __this, ObserverBehaviour_t5523404662BA53BE6118C49F6FFA9E19719115DB* ___0_behaviour, TargetStatus_t5D866F1CAA9D70E5B66D532E69B190EA3BAAC4B0 ___1_status, const RuntimeMethod* method) 
 {
+	String_t* V_0 = NULL;
 	{
-		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/ImageTargetHandler.cs:22>
+		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/ImageTargetHandler.cs:25>
 		int32_t L_0;
 		L_0 = TargetStatus_get_Status_m6CA973C4D857DCA6B775DF7E053B0990A83026A3_inline((&___1_status), NULL);
 		if ((!(((uint32_t)L_0) == ((uint32_t)3))))
 		{
-			goto IL_001b;
+			goto IL_0052;
 		}
 	}
 	{
-		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/ImageTargetHandler.cs:24>
-		GameController_tDA619EE453F7ED2C8297EF928518A0B447E44D09* L_1 = __this->___gameController;
-		ObserverBehaviour_t5523404662BA53BE6118C49F6FFA9E19719115DB* L_2 = ___0_behaviour;
-		NullCheck(L_2);
-		String_t* L_3;
-		L_3 = ObserverBehaviour_get_TargetName_mFB6FC5459068E0E9800E2C8AFFEF6F8F48297AB1_inline(L_2, NULL);
+		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/ImageTargetHandler.cs:27>
+		ObserverBehaviour_t5523404662BA53BE6118C49F6FFA9E19719115DB* L_1 = ___0_behaviour;
 		NullCheck(L_1);
-		GameController_OnTargetFound_m636386392897DC7EBFACF3676486DBBE621DD8F8(L_1, L_3, NULL);
+		String_t* L_2;
+		L_2 = ObserverBehaviour_get_TargetName_mFB6FC5459068E0E9800E2C8AFFEF6F8F48297AB1_inline(L_1, NULL);
+		V_0 = L_2;
+		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/ImageTargetHandler.cs:30>
+		String_t* L_3 = V_0;
+		String_t* L_4 = __this->___lastTarget;
+		bool L_5;
+		L_5 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_3, L_4, NULL);
+		if (!L_5)
+		{
+			goto IL_0034;
+		}
+	}
+	{
+		float L_6;
+		L_6 = Time_get_time_m3A271BB1B20041144AC5B7863B71AB1F0150374B(NULL);
+		float L_7 = __this->___lastDetectionTime;
+		float L_8 = __this->___detectionCooldown;
+		if ((!(((float)((float)il2cpp_codegen_subtract(L_6, L_7))) < ((float)L_8))))
+		{
+			goto IL_0034;
+		}
+	}
+	{
+		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/ImageTargetHandler.cs:31>
+		return;
 	}
 
-IL_001b:
+IL_0034:
 	{
-		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/ImageTargetHandler.cs:26>
+		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/ImageTargetHandler.cs:33>
+		String_t* L_9 = V_0;
+		__this->___lastTarget = L_9;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___lastTarget), (void*)L_9);
+		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/ImageTargetHandler.cs:34>
+		float L_10;
+		L_10 = Time_get_time_m3A271BB1B20041144AC5B7863B71AB1F0150374B(NULL);
+		__this->___lastDetectionTime = L_10;
+		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/ImageTargetHandler.cs:36>
+		GameController_tDA619EE453F7ED2C8297EF928518A0B447E44D09* L_11 = __this->___gameController;
+		String_t* L_12 = V_0;
+		NullCheck(L_11);
+		GameController_OnTargetFound_m636386392897DC7EBFACF3676486DBBE621DD8F8(L_11, L_12, NULL);
+	}
+
+IL_0052:
+	{
+		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/ImageTargetHandler.cs:38>
 		return;
 	}
 }
-// Method Definition Index: 112437
+// Method Definition Index: 112442
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ImageTargetHandler__ctor_m5A4A7FC125ED90A209E4F9A31C691B103EAA23A0 (ImageTargetHandler_t912C254221504FD8477662ADBEF6EAEB618F373A* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Add_mF10DB1D3CBB0B14215F0E4F8AB4934A1955E5351_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1__ctor_mCA8DD57EAC70C2B5923DBB9D5A77CEAC22E7068E_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
 		s_Il2CppMethodInitialized = true;
 	}
 	{
 		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/ImageTargetHandler.cs:9>
-		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_0 = (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD*)il2cpp_codegen_object_new(List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD_il2cpp_TypeInfo_var);
-		List_1__ctor_mCA8DD57EAC70C2B5923DBB9D5A77CEAC22E7068E(L_0, List_1__ctor_mCA8DD57EAC70C2B5923DBB9D5A77CEAC22E7068E_RuntimeMethod_var);
-		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_1 = L_0;
-		NullCheck(L_1);
-		List_1_Add_mF10DB1D3CBB0B14215F0E4F8AB4934A1955E5351_inline(L_1, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709, List_1_Add_mF10DB1D3CBB0B14215F0E4F8AB4934A1955E5351_RuntimeMethod_var);
-		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_2 = L_1;
-		NullCheck(L_2);
-		List_1_Add_mF10DB1D3CBB0B14215F0E4F8AB4934A1955E5351_inline(L_2, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709, List_1_Add_mF10DB1D3CBB0B14215F0E4F8AB4934A1955E5351_RuntimeMethod_var);
-		__this->___targets = L_2;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___targets), (void*)L_2);
+		__this->___lastTarget = _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___lastTarget), (void*)_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+		//<source_info:D:/UnityProjects/ProyectoPlanetas/Assets/Scripts/MainGame/ImageTargetHandler.cs:11>
+		__this->___detectionCooldown = (2.0f);
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
 	}
@@ -2702,7 +2757,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ImageTargetHandler__ctor_m5A4A7FC125ED90
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 112438
+// Method Definition Index: 112443
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MenuManager_StartGame_m24E9FA197C3694B75918B1103C9C2400CAD67BC4 (MenuManager_t34C8EA4F128D811DE986BE56D7938F2720BA7B16* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2720,7 +2775,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MenuManager_StartGame_m24E9FA197C3694B75
 		return;
 	}
 }
-// Method Definition Index: 112439
+// Method Definition Index: 112444
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MenuManager_toggleHowToPlay_m2DEA1017EF57EB6CE743C5F777A39A946E35C056 (MenuManager_t34C8EA4F128D811DE986BE56D7938F2720BA7B16* __this, const RuntimeMethod* method) 
 {
 	{
@@ -2736,7 +2791,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MenuManager_toggleHowToPlay_m2DEA1017EF5
 		return;
 	}
 }
-// Method Definition Index: 112440
+// Method Definition Index: 112445
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MenuManager_CloseGame_m20A0E94D8AE812CF6464DC552E72D018328F0638 (MenuManager_t34C8EA4F128D811DE986BE56D7938F2720BA7B16* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2753,7 +2808,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MenuManager_CloseGame_m20A0E94D8AE812CF6
 		return;
 	}
 }
-// Method Definition Index: 112441
+// Method Definition Index: 112446
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MenuManager__ctor_m07A22DFDD90E3164393F8BDE06DAEF5AFA786CF2 (MenuManager_t34C8EA4F128D811DE986BE56D7938F2720BA7B16* __this, const RuntimeMethod* method) 
 {
 	{
@@ -2769,7 +2824,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MenuManager__ctor_m07A22DFDD90E3164393F8
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 112442
+// Method Definition Index: 112447
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlanetRing_OnEnable_mD777DB0E4EBEE5C944BE60E1F309137AFA18B6AA (PlanetRing_t866DA9F564C313DE9D5364CCBF57383576DF251E* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2814,7 +2869,7 @@ IL_0022:
 		return;
 	}
 }
-// Method Definition Index: 112443
+// Method Definition Index: 112448
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlanetRing_OnValidate_m06C3E8A17B5698B322C4FB541E0F4E0E83942E3A (PlanetRing_t866DA9F564C313DE9D5364CCBF57383576DF251E* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2859,7 +2914,7 @@ IL_0022:
 		return;
 	}
 }
-// Method Definition Index: 112444
+// Method Definition Index: 112449
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlanetRing_SetUpRing_m0C67476ECF054A32E49AF1DF0672CB0274C8A804 (PlanetRing_t866DA9F564C313DE9D5364CCBF57383576DF251E* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3017,7 +3072,7 @@ IL_010f:
 		return;
 	}
 }
-// Method Definition Index: 112445
+// Method Definition Index: 112450
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlanetRing_BuildRingMesh_m8B30D1CCCA913798A181C4EE1D5D1F78A4C94A43 (PlanetRing_t866DA9F564C313DE9D5364CCBF57383576DF251E* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3321,7 +3376,7 @@ IL_0255:
 		return;
 	}
 }
-// Method Definition Index: 112446
+// Method Definition Index: 112451
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlanetRing__ctor_m588D8856EC9E44FC4621B2AB29C57BB2E91B2042 (PlanetRing_t866DA9F564C313DE9D5364CCBF57383576DF251E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -3343,7 +3398,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlanetRing__ctor_m588D8856EC9E44FC4621B2
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 112447
+// Method Definition Index: 112452
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Readme__ctor_m69C325C4C171DCB0312B646A9034AA91EA8C39C6 (Readme_tE17B99201D0F52BD5727638AD3F41072A65B3BBB* __this, const RuntimeMethod* method) 
 {
 	{
@@ -3359,7 +3414,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Readme__ctor_m69C325C4C171DCB0312B646A90
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 112448
+// Method Definition Index: 112453
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Section__ctor_m5F732533E4DFC0167D965E5F5DB332E46055399B (Section_t50C894D0A717C2368EBAAE5477D4E8626D0B5401* __this, const RuntimeMethod* method) 
 {
 	{
@@ -3375,7 +3430,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Section__ctor_m5F732533E4DFC0167D965E5F5
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 112449
+// Method Definition Index: 112454
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* VuforiaLicense_GetLicenseKey_m796D51E5EF1C53F3D62BA4EA8806AC1FB1A5E3C4 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3389,7 +3444,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* VuforiaLicense_GetLicenseKey_m796D5
 		return _stringLiteralBA3A5185446BA28DBDF3F9F154AF5775D5807643;
 	}
 }
-// Method Definition Index: 112450
+// Method Definition Index: 112455
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VuforiaLicense__ctor_m094B92B3323DFFD79ADB696474D5D158C95E291B (VuforiaLicense_t558A3A93186A45EF8A9401D2262B52B5593182BC* __this, const RuntimeMethod* method) 
 {
 	{
@@ -3405,7 +3460,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VuforiaLicense__ctor_m094B92B3323DFFD79A
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 112451
+// Method Definition Index: 112456
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3439,7 +3494,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC
 		return L_6;
 	}
 }
-// Method Definition Index: 112452
+// Method Definition Index: 112457
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (UnitySourceGeneratedAssemblyMonoScriptTypes_v1_tC95F24D0C6E6B77389433852BB389F39C692926E* __this, const RuntimeMethod* method) 
 {
 	{

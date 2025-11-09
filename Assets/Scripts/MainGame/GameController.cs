@@ -13,10 +13,15 @@ public class GameController : MonoBehaviour
     [SerializeField] private RawImage correctIMG;
     [SerializeField] private RawImage wrongIMG;
 
+    [Header("TMP")]
     public TextMeshProUGUI scoreText;
     public TextMeshProUGUI targetNameText;
     public TextMeshProUGUI attemptsLeftText;
     public TextMeshProUGUI timeLeftText;
+
+    [Header("SFX")]
+    [SerializeField] private AudioSource correctSFX;
+    [SerializeField] private AudioSource wrongSFX;
 
 
     private float time;
@@ -50,7 +55,7 @@ public class GameController : MonoBehaviour
 
     public void OnTargetFound(String targetFound)
     {
-        if (attemptsLeft > 0)
+        if (attemptsLeft > 0 && allowTimer)
         {
             // scoreText.text = targetFound; // Debug
             if (targetFound == currentTarget)
@@ -83,7 +88,7 @@ public class GameController : MonoBehaviour
             timeLeftText.text = "";
             attemptsLeftText.text = "Attempts: 0";
             targetNameText.text = "GAME OVER!";
-            StartCoroutine(returnToMenu());
+            StartCoroutine(PlayerGameOver());
         }
     }
 
@@ -100,12 +105,14 @@ public class GameController : MonoBehaviour
         if (wasCorrect)
         {
             correctIMG.gameObject.SetActive(true);
+            correctSFX.Play();
             yield return new WaitForSecondsRealtime(2.0f);
             correctIMG.gameObject.SetActive(false);
         }
         else
         {
             wrongIMG.gameObject.SetActive(true);
+            wrongSFX.Play();
             yield return new WaitForSecondsRealtime(2.0f);
             wrongIMG.gameObject.SetActive(false);
         }
@@ -114,21 +121,22 @@ public class GameController : MonoBehaviour
             allowTimer = true;    
         }
     }
-    private IEnumerator returnToMenu()
+    private IEnumerator PlayerGameOver()
     {
+        GameData.FinalScore = score;
         yield return new WaitForSecondsRealtime(4.0f);
-        SceneManager.LoadScene("mainMenu");
+        SceneManager.LoadScene("loseScreen");
     }
 
     void Update()
     {
         if (!gameOver)
         {
-            timeLeftText.text = Mathf.Floor(time).ToString();    
+            timeLeftText.text = Mathf.Floor(time).ToString();
         }
         if (allowTimer)
         {
-            time -= Time.deltaTime;    
+            time -= Time.deltaTime;
             if (time <= 0f)
             {
                 allowTimer = false;
