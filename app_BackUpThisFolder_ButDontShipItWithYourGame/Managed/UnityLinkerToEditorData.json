@@ -19,6 +19,7 @@
           {
             "name": "NavMeshSettings",
             "scenes": [
+              "Assets/Scenes/loseScreen.unity",
               "Assets/Scenes/mainGame.unity",
               "Assets/Scenes/mainMenu.unity"
             ],
@@ -66,6 +67,7 @@
           {
             "name": "AudioBehaviour",
             "scenes": [
+              "Assets/Scenes/loseScreen.unity",
               "Assets/Scenes/mainGame.unity",
               "Assets/Scenes/mainMenu.unity"
             ],
@@ -83,6 +85,7 @@
           {
             "name": "AudioListener",
             "scenes": [
+              "Assets/Scenes/loseScreen.unity",
               "Assets/Scenes/mainGame.unity",
               "Assets/Scenes/mainMenu.unity"
             ],
@@ -149,6 +152,7 @@
           {
             "name": "Camera",
             "scenes": [
+              "Assets/Scenes/loseScreen.unity",
               "Assets/Scenes/mainGame.unity",
               "Assets/Scenes/mainMenu.unity"
             ],
@@ -170,6 +174,7 @@
           {
             "name": "Cubemap",
             "scenes": [
+              "Assets/Scenes/loseScreen.unity",
               "Assets/Scenes/mainGame.unity",
               "Assets/Scenes/mainMenu.unity"
             ],
@@ -191,6 +196,7 @@
           {
             "name": "EditorExtension",
             "scenes": [
+              "Assets/Scenes/loseScreen.unity",
               "Assets/Scenes/mainGame.unity",
               "Assets/Scenes/mainMenu.unity"
             ],
@@ -206,6 +212,7 @@
           {
             "name": "GameObject",
             "scenes": [
+              "Assets/Scenes/loseScreen.unity",
               "Assets/Scenes/mainGame.unity",
               "Assets/Scenes/mainMenu.unity"
             ],
@@ -239,6 +246,7 @@
           {
             "name": "LevelGameManager",
             "scenes": [
+              "Assets/Scenes/loseScreen.unity",
               "Assets/Scenes/mainGame.unity",
               "Assets/Scenes/mainMenu.unity"
             ],
@@ -248,6 +256,7 @@
           {
             "name": "Light",
             "scenes": [
+              "Assets/Scenes/loseScreen.unity",
               "Assets/Scenes/mainGame.unity",
               "Assets/Scenes/mainMenu.unity"
             ],
@@ -275,6 +284,7 @@
           {
             "name": "LightmapSettings",
             "scenes": [
+              "Assets/Scenes/loseScreen.unity",
               "Assets/Scenes/mainGame.unity",
               "Assets/Scenes/mainMenu.unity"
             ],
@@ -296,6 +306,7 @@
           {
             "name": "Material",
             "scenes": [
+              "Assets/Scenes/loseScreen.unity",
               "Assets/Scenes/mainGame.unity",
               "Assets/Scenes/mainMenu.unity"
             ],
@@ -332,6 +343,7 @@
           {
             "name": "MonoBehaviour",
             "scenes": [
+              "Assets/Scenes/loseScreen.unity",
               "Assets/Scenes/mainGame.unity",
               "Assets/Scenes/mainMenu.unity"
             ],
@@ -347,6 +359,7 @@
           {
             "name": "MonoScript",
             "scenes": [
+              "Assets/Scenes/loseScreen.unity",
               "Assets/Scenes/mainGame.unity",
               "Assets/Scenes/mainMenu.unity"
             ],
@@ -356,6 +369,7 @@
           {
             "name": "NamedObject",
             "scenes": [
+              "Assets/Scenes/loseScreen.unity",
               "Assets/Scenes/mainGame.unity",
               "Assets/Scenes/mainMenu.unity"
             ],
@@ -395,6 +409,7 @@
           {
             "name": "RectTransform",
             "scenes": [
+              "Assets/Scenes/loseScreen.unity",
               "Assets/Scenes/mainGame.unity",
               "Assets/Scenes/mainMenu.unity"
             ],
@@ -410,6 +425,7 @@
           {
             "name": "RenderSettings",
             "scenes": [
+              "Assets/Scenes/loseScreen.unity",
               "Assets/Scenes/mainGame.unity",
               "Assets/Scenes/mainMenu.unity"
             ],
@@ -443,6 +459,7 @@
           {
             "name": "Shader",
             "scenes": [
+              "Assets/Scenes/loseScreen.unity",
               "Assets/Scenes/mainGame.unity",
               "Assets/Scenes/mainMenu.unity"
             ],
@@ -470,6 +487,8 @@
           {
             "name": "Sprite",
             "scenes": [
+              "Assets/Scenes/loseScreen.unity",
+              "Assets/Scenes/mainGame.unity",
               "Assets/Scenes/mainMenu.unity"
             ],
             "dependencyType": 0,
@@ -1398,6 +1417,7 @@
           {
             "name": "Font",
             "scenes": [
+              "Assets/Scenes/loseScreen.unity",
               "Assets/Scenes/mainGame.unity",
               "Assets/Scenes/mainMenu.unity"
             ],
@@ -1442,6 +1462,7 @@
           {
             "name": "Canvas",
             "scenes": [
+              "Assets/Scenes/loseScreen.unity",
               "Assets/Scenes/mainGame.unity",
               "Assets/Scenes/mainMenu.unity"
             ],
@@ -1459,6 +1480,7 @@
           {
             "name": "CanvasRenderer",
             "scenes": [
+              "Assets/Scenes/loseScreen.unity",
               "Assets/Scenes/mainGame.unity",
               "Assets/Scenes/mainMenu.unity"
             ],

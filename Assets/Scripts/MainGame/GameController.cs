@@ -5,6 +5,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using Vuforia;
 
 
 public class GameController : MonoBehaviour
@@ -23,9 +24,14 @@ public class GameController : MonoBehaviour
     [SerializeField] private AudioSource correctSFX;
     [SerializeField] private AudioSource wrongSFX;
 
+    [Header("Menus")]
+    [SerializeField] private GameObject pauseMenu;
+    [SerializeField] private GameObject confirmationMenu;
+
 
     private float time;
     private bool allowTimer;
+    private bool isPaused;
     private bool gameOver;
     private string currentTarget;
     private int attemptsLeft = 3;
@@ -38,9 +44,12 @@ public class GameController : MonoBehaviour
     {
         time = 10f;
         allowTimer = true;
+        isPaused = false;
         gameOver = false;
         correctIMG.gameObject.SetActive(false);
         wrongIMG.gameObject.SetActive(false);
+        pauseMenu.SetActive(false);
+        confirmationMenu.SetActive(false);
         generateNextTarget();
         updateUI();
     }
@@ -124,13 +133,62 @@ public class GameController : MonoBehaviour
     private IEnumerator PlayerGameOver()
     {
         GameData.FinalScore = score;
-        yield return new WaitForSecondsRealtime(4.0f);
+        yield return new WaitForSecondsRealtime(2.0f);
         SceneManager.LoadScene("loseScreen");
     }
 
+    public void pauseGame()
+    {
+        pauseMenu.SetActive(true);
+        allowTimer = false;
+        isPaused = true;
+        Time.timeScale = 0f;
+
+        // 🔹 Pausar la cámara y el reconocimiento AR
+        if (VuforiaBehaviour.Instance != null)
+        {
+            VuforiaBehaviour.Instance.enabled = false; 
+        }
+    }
+
+    public void unPauseGame()
+    {
+        pauseMenu.SetActive(false);
+        isPaused = false;
+        allowTimer = true;
+        Time.timeScale = 1f;
+
+        // 🔹 Reactivar la cámara y tracking
+        if (VuforiaBehaviour.Instance != null)
+        {
+            VuforiaBehaviour.Instance.enabled = true;
+        }
+    }
+
+    public void leaveConfirmationOpen()
+    {
+        confirmationMenu.SetActive(true);
+    }
+
+    public void leaveConfirmationClose()
+    {
+        confirmationMenu.SetActive(false);
+    }
+
+    public void returnToMainMenu()
+    {
+        SceneManager.LoadScene("mainMenu");
+    }
+
+    public void reloadGame()
+    {
+        SceneManager.LoadScene("mainGame");
+    }
+    
+
     void Update()
     {
-        if (!gameOver)
+        if (!gameOver && !isPaused)
         {
             timeLeftText.text = Mathf.Floor(time).ToString();
         }
