@@ -7,10 +7,10 @@ public class loseScreen : MonoBehaviour
 
     [SerializeField] private TextMeshProUGUI scoreText;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    
     void Start()
     {
-        scoreText.text = $"You obtained { GameData.FinalScore.ToString()} points";
+        scoreText.text = $"You obtained { GameData.FinalScore.ToString()} points"; // Toma los puntos almacenados en el script GameData
     }
 
     public void reloadGame()
